@@ -251,3 +251,62 @@ button:hover{
     font-size:32px;
   }
 }
+/* Dashboard */
+
+.dashboard{
+
+    display:grid;
+
+    gap:24px;
+
+    width:100%;
+
+}
+
+.card{
+
+    background:var(--surface);
+
+    border-radius:16px;
+
+    padding:28px;
+
+    box-shadow:var(--shadow-purple);
+
+}
+
+.card h3{
+
+    margin-bottom:16px;
+
+    color:var(--secondary);
+
+}
+
+.stats{
+
+    list-style:none;
+
+}
+
+.stats li{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    padding:12px 0;
+
+    border-bottom:1px solid var(--border);
+
+}
+
+.card button{
+
+    display:block;
+
+    width:100%;
+
+    margin-top:12px;
+
+}
