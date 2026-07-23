@@ -208,9 +208,8 @@
         });
 
         observer.observe(itemList, {
-            childList: true,
-            subtree: true
-        });
+    childList: true
+});
     }
 
     function decorateAllPromptCards() {
@@ -272,7 +271,11 @@
         const isFavorite = storageState.favoriteIds.includes(itemId);
 
         button.classList.toggle("active", isFavorite);
-        button.textContent = isFavorite ? "★" : "☆";
+        const nextIcon = isFavorite ? "★" : "☆";
+
+if (button.textContent !== nextIcon) {
+    button.textContent = nextIcon;
+}
         button.title = isFavorite ? "取消收藏" : "加入收藏";
         button.setAttribute("aria-pressed", String(isFavorite));
     }
