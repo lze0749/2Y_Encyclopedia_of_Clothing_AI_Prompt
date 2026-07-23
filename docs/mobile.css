@@ -1,0 +1,232 @@
+/* =========================================
+   2Y Mobile App Shell
+   Version: v0.7.0
+   ========================================= */
+
+.mobile-menu-button{
+    display:none;
+    flex:0 0 auto;
+    width:44px;
+    height:44px;
+    margin:0;
+    padding:0;
+    align-items:center;
+    justify-content:center;
+    color:var(--secondary);
+    background:rgba(57,255,20,.06);
+    border:1px solid rgba(57,255,20,.28);
+    border-radius:12px;
+    box-shadow:none;
+    font-size:22px;
+}
+
+.mobile-sidebar-overlay{
+    display:none;
+    position:fixed;
+    inset:0;
+    z-index:899;
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+    background:rgba(0,0,0,.68);
+    border:0;
+    border-radius:0;
+    backdrop-filter:blur(3px);
+}
+
+.app-status-dock{
+    position:fixed;
+    right:14px;
+    bottom:14px;
+    z-index:950;
+    display:flex;
+    align-items:center;
+    gap:8px;
+    max-width:calc(100vw - 28px);
+    padding:7px;
+    background:rgba(11,11,15,.88);
+    border:1px solid var(--border);
+    border-radius:14px;
+    box-shadow:
+        0 0 18px rgba(196,0,255,.2);
+    backdrop-filter:blur(12px);
+}
+
+.connection-badge{
+    padding:6px 9px;
+    color:var(--secondary);
+    font-size:11px;
+    font-weight:800;
+    white-space:nowrap;
+}
+
+.connection-badge.offline{
+    color:#ffca66;
+}
+
+.install-app-button,
+.refresh-app-button{
+    width:auto;
+    min-width:0;
+    margin:0;
+    padding:8px 11px;
+    border-radius:10px;
+    font-size:11px;
+    font-weight:900;
+}
+
+.install-app-button{
+    color:#071007;
+    background:var(--secondary);
+}
+
+.refresh-app-button{
+    color:white;
+    background:var(--primary);
+}
+
+.install-app-button[hidden],
+.refresh-app-button[hidden]{
+    display:none;
+}
+
+.mobile-app-toast{
+    position:fixed;
+    left:50%;
+    bottom:76px;
+    z-index:10000;
+    max-width:calc(100vw - 32px);
+    padding:11px 15px;
+    color:#071007;
+    background:var(--secondary);
+    border-radius:12px;
+    box-shadow:var(--shadow-green);
+    font-weight:900;
+    opacity:0;
+    transform:translate(-50%, 14px);
+    pointer-events:none;
+    transition:.2s ease;
+}
+
+.mobile-app-toast.show{
+    opacity:1;
+    transform:translate(-50%, 0);
+}
+
+@media(max-width:900px){
+    .topbar{
+        height:auto;
+        min-height:68px;
+        padding:10px 14px;
+        gap:12px;
+        z-index:920;
+    }
+
+    .mobile-menu-button{
+        display:flex;
+    }
+
+    .logo{
+        font-size:30px;
+    }
+
+    .title-group{
+        min-width:0;
+    }
+
+    .title-group h1{
+        overflow:hidden;
+        text-overflow:ellipsis;
+        white-space:nowrap;
+        font-size:clamp(15px, 4.3vw, 20px);
+    }
+
+    .title-group p{
+        overflow:hidden;
+        text-overflow:ellipsis;
+        white-space:nowrap;
+        font-size:11px;
+    }
+
+    .layout{
+        display:block;
+        min-height:calc(100vh - 68px);
+    }
+
+    .sidebar{
+        position:fixed;
+        top:0;
+        bottom:0;
+        left:0;
+        z-index:900;
+        width:min(84vw, 330px);
+        padding:84px 18px 28px;
+        overflow-y:auto;
+        border-right:1px solid var(--border);
+        border-bottom:0;
+        box-shadow:
+            14px 0 32px rgba(0,0,0,.45),
+            0 0 24px rgba(196,0,255,.18);
+        transform:translateX(-104%);
+        transition:transform .24s ease;
+    }
+
+    body.mobile-nav-open{
+        overflow:hidden;
+    }
+
+    body.mobile-nav-open .sidebar{
+        transform:translateX(0);
+    }
+
+    body.mobile-nav-open .mobile-sidebar-overlay{
+        display:block;
+    }
+
+    .content{
+        width:100%;
+    }
+
+    .app-status-dock{
+        right:10px;
+        bottom:10px;
+        left:10px;
+        justify-content:flex-end;
+    }
+
+    .connection-badge{
+        margin-right:auto;
+    }
+}
+
+@media(max-width:480px){
+    .topbar{
+        align-items:center;
+    }
+
+    .logo{
+        display:none;
+    }
+
+    .app-status-dock{
+        padding:5px;
+    }
+
+    .connection-badge{
+        font-size:10px;
+    }
+
+    .install-app-button,
+    .refresh-app-button{
+        padding:7px 9px;
+        font-size:10px;
+    }
+}
+
+@media(prefers-reduced-motion:reduce){
+    .sidebar,
+    .mobile-app-toast{
+        transition:none;
+    }
+}

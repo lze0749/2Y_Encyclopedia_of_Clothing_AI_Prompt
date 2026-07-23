@@ -1,7 +1,7 @@
 // 2Y Encyclopedia of Clothing AI Prompt
-// Service Worker v0.6.0
+// Service Worker v0.7.0
 
-const CACHE_NAME = "2y-prompt-v0.6.0";
+const CACHE_NAME = "2y-prompt-v0.7.0";
 
 const APP_SHELL = [
     "./",
@@ -10,9 +10,11 @@ const APP_SHELL = [
     "./library.css",
     "./builder.css",
     "./storage.css",
+    "./mobile.css",
     "./app.js",
     "./builder.js",
     "./storage.js",
+    "./mobile.js",
     "./manifest.json",
     "./data/categories.json",
     "./data/items.json",
@@ -26,8 +28,13 @@ self.addEventListener("install", (event) => {
         caches
             .open(CACHE_NAME)
             .then((cache) => cache.addAll(APP_SHELL))
-            .then(() => self.skipWaiting())
     );
+});
+
+self.addEventListener("message", (event) => {
+    if (event.data?.type === "SKIP_WAITING") {
+        self.skipWaiting();
+    }
 });
 
 self.addEventListener("activate", (event) => {
@@ -56,34 +63,41 @@ self.addEventListener("fetch", (event) => {
         return;
     }
 
-    event.respondWith(
-        fetch(event.request)
-            .then((response) => {
-                if (response.ok) {
+    if (event.request.mode === "navigate") {
+        event.respondWith(
+            fetch(event.request)
+                .then((response) => {
                     const copy = response.clone();
 
                     caches.open(CACHE_NAME).then((cache) => {
-                        cache.put(event.request, copy);
+                        cache.put("./index.html", copy);
                     });
-                }
 
-                return response;
-            })
-            .catch(async () => {
-                const cached = await caches.match(event.request);
+                    return response;
+                })
+                .catch(() => caches.match("./index.html"))
+        );
 
-                if (cached) {
-                    return cached;
-                }
+        return;
+    }
 
-                if (event.request.mode === "navigate") {
-                    return caches.match("./index.html");
-                }
+    event.respondWith(
+        caches.match(event.request).then((cached) => {
+            const networkRequest = fetch(event.request)
+                .then((response) => {
+                    if (response.ok) {
+                        const copy = response.clone();
 
-                return new Response("Offline", {
-                    status: 503,
-                    statusText: "Offline"
-                });
-            })
+                        caches.open(CACHE_NAME).then((cache) => {
+                            cache.put(event.request, copy);
+                        });
+                    }
+
+                    return response;
+                })
+                .catch(() => cached);
+
+            return cached || networkRequest;
+        })
     );
 });
