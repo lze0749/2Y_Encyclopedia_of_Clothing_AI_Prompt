@@ -1,7 +1,7 @@
 // 2Y Encyclopedia of Clothing AI Prompt
-// Service Worker v0.7.0
+// Service Worker v0.8.0
 
-const CACHE_NAME = "2y-prompt-v0.7.0";
+const CACHE_NAME = "2y-prompt-v0.8.0";
 
 const APP_SHELL = [
     "./",
@@ -11,10 +11,13 @@ const APP_SHELL = [
     "./builder.css",
     "./storage.css",
     "./mobile.css",
+    "./custom.css",
     "./app.js",
     "./builder.js",
     "./storage.js",
     "./mobile.js",
+    "./custom-bridge.js",
+    "./custom.js",
     "./manifest.json",
     "./data/categories.json",
     "./data/items.json",
@@ -23,81 +26,57 @@ const APP_SHELL = [
     "./icons/apple-touch-icon.png"
 ];
 
-self.addEventListener("install", (event) => {
-    event.waitUntil(
-        caches
-            .open(CACHE_NAME)
-            .then((cache) => cache.addAll(APP_SHELL))
-    );
+self.addEventListener("install", event => {
+    event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(APP_SHELL)));
 });
 
-self.addEventListener("message", (event) => {
-    if (event.data?.type === "SKIP_WAITING") {
-        self.skipWaiting();
-    }
+self.addEventListener("message", event => {
+    if (event.data?.type === "SKIP_WAITING") self.skipWaiting();
 });
 
-self.addEventListener("activate", (event) => {
+self.addEventListener("activate", event => {
     event.waitUntil(
-        caches
-            .keys()
-            .then((cacheNames) =>
-                Promise.all(
-                    cacheNames
-                        .filter((name) => name !== CACHE_NAME)
-                        .map((name) => caches.delete(name))
-                )
-            )
+        caches.keys()
+            .then(names => Promise.all(
+                names.filter(name => name !== CACHE_NAME)
+                    .map(name => caches.delete(name))
+            ))
             .then(() => self.clients.claim())
     );
 });
 
-self.addEventListener("fetch", (event) => {
-    if (event.request.method !== "GET") {
-        return;
-    }
+self.addEventListener("fetch", event => {
+    if (event.request.method !== "GET") return;
 
-    const requestUrl = new URL(event.request.url);
-
-    if (requestUrl.origin !== self.location.origin) {
-        return;
-    }
+    const url = new URL(event.request.url);
+    if (url.origin !== self.location.origin) return;
 
     if (event.request.mode === "navigate") {
         event.respondWith(
             fetch(event.request)
-                .then((response) => {
+                .then(response => {
                     const copy = response.clone();
-
-                    caches.open(CACHE_NAME).then((cache) => {
-                        cache.put("./index.html", copy);
-                    });
-
+                    caches.open(CACHE_NAME).then(cache => cache.put("./index.html", copy));
                     return response;
                 })
                 .catch(() => caches.match("./index.html"))
         );
-
         return;
     }
 
     event.respondWith(
-        caches.match(event.request).then((cached) => {
-            const networkRequest = fetch(event.request)
-                .then((response) => {
+        caches.match(event.request).then(cached => {
+            const network = fetch(event.request)
+                .then(response => {
                     if (response.ok) {
                         const copy = response.clone();
-
-                        caches.open(CACHE_NAME).then((cache) => {
-                            cache.put(event.request, copy);
-                        });
+                        caches.open(CACHE_NAME).then(cache => cache.put(event.request, copy));
                     }
-
                     return response;
                 })
                 .catch(() => cached);
 
-            return cached || networkRequest;
+            return cached || network;
         })
     );
 });

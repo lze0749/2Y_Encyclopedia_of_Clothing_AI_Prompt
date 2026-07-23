@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "custom_example_neon_jacket",
+      "category": "outerwear",
+      "name_zh": "紫綠霓虹短版外套",
+      "name_en": "Purple-Green Neon Cropped Jacket",
+      "gender": "unisex",
+      "description_zh": "短版機能外套，具有紫色主體、螢光綠滾邊、可調束帶與模組化口袋。",
+      "description_en": "a cropped utility jacket with a purple body, neon-green piping, adjustable straps, and modular pockets",
+      "anatomy": {
+        "material": "matte technical nylon",
+        "fit": "boxy cropped",
+        "length": "waist length",
+        "color": "purple and neon green",
+        "style": "cyberpunk techwear"
+      },
+      "tags": [
+        "jacket",
+        "techwear",
+        "neon",
+        "purple",
+        "green"
+      ],
+      "prompts": {
+        "pixai": "masterpiece, best quality, purple-green neon cropped utility jacket, modular pockets, detailed technical nylon",
+        "niji": "purple-green neon cropped utility jacket, polished anime fashion design, cyberpunk techwear --niji 6",
+        "tensorart": "cropped utility jacket, purple body, neon-green piping, modular pockets, detailed technical nylon",
+        "gpt": "Create a cropped utility jacket with a purple body, neon-green piping, adjustable straps, and modular pockets."
+      },
+      "negative": "logo, text, watermark, malformed clothing, broken garment structure",
+      "custom": true
+    }
+  ]
+}
