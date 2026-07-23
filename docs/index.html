@@ -84,39 +84,13 @@
             class="search-box"
         >
 
-        <nav>
-
-            <ul>
-
-                <li>👕 Clothing</li>
-
-                <li>👟 Shoes</li>
-
-                <li>💍 Accessories</li>
-
-                <li>💇 Hairstyles</li>
-
-                <li>🧍 Pose</li>
-
-                <li>📷 Camera</li>
-
-                <li>💡 Lighting</li>
-
-                <li>🌄 Background</li>
-
-                <li>🌸 Foreground</li>
-
-                <li>🎨 Filters</li>
-
-                <li>😊 Expression</li>
-
-                <li>⭐ Favorites</li>
-
-                <li>⚙ Settings</li>
-
-            </ul>
-
-        </nav>
+        <nav aria-label="百科分類">
+    <ul id="categoryList" class="category-list">
+        <li class="loading-item">
+            正在載入分類……
+        </li>
+    </ul>
+</nav>
 
     </aside>
 
@@ -127,12 +101,14 @@
 
     <div class="card hero">
 
-        <h2>Welcome 👋</h2>
-
-        <p>
-            Build prompts for PixAI, Niji Journey,
-            TensorArt and GPT Image.
-        </p>
+        <h2 id="pageTitle">Welcome 👋</h2>
+        <p id="pageDescription">
+    Build prompts for PixAI, Niji Journey,
+    TensorArt and GPT Image.
+<p id="pageDescription">
+    Build prompts for PixAI, Niji Journey,
+    TensorArt and GPT Image.
+</p>
 
         <button id="startButton">
             Start Building
@@ -144,19 +120,12 @@
 
         <h3>📊 Statistics</h3>
 
-        <ul class="stats">
-
-            <li>👕 Clothing <span>0</span></li>
-
-            <li>👟 Shoes <span>0</span></li>
-
-            <li>💍 Accessories <span>0</span></li>
-
-            <li>📷 Camera <span>0</span></li>
-
-            <li>💡 Lighting <span>0</span></li>
-
-        </ul>
+        <ul id="statsList" class="stats">
+    <li>
+        分類數量
+        <span>載入中</span>
+    </li>
+</ul>
 
     </div>
 

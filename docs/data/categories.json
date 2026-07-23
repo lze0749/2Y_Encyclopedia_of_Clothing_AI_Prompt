@@ -1,0 +1,154 @@
+[
+  {
+    "id": "tops",
+    "name_zh": "上衣／內搭",
+    "name_en": "Tops & Innerwear",
+    "icon": "👕",
+    "description": "襯衫、T-shirt、帽T、背心、針織衫、胸衣與各式內搭。",
+    "count": 0
+  },
+  {
+    "id": "pants",
+    "name_zh": "褲子",
+    "name_en": "Pants",
+    "icon": "👖",
+    "description": "牛仔褲、西裝褲、工裝褲、短褲、緊身褲與特殊版型。",
+    "count": 0
+  },
+  {
+    "id": "skirts",
+    "name_zh": "裙子",
+    "name_en": "Skirts",
+    "icon": "🩱",
+    "description": "迷你裙、中長裙、長裙、百褶裙、魚尾裙與特殊裙型。",
+    "count": 0
+  },
+  {
+    "id": "dresses",
+    "name_zh": "連身裙",
+    "name_en": "Dresses",
+    "icon": "👗",
+    "description": "日常洋裝、晚禮服、制服裙裝、民族服裝與幻想禮服。",
+    "count": 0
+  },
+  {
+    "id": "outerwear",
+    "name_zh": "外套／斗篷／披肩",
+    "name_en": "Outerwear",
+    "icon": "🧥",
+    "description": "外套、大衣、風衣、斗篷、披肩、罩衫與盔甲外層。",
+    "count": 0
+  },
+  {
+    "id": "accessories",
+    "name_zh": "飾品配件",
+    "name_en": "Accessories",
+    "icon": "💍",
+    "description": "耳飾、頸飾、面飾、胸飾、手環、戒指與身體飾品。",
+    "count": 0
+  },
+  {
+    "id": "hairstyles",
+    "name_zh": "髮型與髮飾",
+    "name_en": "Hairstyles & Hair Accessories",
+    "icon": "💇",
+    "description": "髮型、瀏海、編髮、染髮、髮帶、髮夾、皇冠與帽飾。",
+    "count": 0
+  },
+  {
+    "id": "shoes",
+    "name_zh": "鞋子",
+    "name_en": "Shoes",
+    "icon": "👢",
+    "description": "運動鞋、皮鞋、靴子、高跟鞋、涼鞋與幻想鞋履。",
+    "count": 0
+  },
+  {
+    "id": "hands",
+    "name_zh": "手部配件與美甲",
+    "name_en": "Handwear & Nail Art",
+    "icon": "💅",
+    "description": "手套、護腕、手甲、指甲造型、美甲材質與裝飾。",
+    "count": 0
+  },
+  {
+    "id": "bags-props",
+    "name_zh": "包袋／手持配件",
+    "name_en": "Bags & Handheld Props",
+    "icon": "👜",
+    "description": "背包、手提包、行李箱、書本、飲料、樂器與手持道具。",
+    "count": 0
+  },
+  {
+    "id": "waist",
+    "name_zh": "腰部配件",
+    "name_en": "Waist Accessories",
+    "icon": "🪢",
+    "description": "腰帶、腰封、腰鏈、腰包、槍套、工具帶與裝飾掛件。",
+    "count": 0
+  },
+  {
+    "id": "poses",
+    "name_zh": "姿勢",
+    "name_en": "Poses",
+    "icon": "🧍",
+    "description": "站姿、坐姿、躺姿、動作、舞蹈、戰鬥與手勢組合。",
+    "count": 0
+  },
+  {
+    "id": "foreground",
+    "name_zh": "前景物品",
+    "name_en": "Foreground",
+    "icon": "🌸",
+    "description": "花瓣、煙霧、窗框、植物、碎片、粒子與遮擋元素。",
+    "count": 0
+  },
+  {
+    "id": "background",
+    "name_zh": "背景場景",
+    "name_en": "Background",
+    "icon": "🏛️",
+    "description": "室內、城市、自然、幻想、科幻與各式環境場景。",
+    "count": 0
+  },
+  {
+    "id": "camera",
+    "name_zh": "鏡頭與構圖",
+    "name_en": "Camera & Composition",
+    "icon": "📷",
+    "description": "景別、角度、鏡頭焦段、視角、構圖與景深設定。",
+    "count": 0
+  },
+  {
+    "id": "lighting",
+    "name_zh": "光線",
+    "name_en": "Lighting",
+    "icon": "💡",
+    "description": "自然光、棚拍光、輪廓光、霓虹光、體積光與特殊光源。",
+    "count": 0
+  },
+  {
+    "id": "filters",
+    "name_zh": "濾鏡",
+    "name_en": "Filters",
+    "icon": "🎨",
+    "description": "電影感、復古、柔焦、黑白、夢幻、賽博與色彩處理。",
+    "count": 0
+  },
+  {
+    "id": "moods",
+    "name_zh": "氛圍",
+    "name_en": "Mood",
+    "icon": "🌫️",
+    "description": "浪漫、神秘、治癒、孤獨、史詩、恐怖與情緒氛圍。",
+    "count": 0
+  },
+  {
+    "id": "purposes",
+    "name_zh": "用途",
+    "name_en": "Use Cases",
+    "icon": "🎯",
+    "description": "頭像、角色立繪、小說封面、卡牌、海報與設計參考。",
+    "count": 0
+  }
+]
