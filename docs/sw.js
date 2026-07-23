@@ -1,7 +1,7 @@
 // 2Y Encyclopedia of Clothing AI Prompt
-// Service Worker v0.8.0
+// Service Worker v0.9.0
 
-const CACHE_NAME = "2y-prompt-v0.8.0";
+const CACHE_NAME = "2y-prompt-v0.9.0";
 
 const APP_SHELL = [
     "./",
@@ -12,15 +12,18 @@ const APP_SHELL = [
     "./storage.css",
     "./mobile.css",
     "./custom.css",
+    "./parameter.css",
     "./app.js",
     "./builder.js",
     "./storage.js",
     "./mobile.js",
     "./custom-bridge.js",
     "./custom.js",
+    "./parameter.js",
     "./manifest.json",
     "./data/categories.json",
     "./data/items.json",
+    "./data/attributes.json",
     "./icons/icon-192.png",
     "./icons/icon-512.png",
     "./icons/apple-touch-icon.png"
@@ -38,8 +41,7 @@ self.addEventListener("activate", event => {
     event.waitUntil(
         caches.keys()
             .then(names => Promise.all(
-                names.filter(name => name !== CACHE_NAME)
-                    .map(name => caches.delete(name))
+                names.filter(name => name !== CACHE_NAME).map(name => caches.delete(name))
             ))
             .then(() => self.clients.claim())
     );

@@ -1,0 +1,667 @@
+{
+  "bases": [
+    {
+      "id": "hoodie",
+      "zh": "連帽上衣",
+      "en": "hoodie"
+    },
+    {
+      "id": "tshirt",
+      "zh": "T-shirt",
+      "en": "T-shirt"
+    },
+    {
+      "id": "shirt",
+      "zh": "襯衫",
+      "en": "shirt"
+    },
+    {
+      "id": "blouse",
+      "zh": "女式襯衫",
+      "en": "blouse"
+    },
+    {
+      "id": "sweater",
+      "zh": "毛衣",
+      "en": "sweater"
+    },
+    {
+      "id": "cardigan",
+      "zh": "開襟衫",
+      "en": "cardigan"
+    },
+    {
+      "id": "corset",
+      "zh": "束身衣",
+      "en": "corset"
+    },
+    {
+      "id": "vest",
+      "zh": "背心",
+      "en": "vest"
+    },
+    {
+      "id": "jacket",
+      "zh": "短外套",
+      "en": "jacket"
+    },
+    {
+      "id": "coat",
+      "zh": "長外套",
+      "en": "coat"
+    },
+    {
+      "id": "cape",
+      "zh": "斗篷",
+      "en": "cape"
+    },
+    {
+      "id": "pants",
+      "zh": "長褲",
+      "en": "pants"
+    },
+    {
+      "id": "shorts",
+      "zh": "短褲",
+      "en": "shorts"
+    },
+    {
+      "id": "skirt",
+      "zh": "裙子",
+      "en": "skirt"
+    },
+    {
+      "id": "dress",
+      "zh": "連身裙",
+      "en": "dress"
+    },
+    {
+      "id": "boots",
+      "zh": "靴子",
+      "en": "boots"
+    },
+    {
+      "id": "shoes",
+      "zh": "鞋子",
+      "en": "shoes"
+    },
+    {
+      "id": "gloves",
+      "zh": "手套",
+      "en": "gloves"
+    },
+    {
+      "id": "bag",
+      "zh": "包袋",
+      "en": "bag"
+    }
+  ],
+  "colors": [
+    {
+      "zh": "黑色",
+      "en": "black"
+    },
+    {
+      "zh": "純白",
+      "en": "pure white"
+    },
+    {
+      "zh": "象牙白",
+      "en": "ivory"
+    },
+    {
+      "zh": "炭灰",
+      "en": "charcoal gray"
+    },
+    {
+      "zh": "酒紅",
+      "en": "burgundy"
+    },
+    {
+      "zh": "猩紅",
+      "en": "scarlet red"
+    },
+    {
+      "zh": "珊瑚粉",
+      "en": "coral pink"
+    },
+    {
+      "zh": "薰衣草紫",
+      "en": "lavender purple"
+    },
+    {
+      "zh": "螢光紫",
+      "en": "neon purple"
+    },
+    {
+      "zh": "皇家藍",
+      "en": "royal blue"
+    },
+    {
+      "zh": "青綠",
+      "en": "teal"
+    },
+    {
+      "zh": "翡翠綠",
+      "en": "emerald green"
+    },
+    {
+      "zh": "螢光綠",
+      "en": "neon green"
+    },
+    {
+      "zh": "芥末黃",
+      "en": "mustard yellow"
+    },
+    {
+      "zh": "焦糖棕",
+      "en": "caramel brown"
+    },
+    {
+      "zh": "銀色",
+      "en": "metallic silver"
+    },
+    {
+      "zh": "金色",
+      "en": "metallic gold"
+    },
+    {
+      "zh": "紫綠雙色",
+      "en": "purple and neon-green two-tone"
+    },
+    {
+      "zh": "黑紅雙色",
+      "en": "black and red two-tone"
+    },
+    {
+      "zh": "彩虹漸層",
+      "en": "rainbow gradient"
+    }
+  ],
+  "materials": [
+    {
+      "zh": "厚磅棉",
+      "en": "heavyweight cotton"
+    },
+    {
+      "zh": "柔軟棉質",
+      "en": "soft cotton jersey"
+    },
+    {
+      "zh": "亞麻",
+      "en": "breathable linen"
+    },
+    {
+      "zh": "羊毛",
+      "en": "fine wool"
+    },
+    {
+      "zh": "羊絨",
+      "en": "soft cashmere"
+    },
+    {
+      "zh": "牛仔布",
+      "en": "structured denim"
+    },
+    {
+      "zh": "霧面皮革",
+      "en": "matte leather"
+    },
+    {
+      "zh": "漆皮",
+      "en": "glossy patent leather"
+    },
+    {
+      "zh": "絲綢",
+      "en": "silk"
+    },
+    {
+      "zh": "緞面",
+      "en": "lustrous satin"
+    },
+    {
+      "zh": "天鵝絨",
+      "en": "rich velvet"
+    },
+    {
+      "zh": "雪紡",
+      "en": "light chiffon"
+    },
+    {
+      "zh": "蕾絲",
+      "en": "delicate lace"
+    },
+    {
+      "zh": "薄紗",
+      "en": "soft tulle"
+    },
+    {
+      "zh": "針織",
+      "en": "ribbed knit"
+    },
+    {
+      "zh": "防水尼龍",
+      "en": "water-resistant technical nylon"
+    },
+    {
+      "zh": "PVC",
+      "en": "transparent PVC"
+    },
+    {
+      "zh": "乳膠",
+      "en": "smooth latex"
+    },
+    {
+      "zh": "金屬甲片",
+      "en": "segmented metal plates"
+    },
+    {
+      "zh": "提花織物",
+      "en": "patterned jacquard"
+    }
+  ],
+  "fits": [
+    {
+      "zh": "合身",
+      "en": "fitted"
+    },
+    {
+      "zh": "修身",
+      "en": "slim fit"
+    },
+    {
+      "zh": "標準版型",
+      "en": "regular fit"
+    },
+    {
+      "zh": "寬鬆",
+      "en": "relaxed fit"
+    },
+    {
+      "zh": "Oversized",
+      "en": "oversized"
+    },
+    {
+      "zh": "箱型",
+      "en": "boxy"
+    },
+    {
+      "zh": "短版",
+      "en": "cropped fit"
+    },
+    {
+      "zh": "高腰",
+      "en": "high-waisted"
+    },
+    {
+      "zh": "垂墜",
+      "en": "draped"
+    },
+    {
+      "zh": "結構化",
+      "en": "structured"
+    }
+  ],
+  "sleeves": [
+    {
+      "zh": "無袖",
+      "en": "sleeveless"
+    },
+    {
+      "zh": "短袖",
+      "en": "short sleeves"
+    },
+    {
+      "zh": "長袖",
+      "en": "long sleeves"
+    },
+    {
+      "zh": "超長袖",
+      "en": "extra-long sleeves"
+    },
+    {
+      "zh": "落肩袖",
+      "en": "dropped-shoulder sleeves"
+    },
+    {
+      "zh": "插肩袖",
+      "en": "raglan sleeves"
+    },
+    {
+      "zh": "泡泡袖",
+      "en": "puff sleeves"
+    },
+    {
+      "zh": "燈籠袖",
+      "en": "bishop sleeves"
+    },
+    {
+      "zh": "喇叭袖",
+      "en": "bell sleeves"
+    },
+    {
+      "zh": "蝙蝠袖",
+      "en": "batwing sleeves"
+    },
+    {
+      "zh": "開衩袖",
+      "en": "split sleeves"
+    },
+    {
+      "zh": "可拆式袖",
+      "en": "detachable sleeves"
+    }
+  ],
+  "necklines": [
+    {
+      "zh": "圓領",
+      "en": "crew neckline"
+    },
+    {
+      "zh": "V領",
+      "en": "V-neckline"
+    },
+    {
+      "zh": "方領",
+      "en": "square neckline"
+    },
+    {
+      "zh": "高領",
+      "en": "high collar"
+    },
+    {
+      "zh": "立領",
+      "en": "mandarin collar"
+    },
+    {
+      "zh": "翻領",
+      "en": "notched lapels"
+    },
+    {
+      "zh": "水手領",
+      "en": "sailor collar"
+    },
+    {
+      "zh": "一字領",
+      "en": "off-shoulder neckline"
+    },
+    {
+      "zh": "心形領",
+      "en": "sweetheart neckline"
+    },
+    {
+      "zh": "繞頸",
+      "en": "halter neckline"
+    },
+    {
+      "zh": "連帽",
+      "en": "hooded neckline"
+    },
+    {
+      "zh": "垂墜領",
+      "en": "cowl neckline"
+    }
+  ],
+  "lengths": [
+    {
+      "zh": "超短",
+      "en": "micro length"
+    },
+    {
+      "zh": "短版",
+      "en": "cropped length"
+    },
+    {
+      "zh": "腰長",
+      "en": "waist length"
+    },
+    {
+      "zh": "臀長",
+      "en": "hip length"
+    },
+    {
+      "zh": "迷你",
+      "en": "mini length"
+    },
+    {
+      "zh": "及膝",
+      "en": "knee length"
+    },
+    {
+      "zh": "中長",
+      "en": "midi length"
+    },
+    {
+      "zh": "小腿中段",
+      "en": "mid-calf length"
+    },
+    {
+      "zh": "腳踝",
+      "en": "ankle length"
+    },
+    {
+      "zh": "拖地",
+      "en": "floor length"
+    }
+  ],
+  "patterns": [
+    {
+      "zh": "無圖案",
+      "en": "solid color"
+    },
+    {
+      "zh": "細條紋",
+      "en": "fine pinstripes"
+    },
+    {
+      "zh": "寬條紋",
+      "en": "bold stripes"
+    },
+    {
+      "zh": "格紋",
+      "en": "tartan plaid"
+    },
+    {
+      "zh": "棋盤格",
+      "en": "checkerboard pattern"
+    },
+    {
+      "zh": "千鳥格",
+      "en": "houndstooth pattern"
+    },
+    {
+      "zh": "花卉",
+      "en": "floral pattern"
+    },
+    {
+      "zh": "雲紋",
+      "en": "cloud-pattern jacquard"
+    },
+    {
+      "zh": "幾何",
+      "en": "geometric pattern"
+    },
+    {
+      "zh": "數位迷彩",
+      "en": "digital camouflage"
+    },
+    {
+      "zh": "星月",
+      "en": "celestial star-and-moon pattern"
+    },
+    {
+      "zh": "螢光線路",
+      "en": "glowing circuit pattern"
+    }
+  ],
+  "details": [
+    {
+      "zh": "袋鼠口袋",
+      "en": "kangaroo pocket"
+    },
+    {
+      "zh": "翻蓋口袋",
+      "en": "flap pockets"
+    },
+    {
+      "zh": "模組化口袋",
+      "en": "modular utility pockets"
+    },
+    {
+      "zh": "金屬拉鍊",
+      "en": "metal zippers"
+    },
+    {
+      "zh": "珍珠鈕扣",
+      "en": "pearl buttons"
+    },
+    {
+      "zh": "盤扣",
+      "en": "frog-button closures"
+    },
+    {
+      "zh": "束帶",
+      "en": "adjustable webbing straps"
+    },
+    {
+      "zh": "金屬扣具",
+      "en": "metal buckles"
+    },
+    {
+      "zh": "鍊條",
+      "en": "layered chains"
+    },
+    {
+      "zh": "蝴蝶結",
+      "en": "ribbon bows"
+    },
+    {
+      "zh": "荷葉邊",
+      "en": "layered ruffles"
+    },
+    {
+      "zh": "蕾絲滾邊",
+      "en": "lace trim"
+    },
+    {
+      "zh": "刺繡",
+      "en": "intricate embroidery"
+    },
+    {
+      "zh": "反光滾邊",
+      "en": "reflective piping"
+    },
+    {
+      "zh": "螢光滾邊",
+      "en": "neon-green piping"
+    },
+    {
+      "zh": "立體打褶",
+      "en": "structured pleats"
+    },
+    {
+      "zh": "不對稱裁片",
+      "en": "asymmetrical panels"
+    },
+    {
+      "zh": "可拆部件",
+      "en": "detachable components"
+    },
+    {
+      "zh": "金屬鉚釘",
+      "en": "metal studs"
+    },
+    {
+      "zh": "寶石裝飾",
+      "en": "gemstone embellishments"
+    }
+  ],
+  "styles": [
+    {
+      "zh": "休閒",
+      "en": "casual"
+    },
+    {
+      "zh": "街頭",
+      "en": "streetwear"
+    },
+    {
+      "zh": "正式",
+      "en": "formal tailoring"
+    },
+    {
+      "zh": "學院",
+      "en": "preppy academic"
+    },
+    {
+      "zh": "哥德",
+      "en": "gothic"
+    },
+    {
+      "zh": "蘿莉塔",
+      "en": "lolita fashion"
+    },
+    {
+      "zh": "龐克",
+      "en": "punk"
+    },
+    {
+      "zh": "科技機能",
+      "en": "techwear"
+    },
+    {
+      "zh": "賽博龐克",
+      "en": "cyberpunk"
+    },
+    {
+      "zh": "蒸氣龐克",
+      "en": "steampunk"
+    },
+    {
+      "zh": "奇幻",
+      "en": "fantasy"
+    },
+    {
+      "zh": "軍裝",
+      "en": "military-inspired"
+    },
+    {
+      "zh": "維多利亞",
+      "en": "Victorian-inspired"
+    },
+    {
+      "zh": "東方傳統",
+      "en": "East Asian traditional-inspired"
+    },
+    {
+      "zh": "未來主義",
+      "en": "futuristic"
+    },
+    {
+      "zh": "極簡",
+      "en": "minimalist"
+    }
+  ],
+  "platforms": {
+    "pixai": {
+      "label": "PixAI",
+      "prefix": "masterpiece, best quality, highly detailed",
+      "suffix": "clean silhouette, detailed fabric texture, coherent garment construction"
+    },
+    "niji": {
+      "label": "Niji Journey",
+      "prefix": "polished anime fashion design",
+      "suffix": "expressive fabric folds, refined details --niji 6"
+    },
+    "tensorart": {
+      "label": "TensorArt",
+      "prefix": "high detail, detailed garment construction",
+      "suffix": "realistic material texture, clean anatomy, coherent clothing"
+    },
+    "gpt": {
+      "label": "GPT Image",
+      "prefix": "Create an image featuring",
+      "suffix": "Preserve the selected construction, fit, material, color, pattern, and decorative details clearly."
+    }
+  }
+}
