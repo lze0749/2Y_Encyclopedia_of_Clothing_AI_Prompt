@@ -1,5 +1,5 @@
 
-const APP={name:"2Y Encyclopedia of Clothing AI Prompt",version:"1.1.0",theme:"neon",language:"zh-TW"};
+const APP={name:"2Y Encyclopedia of Clothing AI Prompt",version: "1.2.0",theme:"neon",language:"zh-TW"};
 const state={categories:[],items:[],activeCategoryId:null,searchQuery:"",genderFilter:"all",sortMode:"category",pageSize:24,visibleCount:24};
 
 document.addEventListener("DOMContentLoaded",async()=>{

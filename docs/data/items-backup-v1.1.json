@@ -1,0 +1,795 @@
+[
+  {
+    "id": "tops_hoodie",
+    "category": "tops",
+    "name_zh": "寬鬆厚磅連帽上衣",
+    "name_en": "Oversized Heavyweight Hoodie",
+    "gender": "unisex",
+    "description_zh": "厚磅棉質套頭帽T，落肩、寬大長袖、袋鼠口袋、羅紋袖口與下擺。",
+    "description_en": "an oversized heavyweight cotton pullover hoodie with dropped shoulders, extra-long baggy sleeves, a roomy kangaroo pocket, ribbed cuffs and hem, and the hood resting naturally behind the neck",
+    "anatomy": {
+      "fit": "oversized",
+      "neck": "hooded",
+      "sleeve": "extra-long",
+      "closure": "pullover",
+      "pocket": "kangaroo",
+      "material": "heavyweight cotton"
+    },
+    "tags": [
+      "hoodie",
+      "streetwear",
+      "casual",
+      "oversized",
+      "cotton"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, an oversized heavyweight cotton pullover hoodie with dropped shoulders, extra-long baggy sleeves, a roomy kangaroo pocket, ribbed cuffs and hem, and the hood resting naturally behind the neck, clean silhouette, detailed material texture",
+      "niji": "an oversized heavyweight cotton pullover hoodie with dropped shoulders, extra-long baggy sleeves, a roomy kangaroo pocket, ribbed cuffs and hem, and the hood resting naturally behind the neck, polished anime fashion design, elegant silhouette, expressive folds, refined details --niji 6",
+      "tensorart": "an oversized heavyweight cotton pullover hoodie with dropped shoulders, extra-long baggy sleeves, a roomy kangaroo pocket, ribbed cuffs and hem, and the hood resting naturally behind the neck, detailed construction, realistic material texture, clean anatomy, high detail",
+      "gpt": "Create an image featuring an oversized heavyweight cotton pullover hoodie with dropped shoulders, extra-long baggy sleeves, a roomy kangaroo pocket, ribbed cuffs and hem, and the hood resting naturally behind the neck. Preserve the stated construction, material, fit, and decorative details clearly."
+    },
+    "negative": "logo, text, watermark, malformed clothing, broken structure, missing details, duplicate accessories"
+  },
+  {
+    "id": "tops_victorian",
+    "category": "tops",
+    "name_zh": "維多利亞荷葉領襯衫",
+    "name_en": "Victorian Ruffled Blouse",
+    "gender": "female",
+    "description_zh": "高領襯衫，胸前層疊荷葉邊、燈籠袖、窄袖口與珍珠鈕扣。",
+    "description_en": "a Victorian high-neck blouse with layered front ruffles, voluminous bishop sleeves, narrow cuffs, pearl buttons, and subtly lustrous fabric",
+    "anatomy": {
+      "fit": "fitted torso",
+      "neck": "high ruffled collar",
+      "sleeve": "bishop",
+      "closure": "pearl buttons",
+      "material": "silk-cotton blend"
+    },
+    "tags": [
+      "victorian",
+      "blouse",
+      "ruffles",
+      "formal"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, a Victorian high-neck blouse with layered front ruffles, voluminous bishop sleeves, narrow cuffs, pearl buttons, and subtly lustrous fabric, clean silhouette, detailed material texture",
+      "niji": "a Victorian high-neck blouse with layered front ruffles, voluminous bishop sleeves, narrow cuffs, pearl buttons, and subtly lustrous fabric, polished anime fashion design, elegant silhouette, expressive folds, refined details --niji 6",
+      "tensorart": "a Victorian high-neck blouse with layered front ruffles, voluminous bishop sleeves, narrow cuffs, pearl buttons, and subtly lustrous fabric, detailed construction, realistic material texture, clean anatomy, high detail",
+      "gpt": "Create an image featuring a Victorian high-neck blouse with layered front ruffles, voluminous bishop sleeves, narrow cuffs, pearl buttons, and subtly lustrous fabric. Preserve the stated construction, material, fit, and decorative details clearly."
+    },
+    "negative": "logo, text, watermark, malformed clothing, broken structure, missing details, duplicate accessories"
+  },
+  {
+    "id": "pants_cargo",
+    "category": "pants",
+    "name_zh": "多口袋寬版工裝褲",
+    "name_en": "Wide Utility Cargo Pants",
+    "gender": "unisex",
+    "description_zh": "寬鬆工裝褲，立體膝褶、側邊翻蓋口袋、織帶調節與束口褲腳。",
+    "description_en": "wide utility cargo pants with articulated knee pleats, large flap pockets, adjustable webbing straps, and drawcord hems in durable twill",
+    "anatomy": {
+      "fit": "wide",
+      "rise": "mid rise",
+      "leg": "tapered utility",
+      "material": "durable twill",
+      "details": "cargo pockets and straps"
+    },
+    "tags": [
+      "cargo pants",
+      "utility",
+      "streetwear",
+      "tactical"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, wide utility cargo pants with articulated knee pleats, large flap pockets, adjustable webbing straps, and drawcord hems in durable twill, clean silhouette, detailed material texture",
+      "niji": "wide utility cargo pants with articulated knee pleats, large flap pockets, adjustable webbing straps, and drawcord hems in durable twill, polished anime fashion design, elegant silhouette, expressive folds, refined details --niji 6",
+      "tensorart": "wide utility cargo pants with articulated knee pleats, large flap pockets, adjustable webbing straps, and drawcord hems in durable twill, detailed construction, realistic material texture, clean anatomy, high detail",
+      "gpt": "Create an image featuring wide utility cargo pants with articulated knee pleats, large flap pockets, adjustable webbing straps, and drawcord hems in durable twill. Preserve the stated construction, material, fit, and decorative details clearly."
+    },
+    "negative": "logo, text, watermark, malformed clothing, broken structure, missing details, duplicate accessories"
+  },
+  {
+    "id": "pants_tailored",
+    "category": "pants",
+    "name_zh": "高腰打褶西裝長褲",
+    "name_en": "High-Waisted Pleated Trousers",
+    "gender": "unisex",
+    "description_zh": "高腰西裝長褲，前身雙打褶、筆直褲線、側插袋與寬版褲腳。",
+    "description_en": "high-waisted tailored trousers with double front pleats, sharp pressed creases, side pockets, and a wide flowing leg",
+    "anatomy": {
+      "fit": "tailored wide",
+      "rise": "high rise",
+      "leg": "wide straight",
+      "material": "wool-blend suiting"
+    },
+    "tags": [
+      "trousers",
+      "formal",
+      "tailored",
+      "high waist"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, high-waisted tailored trousers with double front pleats, sharp pressed creases, side pockets, and a wide flowing leg, clean silhouette, detailed material texture",
+      "niji": "high-waisted tailored trousers with double front pleats, sharp pressed creases, side pockets, and a wide flowing leg, polished anime fashion design, elegant silhouette, expressive folds, refined details --niji 6",
+      "tensorart": "high-waisted tailored trousers with double front pleats, sharp pressed creases, side pockets, and a wide flowing leg, detailed construction, realistic material texture, clean anatomy, high detail",
+      "gpt": "Create an image featuring high-waisted tailored trousers with double front pleats, sharp pressed creases, side pockets, and a wide flowing leg. Preserve the stated construction, material, fit, and decorative details clearly."
+    },
+    "negative": "logo, text, watermark, malformed clothing, broken structure, missing details, duplicate accessories"
+  },
+  {
+    "id": "skirts_pleated",
+    "category": "skirts",
+    "name_zh": "高腰百褶短裙",
+    "name_en": "High-Waisted Pleated Skirt",
+    "gender": "female",
+    "description_zh": "高腰短裙，均勻刀褶、隱藏側拉鍊與筆直腰頭。",
+    "description_en": "a high-waisted mini skirt with evenly spaced knife pleats, a clean waistband, and a concealed side zipper",
+    "anatomy": {
+      "silhouette": "A-line",
+      "waist": "high",
+      "length": "mini",
+      "material": "structured woven fabric"
+    },
+    "tags": [
+      "pleated skirt",
+      "mini",
+      "classic",
+      "school style"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, a high-waisted mini skirt with evenly spaced knife pleats, a clean waistband, and a concealed side zipper, clean silhouette, detailed material texture",
+      "niji": "a high-waisted mini skirt with evenly spaced knife pleats, a clean waistband, and a concealed side zipper, polished anime fashion design, elegant silhouette, expressive folds, refined details --niji 6",
+      "tensorart": "a high-waisted mini skirt with evenly spaced knife pleats, a clean waistband, and a concealed side zipper, detailed construction, realistic material texture, clean anatomy, high detail",
+      "gpt": "Create an image featuring a high-waisted mini skirt with evenly spaced knife pleats, a clean waistband, and a concealed side zipper. Preserve the stated construction, material, fit, and decorative details clearly."
+    },
+    "negative": "logo, text, watermark, malformed clothing, broken structure, missing details, duplicate accessories"
+  },
+  {
+    "id": "skirts_kilt",
+    "category": "skirts",
+    "name_zh": "龐克金屬扣格紋裙",
+    "name_en": "Punk Buckled Tartan Kilt",
+    "gender": "unisex",
+    "description_zh": "不對稱格紋裙，前方包覆式裙片、皮革帶、金屬扣、鍊條與側邊百褶。",
+    "description_en": "an asymmetrical tartan kilt with a wrap front panel, leather straps, metal buckles, hanging chains, and side pleats",
+    "anatomy": {
+      "silhouette": "wrap kilt",
+      "length": "knee",
+      "closure": "buckled straps",
+      "material": "tartan wool blend"
+    },
+    "tags": [
+      "kilt",
+      "punk",
+      "tartan",
+      "chains"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, an asymmetrical tartan kilt with a wrap front panel, leather straps, metal buckles, hanging chains, and side pleats, clean silhouette, detailed material texture",
+      "niji": "an asymmetrical tartan kilt with a wrap front panel, leather straps, metal buckles, hanging chains, and side pleats, polished anime fashion design, elegant silhouette, expressive folds, refined details --niji 6",
+      "tensorart": "an asymmetrical tartan kilt with a wrap front panel, leather straps, metal buckles, hanging chains, and side pleats, detailed construction, realistic material texture, clean anatomy, high detail",
+      "gpt": "Create an image featuring an asymmetrical tartan kilt with a wrap front panel, leather straps, metal buckles, hanging chains, and side pleats. Preserve the stated construction, material, fit, and decorative details clearly."
+    },
+    "negative": "logo, text, watermark, malformed clothing, broken structure, missing details, duplicate accessories"
+  },
+  {
+    "id": "dresses_slip",
+    "category": "dresses",
+    "name_zh": "緞面細肩帶連身裙",
+    "name_en": "Bias-Cut Satin Slip Dress",
+    "gender": "female",
+    "description_zh": "斜裁緞面連身裙，細肩帶、柔和垂墜領、貼身腰線與流動裙擺。",
+    "description_en": "a bias-cut satin slip dress with delicate spaghetti straps, a soft cowl neckline, a body-skimming waist, and a fluid ankle-length hem",
+    "anatomy": {
+      "silhouette": "bias-cut column",
+      "neck": "cowl",
+      "length": "ankle",
+      "material": "satin"
+    },
+    "tags": [
+      "slip dress",
+      "satin",
+      "elegant",
+      "evening"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, a bias-cut satin slip dress with delicate spaghetti straps, a soft cowl neckline, a body-skimming waist, and a fluid ankle-length hem, clean silhouette, detailed material texture",
+      "niji": "a bias-cut satin slip dress with delicate spaghetti straps, a soft cowl neckline, a body-skimming waist, and a fluid ankle-length hem, polished anime fashion design, elegant silhouette, expressive folds, refined details --niji 6",
+      "tensorart": "a bias-cut satin slip dress with delicate spaghetti straps, a soft cowl neckline, a body-skimming waist, and a fluid ankle-length hem, detailed construction, realistic material texture, clean anatomy, high detail",
+      "gpt": "Create an image featuring a bias-cut satin slip dress with delicate spaghetti straps, a soft cowl neckline, a body-skimming waist, and a fluid ankle-length hem. Preserve the stated construction, material, fit, and decorative details clearly."
+    },
+    "negative": "logo, text, watermark, malformed clothing, broken structure, missing details, duplicate accessories"
+  },
+  {
+    "id": "dresses_gothic",
+    "category": "dresses",
+    "name_zh": "哥德蘿莉塔鐘形洋裝",
+    "name_en": "Gothic Lolita Bell Dress",
+    "gender": "female",
+    "description_zh": "鐘形哥德洋裝，高領、泡泡袖、束腰、蕾絲圍兜、蝴蝶結與多層荷葉裙擺。",
+    "description_en": "a gothic lolita bell-shaped dress with a high collar, puff sleeves, fitted waist, lace bib, ribbon bows, and multiple ruffled skirt tiers",
+    "anatomy": {
+      "silhouette": "bell",
+      "neck": "high collar",
+      "sleeve": "puff",
+      "length": "knee",
+      "material": "cotton and lace"
+    },
+    "tags": [
+      "gothic lolita",
+      "bell dress",
+      "lace",
+      "bows"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, a gothic lolita bell-shaped dress with a high collar, puff sleeves, fitted waist, lace bib, ribbon bows, and multiple ruffled skirt tiers, clean silhouette, detailed material texture",
+      "niji": "a gothic lolita bell-shaped dress with a high collar, puff sleeves, fitted waist, lace bib, ribbon bows, and multiple ruffled skirt tiers, polished anime fashion design, elegant silhouette, expressive folds, refined details --niji 6",
+      "tensorart": "a gothic lolita bell-shaped dress with a high collar, puff sleeves, fitted waist, lace bib, ribbon bows, and multiple ruffled skirt tiers, detailed construction, realistic material texture, clean anatomy, high detail",
+      "gpt": "Create an image featuring a gothic lolita bell-shaped dress with a high collar, puff sleeves, fitted waist, lace bib, ribbon bows, and multiple ruffled skirt tiers. Preserve the stated construction, material, fit, and decorative details clearly."
+    },
+    "negative": "logo, text, watermark, malformed clothing, broken structure, missing details, duplicate accessories"
+  },
+  {
+    "id": "outerwear_trench",
+    "category": "outerwear",
+    "name_zh": "雙排扣長風衣",
+    "name_en": "Double-Breasted Long Trench Coat",
+    "gender": "unisex",
+    "description_zh": "長風衣，寬翻領、雙排扣、肩章、風暴擋片、腰帶與可調袖袢。",
+    "description_en": "a classic long trench coat with wide notched lapels, double-breasted buttons, epaulettes, storm flaps, a belted waist, and adjustable cuff tabs",
+    "anatomy": {
+      "fit": "structured relaxed",
+      "neck": "notched lapel",
+      "closure": "double-breasted",
+      "length": "mid-calf",
+      "material": "gabardine"
+    },
+    "tags": [
+      "trench coat",
+      "classic",
+      "belted",
+      "long coat"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, a classic long trench coat with wide notched lapels, double-breasted buttons, epaulettes, storm flaps, a belted waist, and adjustable cuff tabs, clean silhouette, detailed material texture",
+      "niji": "a classic long trench coat with wide notched lapels, double-breasted buttons, epaulettes, storm flaps, a belted waist, and adjustable cuff tabs, polished anime fashion design, elegant silhouette, expressive folds, refined details --niji 6",
+      "tensorart": "a classic long trench coat with wide notched lapels, double-breasted buttons, epaulettes, storm flaps, a belted waist, and adjustable cuff tabs, detailed construction, realistic material texture, clean anatomy, high detail",
+      "gpt": "Create an image featuring a classic long trench coat with wide notched lapels, double-breasted buttons, epaulettes, storm flaps, a belted waist, and adjustable cuff tabs. Preserve the stated construction, material, fit, and decorative details clearly."
+    },
+    "negative": "logo, text, watermark, malformed clothing, broken structure, missing details, duplicate accessories"
+  },
+  {
+    "id": "outerwear_cape",
+    "category": "outerwear",
+    "name_zh": "高領不對稱斗篷",
+    "name_en": "High-Collar Asymmetrical Cape",
+    "gender": "unisex",
+    "description_zh": "高領幻想斗篷，單肩金屬扣固定，前短後長，多層裁片形成戲劇性垂墜。",
+    "description_en": "a high-collar fantasy cape fastened with a single shoulder clasp, cut shorter in front and longer in back with layered dramatic panels",
+    "anatomy": {
+      "fit": "draped",
+      "neck": "high collar",
+      "closure": "shoulder clasp",
+      "length": "high-low",
+      "material": "heavy wool"
+    },
+    "tags": [
+      "cape",
+      "fantasy",
+      "dramatic",
+      "asymmetrical"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, a high-collar fantasy cape fastened with a single shoulder clasp, cut shorter in front and longer in back with layered dramatic panels, clean silhouette, detailed material texture",
+      "niji": "a high-collar fantasy cape fastened with a single shoulder clasp, cut shorter in front and longer in back with layered dramatic panels, polished anime fashion design, elegant silhouette, expressive folds, refined details --niji 6",
+      "tensorart": "a high-collar fantasy cape fastened with a single shoulder clasp, cut shorter in front and longer in back with layered dramatic panels, detailed construction, realistic material texture, clean anatomy, high detail",
+      "gpt": "Create an image featuring a high-collar fantasy cape fastened with a single shoulder clasp, cut shorter in front and longer in back with layered dramatic panels. Preserve the stated construction, material, fit, and decorative details clearly."
+    },
+    "negative": "logo, text, watermark, malformed clothing, broken structure, missing details, duplicate accessories"
+  },
+  {
+    "id": "accessories_choker",
+    "category": "accessories",
+    "name_zh": "多層金屬鏈頸圈",
+    "name_en": "Layered Chain Choker",
+    "gender": "unisex",
+    "description_zh": "貼頸皮革頸圈搭配多層細鏈、O形環、墜飾與可調節後扣。",
+    "description_en": "a fitted leather choker layered with fine metal chains, an O-ring, small pendants, and an adjustable back clasp",
+    "anatomy": {
+      "placement": "neck",
+      "material": "leather and metal",
+      "closure": "adjustable clasp",
+      "details": "layered chains"
+    },
+    "tags": [
+      "choker",
+      "chains",
+      "punk",
+      "neck accessory"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, a fitted leather choker layered with fine metal chains, an O-ring, small pendants, and an adjustable back clasp, clean silhouette, detailed material texture",
+      "niji": "a fitted leather choker layered with fine metal chains, an O-ring, small pendants, and an adjustable back clasp, polished anime fashion design, elegant silhouette, expressive folds, refined details --niji 6",
+      "tensorart": "a fitted leather choker layered with fine metal chains, an O-ring, small pendants, and an adjustable back clasp, detailed construction, realistic material texture, clean anatomy, high detail",
+      "gpt": "Create an image featuring a fitted leather choker layered with fine metal chains, an O-ring, small pendants, and an adjustable back clasp. Preserve the stated construction, material, fit, and decorative details clearly."
+    },
+    "negative": "logo, text, watermark, malformed clothing, broken structure, missing details, duplicate accessories"
+  },
+  {
+    "id": "accessories_mask",
+    "category": "accessories",
+    "name_zh": "螢光線路半面罩",
+    "name_en": "Neon Circuit Half Mask",
+    "gender": "unisex",
+    "description_zh": "覆蓋鼻口的半面罩，霧黑外殼、可調側帶、通風孔與紫綠螢光線路。",
+    "description_en": "a lower-face half mask with a matte black shell, adjustable side straps, ventilation slots, and glowing purple-and-green circuit lines",
+    "anatomy": {
+      "placement": "lower face",
+      "material": "matte polymer",
+      "closure": "adjustable straps",
+      "details": "neon circuits"
+    },
+    "tags": [
+      "mask",
+      "cyberpunk",
+      "neon",
+      "face accessory"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, a lower-face half mask with a matte black shell, adjustable side straps, ventilation slots, and glowing purple-and-green circuit lines, clean silhouette, detailed material texture",
+      "niji": "a lower-face half mask with a matte black shell, adjustable side straps, ventilation slots, and glowing purple-and-green circuit lines, polished anime fashion design, elegant silhouette, expressive folds, refined details --niji 6",
+      "tensorart": "a lower-face half mask with a matte black shell, adjustable side straps, ventilation slots, and glowing purple-and-green circuit lines, detailed construction, realistic material texture, clean anatomy, high detail",
+      "gpt": "Create an image featuring a lower-face half mask with a matte black shell, adjustable side straps, ventilation slots, and glowing purple-and-green circuit lines. Preserve the stated construction, material, fit, and decorative details clearly."
+    },
+    "negative": "logo, text, watermark, malformed clothing, broken structure, missing details, duplicate accessories"
+  },
+  {
+    "id": "hairstyles_braids",
+    "category": "hairstyles",
+    "name_zh": "長版珠飾箱型辮",
+    "name_en": "Long Beaded Box Braids",
+    "gender": "unisex",
+    "description_zh": "長版箱型辮，分區清晰、辮股均勻，髮尾以金屬珠與螢光綠髮圈點綴。",
+    "description_en": "long box braids with clean sectioning, evenly sized braids, and ends decorated with metal beads and neon-green hair cuffs",
+    "anatomy": {
+      "length": "waist",
+      "structure": "box braids",
+      "volume": "full",
+      "accessories": "metal beads"
+    },
+    "tags": [
+      "box braids",
+      "beaded hair",
+      "long hair",
+      "neon"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, long box braids with clean sectioning, evenly sized braids, and ends decorated with metal beads and neon-green hair cuffs, clean silhouette, detailed material texture",
+      "niji": "long box braids with clean sectioning, evenly sized braids, and ends decorated with metal beads and neon-green hair cuffs, polished anime fashion design, elegant silhouette, expressive folds, refined details --niji 6",
+      "tensorart": "long box braids with clean sectioning, evenly sized braids, and ends decorated with metal beads and neon-green hair cuffs, detailed construction, realistic material texture, clean anatomy, high detail",
+      "gpt": "Create an image featuring long box braids with clean sectioning, evenly sized braids, and ends decorated with metal beads and neon-green hair cuffs. Preserve the stated construction, material, fit, and decorative details clearly."
+    },
+    "negative": "logo, text, watermark, malformed clothing, broken structure, missing details, duplicate accessories"
+  },
+  {
+    "id": "hairstyles_wolf",
+    "category": "hairstyles",
+    "name_zh": "雙色層次狼尾剪",
+    "name_en": "Two-Tone Layered Wolf Cut",
+    "gender": "unisex",
+    "description_zh": "高層次狼尾剪，頭頂蓬鬆、臉側碎髮、頸後延長，黑髮加入紫色內層染。",
+    "description_en": "a layered wolf cut with crown volume, face-framing pieces, an elongated nape, and a vivid purple underlayer beneath black hair",
+    "anatomy": {
+      "length": "medium",
+      "structure": "wolf cut",
+      "bangs": "piecey curtain",
+      "color": "black and purple"
+    },
+    "tags": [
+      "wolf cut",
+      "two-tone",
+      "layered",
+      "alternative"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, a layered wolf cut with crown volume, face-framing pieces, an elongated nape, and a vivid purple underlayer beneath black hair, clean silhouette, detailed material texture",
+      "niji": "a layered wolf cut with crown volume, face-framing pieces, an elongated nape, and a vivid purple underlayer beneath black hair, polished anime fashion design, elegant silhouette, expressive folds, refined details --niji 6",
+      "tensorart": "a layered wolf cut with crown volume, face-framing pieces, an elongated nape, and a vivid purple underlayer beneath black hair, detailed construction, realistic material texture, clean anatomy, high detail",
+      "gpt": "Create an image featuring a layered wolf cut with crown volume, face-framing pieces, an elongated nape, and a vivid purple underlayer beneath black hair. Preserve the stated construction, material, fit, and decorative details clearly."
+    },
+    "negative": "logo, text, watermark, malformed clothing, broken structure, missing details, duplicate accessories"
+  },
+  {
+    "id": "shoes_combat",
+    "category": "shoes",
+    "name_zh": "厚底扣帶戰鬥靴",
+    "name_en": "Platform Buckled Combat Boots",
+    "gender": "unisex",
+    "description_zh": "厚底戰鬥靴，八孔鞋帶、雙扣帶、加固鞋頭、側拉鍊與螢光綠外底。",
+    "description_en": "platform combat boots with eight-eye lacing, double buckle straps, reinforced toes, side zippers, and neon-green outsoles",
+    "anatomy": {
+      "height": "mid-calf",
+      "toe": "reinforced round",
+      "closure": "laces and buckles",
+      "sole": "platform",
+      "material": "matte leather"
+    },
+    "tags": [
+      "combat boots",
+      "platform",
+      "punk",
+      "neon sole"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, platform combat boots with eight-eye lacing, double buckle straps, reinforced toes, side zippers, and neon-green outsoles, clean silhouette, detailed material texture",
+      "niji": "platform combat boots with eight-eye lacing, double buckle straps, reinforced toes, side zippers, and neon-green outsoles, polished anime fashion design, elegant silhouette, expressive folds, refined details --niji 6",
+      "tensorart": "platform combat boots with eight-eye lacing, double buckle straps, reinforced toes, side zippers, and neon-green outsoles, detailed construction, realistic material texture, clean anatomy, high detail",
+      "gpt": "Create an image featuring platform combat boots with eight-eye lacing, double buckle straps, reinforced toes, side zippers, and neon-green outsoles. Preserve the stated construction, material, fit, and decorative details clearly."
+    },
+    "negative": "logo, text, watermark, malformed clothing, broken structure, missing details, duplicate accessories"
+  },
+  {
+    "id": "shoes_sneakers",
+    "category": "shoes",
+    "name_zh": "模組化高筒運動鞋",
+    "name_en": "Modular High-Top Sneakers",
+    "gender": "unisex",
+    "description_zh": "高筒運動鞋，分層鞋面、彈性鞋帶、可拆護踝片、透明氣墊與紫綠撞色。",
+    "description_en": "modular high-top sneakers with layered uppers, elastic speed lacing, removable ankle guards, transparent air cushioning, and purple-green accents",
+    "anatomy": {
+      "height": "high top",
+      "closure": "elastic lacing",
+      "sole": "air-cushioned",
+      "material": "mesh and synthetic panels"
+    },
+    "tags": [
+      "high-top sneakers",
+      "techwear",
+      "modular",
+      "neon"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, modular high-top sneakers with layered uppers, elastic speed lacing, removable ankle guards, transparent air cushioning, and purple-green accents, clean silhouette, detailed material texture",
+      "niji": "modular high-top sneakers with layered uppers, elastic speed lacing, removable ankle guards, transparent air cushioning, and purple-green accents, polished anime fashion design, elegant silhouette, expressive folds, refined details --niji 6",
+      "tensorart": "modular high-top sneakers with layered uppers, elastic speed lacing, removable ankle guards, transparent air cushioning, and purple-green accents, detailed construction, realistic material texture, clean anatomy, high detail",
+      "gpt": "Create an image featuring modular high-top sneakers with layered uppers, elastic speed lacing, removable ankle guards, transparent air cushioning, and purple-green accents. Preserve the stated construction, material, fit, and decorative details clearly."
+    },
+    "negative": "logo, text, watermark, malformed clothing, broken structure, missing details, duplicate accessories"
+  },
+  {
+    "id": "hands_gloves",
+    "category": "hands",
+    "name_zh": "拼接無指手套",
+    "name_en": "Panelled Fingerless Gloves",
+    "gender": "unisex",
+    "description_zh": "無指手套，皮革與彈性布拼接，掌心止滑、腕部扣帶與金屬鉚釘。",
+    "description_en": "fingerless gloves combining leather and stretch fabric with grip palms, wrist straps, and small metal studs",
+    "anatomy": {
+      "coverage": "wrist-length",
+      "material": "leather and stretch fabric",
+      "closure": "wrist strap",
+      "details": "grip palm and studs"
+    },
+    "tags": [
+      "fingerless gloves",
+      "punk",
+      "handwear",
+      "leather"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, fingerless gloves combining leather and stretch fabric with grip palms, wrist straps, and small metal studs, clean silhouette, detailed material texture",
+      "niji": "fingerless gloves combining leather and stretch fabric with grip palms, wrist straps, and small metal studs, polished anime fashion design, elegant silhouette, expressive folds, refined details --niji 6",
+      "tensorart": "fingerless gloves combining leather and stretch fabric with grip palms, wrist straps, and small metal studs, detailed construction, realistic material texture, clean anatomy, high detail",
+      "gpt": "Create an image featuring fingerless gloves combining leather and stretch fabric with grip palms, wrist straps, and small metal studs. Preserve the stated construction, material, fit, and decorative details clearly."
+    },
+    "negative": "logo, text, watermark, malformed clothing, broken structure, missing details, duplicate accessories"
+  },
+  {
+    "id": "hands_nails",
+    "category": "hands",
+    "name_zh": "紫綠漸層鍍鉻美甲",
+    "name_en": "Purple-Green Chrome Gradient Nails",
+    "gender": "unisex",
+    "description_zh": "中長杏仁形指甲，紫至螢光綠漸層鍍鉻，搭配細銀線與少量水鑽。",
+    "description_en": "medium-long almond nails with a purple-to-neon-green chrome gradient, fine silver linework, and sparse crystal accents",
+    "anatomy": {
+      "shape": "almond",
+      "length": "medium-long",
+      "finish": "chrome gradient",
+      "decoration": "silver lines and crystals"
+    },
+    "tags": [
+      "nail art",
+      "chrome",
+      "gradient",
+      "crystals"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, medium-long almond nails with a purple-to-neon-green chrome gradient, fine silver linework, and sparse crystal accents, clean silhouette, detailed material texture",
+      "niji": "medium-long almond nails with a purple-to-neon-green chrome gradient, fine silver linework, and sparse crystal accents, polished anime fashion design, elegant silhouette, expressive folds, refined details --niji 6",
+      "tensorart": "medium-long almond nails with a purple-to-neon-green chrome gradient, fine silver linework, and sparse crystal accents, detailed construction, realistic material texture, clean anatomy, high detail",
+      "gpt": "Create an image featuring medium-long almond nails with a purple-to-neon-green chrome gradient, fine silver linework, and sparse crystal accents. Preserve the stated construction, material, fit, and decorative details clearly."
+    },
+    "negative": "logo, text, watermark, malformed clothing, broken structure, missing details, duplicate accessories"
+  },
+  {
+    "id": "bags_book",
+    "category": "bags-props",
+    "name_zh": "古書型硬殼手提包",
+    "name_en": "Antique Book-Shaped Satchel",
+    "gender": "unisex",
+    "description_zh": "硬殼手提包外觀如古老魔法書，皮革書脊、金屬包角、壓印符文與可拆肩帶。",
+    "description_en": "a rigid satchel shaped like an antique spellbook with a leather spine, metal corner guards, embossed runes, a top handle, and removable shoulder strap",
+    "anatomy": {
+      "type": "structured satchel",
+      "material": "leather and metal",
+      "closure": "hidden clasp",
+      "details": "book cover and runes"
+    },
+    "tags": [
+      "book bag",
+      "satchel",
+      "fantasy",
+      "spellbook"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, a rigid satchel shaped like an antique spellbook with a leather spine, metal corner guards, embossed runes, a top handle, and removable shoulder strap, clean silhouette, detailed material texture",
+      "niji": "a rigid satchel shaped like an antique spellbook with a leather spine, metal corner guards, embossed runes, a top handle, and removable shoulder strap, polished anime fashion design, elegant silhouette, expressive folds, refined details --niji 6",
+      "tensorart": "a rigid satchel shaped like an antique spellbook with a leather spine, metal corner guards, embossed runes, a top handle, and removable shoulder strap, detailed construction, realistic material texture, clean anatomy, high detail",
+      "gpt": "Create an image featuring a rigid satchel shaped like an antique spellbook with a leather spine, metal corner guards, embossed runes, a top handle, and removable shoulder strap. Preserve the stated construction, material, fit, and decorative details clearly."
+    },
+    "negative": "logo, text, watermark, malformed clothing, broken structure, missing details, duplicate accessories"
+  },
+  {
+    "id": "waist_utility",
+    "category": "waist",
+    "name_zh": "模組化工具腰帶",
+    "name_en": "Modular Utility Belt",
+    "gender": "unisex",
+    "description_zh": "寬版工具腰帶，快拆扣、可拆小包、金屬掛環、織帶與腿部固定帶。",
+    "description_en": "a broad modular utility belt with a quick-release buckle, detachable pouches, metal D-rings, webbing, and a stabilizing thigh strap",
+    "anatomy": {
+      "placement": "waist and thigh",
+      "material": "nylon webbing",
+      "closure": "quick-release buckle",
+      "details": "detachable pouches"
+    },
+    "tags": [
+      "utility belt",
+      "techwear",
+      "modular",
+      "tactical"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, a broad modular utility belt with a quick-release buckle, detachable pouches, metal D-rings, webbing, and a stabilizing thigh strap, clean silhouette, detailed material texture",
+      "niji": "a broad modular utility belt with a quick-release buckle, detachable pouches, metal D-rings, webbing, and a stabilizing thigh strap, polished anime fashion design, elegant silhouette, expressive folds, refined details --niji 6",
+      "tensorart": "a broad modular utility belt with a quick-release buckle, detachable pouches, metal D-rings, webbing, and a stabilizing thigh strap, detailed construction, realistic material texture, clean anatomy, high detail",
+      "gpt": "Create an image featuring a broad modular utility belt with a quick-release buckle, detachable pouches, metal D-rings, webbing, and a stabilizing thigh strap. Preserve the stated construction, material, fit, and decorative details clearly."
+    },
+    "negative": "logo, text, watermark, malformed clothing, broken structure, missing details, duplicate accessories"
+  },
+  {
+    "id": "poses_reading",
+    "category": "poses",
+    "name_zh": "站立閱讀姿勢",
+    "name_en": "Standing Reading Pose",
+    "gender": "unisex",
+    "description_zh": "雙手在胸腹之間托著打開的書，頭部略低、視線落在頁面，手肘自然彎曲。",
+    "description_en": "a standing reading pose holding an open book between chest and waist, head slightly lowered, eyes on the pages, and elbows naturally bent",
+    "anatomy": {
+      "body": "standing",
+      "hands": "holding open book",
+      "head": "tilted down",
+      "gaze": "at book"
+    },
+    "tags": [
+      "reading pose",
+      "book",
+      "standing",
+      "calm"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, a standing reading pose holding an open book between chest and waist, head slightly lowered, eyes on the pages, and elbows naturally bent, clean silhouette, detailed material texture",
+      "niji": "a standing reading pose holding an open book between chest and waist, head slightly lowered, eyes on the pages, and elbows naturally bent, polished anime fashion design, elegant silhouette, expressive folds, refined details --niji 6",
+      "tensorart": "a standing reading pose holding an open book between chest and waist, head slightly lowered, eyes on the pages, and elbows naturally bent, detailed construction, realistic material texture, clean anatomy, high detail",
+      "gpt": "Create an image featuring a standing reading pose holding an open book between chest and waist, head slightly lowered, eyes on the pages, and elbows naturally bent. Preserve the stated construction, material, fit, and decorative details clearly."
+    },
+    "negative": "logo, text, watermark, malformed clothing, broken structure, missing details, duplicate accessories"
+  },
+  {
+    "id": "foreground_petals",
+    "category": "foreground",
+    "name_zh": "紫綠發光花瓣前景",
+    "name_en": "Purple-Green Glowing Petal Foreground",
+    "gender": "none",
+    "description_zh": "近鏡頭漂浮紫色與螢光綠花瓣，部分失焦，形成前景深度與動態。",
+    "description_en": "purple and neon-green flower petals drifting close to the camera, some softly out of focus to create foreground depth and motion",
+    "anatomy": {
+      "placement": "foreground",
+      "focus": "mixed",
+      "motion": "drifting",
+      "color": "purple and neon green"
+    },
+    "tags": [
+      "foreground petals",
+      "bokeh",
+      "depth",
+      "neon"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, purple and neon-green flower petals drifting close to the camera, some softly out of focus to create foreground depth and motion, clean silhouette, detailed material texture",
+      "niji": "purple and neon-green flower petals drifting close to the camera, some softly out of focus to create foreground depth and motion, polished anime fashion design, elegant silhouette, expressive folds, refined details --niji 6",
+      "tensorart": "purple and neon-green flower petals drifting close to the camera, some softly out of focus to create foreground depth and motion, detailed construction, realistic material texture, clean anatomy, high detail",
+      "gpt": "Create an image featuring purple and neon-green flower petals drifting close to the camera, some softly out of focus to create foreground depth and motion. Preserve the stated construction, material, fit, and decorative details clearly."
+    },
+    "negative": "logo, text, watermark, malformed clothing, broken structure, missing details, duplicate accessories"
+  },
+  {
+    "id": "background_library",
+    "category": "background",
+    "name_zh": "魔法拱廊圖書館",
+    "name_en": "Arcane Arched Library",
+    "gender": "none",
+    "description_zh": "高聳拱廊圖書館，兩側深色書架、中央暖色天窗，空氣中有紫綠魔法霧與微光粒子。",
+    "description_en": "a towering arched library with dark bookshelves on both sides, a warm central skylight, and purple-green magical mist with floating light particles",
+    "anatomy": {
+      "location": "library",
+      "architecture": "grand arches",
+      "lighting": "warm skylight and neon mist",
+      "depth": "long aisle"
+    },
+    "tags": [
+      "library",
+      "fantasy",
+      "arches",
+      "purple green"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, a towering arched library with dark bookshelves on both sides, a warm central skylight, and purple-green magical mist with floating light particles, clean silhouette, detailed material texture",
+      "niji": "a towering arched library with dark bookshelves on both sides, a warm central skylight, and purple-green magical mist with floating light particles, polished anime fashion design, elegant silhouette, expressive folds, refined details --niji 6",
+      "tensorart": "a towering arched library with dark bookshelves on both sides, a warm central skylight, and purple-green magical mist with floating light particles, detailed construction, realistic material texture, clean anatomy, high detail",
+      "gpt": "Create an image featuring a towering arched library with dark bookshelves on both sides, a warm central skylight, and purple-green magical mist with floating light particles. Preserve the stated construction, material, fit, and decorative details clearly."
+    },
+    "negative": "logo, text, watermark, malformed clothing, broken structure, missing details, duplicate accessories"
+  },
+  {
+    "id": "camera_fullbody",
+    "category": "camera",
+    "name_zh": "低角度全身鏡頭",
+    "name_en": "Low-Angle Full-Body Shot",
+    "gender": "none",
+    "description_zh": "相機略低於腰線向上拍攝，完整保留頭腳，強化角色氣勢並讓服裝輪廓清楚。",
+    "description_en": "a low-angle full-body camera view from slightly below waist height, keeping the entire figure visible and emphasizing a powerful silhouette",
+    "anatomy": {
+      "shot": "full body",
+      "angle": "low",
+      "framing": "head to toe",
+      "effect": "empowering"
+    },
+    "tags": [
+      "camera angle",
+      "low angle",
+      "full body",
+      "fashion"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, a low-angle full-body camera view from slightly below waist height, keeping the entire figure visible and emphasizing a powerful silhouette, clean silhouette, detailed material texture",
+      "niji": "a low-angle full-body camera view from slightly below waist height, keeping the entire figure visible and emphasizing a powerful silhouette, polished anime fashion design, elegant silhouette, expressive folds, refined details --niji 6",
+      "tensorart": "a low-angle full-body camera view from slightly below waist height, keeping the entire figure visible and emphasizing a powerful silhouette, detailed construction, realistic material texture, clean anatomy, high detail",
+      "gpt": "Create an image featuring a low-angle full-body camera view from slightly below waist height, keeping the entire figure visible and emphasizing a powerful silhouette. Preserve the stated construction, material, fit, and decorative details clearly."
+    },
+    "negative": "logo, text, watermark, malformed clothing, broken structure, missing details, duplicate accessories"
+  },
+  {
+    "id": "lighting_neon",
+    "category": "lighting",
+    "name_zh": "紫綠雙色輪廓光",
+    "name_en": "Purple-Green Dual Rim Lighting",
+    "gender": "none",
+    "description_zh": "左右兩側分別以紫色與螢光綠輪廓光勾勒人物，正面保留柔和中性補光。",
+    "description_en": "dual rim lighting with purple on one side and neon green on the other, plus a soft neutral fill light on the face and clothing",
+    "anatomy": {
+      "key": "soft front fill",
+      "rim_left": "purple",
+      "rim_right": "neon green",
+      "contrast": "medium-high"
+    },
+    "tags": [
+      "rim lighting",
+      "purple green",
+      "neon lighting",
+      "studio"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, dual rim lighting with purple on one side and neon green on the other, plus a soft neutral fill light on the face and clothing, clean silhouette, detailed material texture",
+      "niji": "dual rim lighting with purple on one side and neon green on the other, plus a soft neutral fill light on the face and clothing, polished anime fashion design, elegant silhouette, expressive folds, refined details --niji 6",
+      "tensorart": "dual rim lighting with purple on one side and neon green on the other, plus a soft neutral fill light on the face and clothing, detailed construction, realistic material texture, clean anatomy, high detail",
+      "gpt": "Create an image featuring dual rim lighting with purple on one side and neon green on the other, plus a soft neutral fill light on the face and clothing. Preserve the stated construction, material, fit, and decorative details clearly."
+    },
+    "negative": "logo, text, watermark, malformed clothing, broken structure, missing details, duplicate accessories"
+  },
+  {
+    "id": "filters_noir",
+    "category": "filters",
+    "name_zh": "霓虹黑色電影調色",
+    "name_en": "Neon Noir Grade",
+    "gender": "none",
+    "description_zh": "壓低中間調與背景亮度，保留高飽和紫綠高光，黑位深而不失細節。",
+    "description_en": "a neon-noir color grade with lowered midtones and background brightness, saturated purple-green highlights, and deep blacks that retain detail",
+    "anatomy": {
+      "contrast": "high",
+      "palette": "purple and neon green",
+      "blacks": "deep detailed",
+      "saturation": "selective high"
+    },
+    "tags": [
+      "neon noir",
+      "color grade",
+      "cinematic",
+      "high contrast"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, a neon-noir color grade with lowered midtones and background brightness, saturated purple-green highlights, and deep blacks that retain detail, clean silhouette, detailed material texture",
+      "niji": "a neon-noir color grade with lowered midtones and background brightness, saturated purple-green highlights, and deep blacks that retain detail, polished anime fashion design, elegant silhouette, expressive folds, refined details --niji 6",
+      "tensorart": "a neon-noir color grade with lowered midtones and background brightness, saturated purple-green highlights, and deep blacks that retain detail, detailed construction, realistic material texture, clean anatomy, high detail",
+      "gpt": "Create an image featuring a neon-noir color grade with lowered midtones and background brightness, saturated purple-green highlights, and deep blacks that retain detail. Preserve the stated construction, material, fit, and decorative details clearly."
+    },
+    "negative": "logo, text, watermark, malformed clothing, broken structure, missing details, duplicate accessories"
+  },
+  {
+    "id": "moods_confident",
+    "category": "moods",
+    "name_zh": "神秘自信氛圍",
+    "name_en": "Arcane Confidence",
+    "gender": "none",
+    "description_zh": "角色帶著從容微笑與掌控感，場景神秘但不陰沉，色彩鮮明而具有魔法張力。",
+    "description_en": "a mood of calm self-assurance and arcane control, mysterious without becoming gloomy, with vivid color and magical tension",
+    "anatomy": {
+      "emotion": "confident",
+      "tone": "mysterious vibrant",
+      "energy": "controlled",
+      "atmosphere": "arcane"
+    },
+    "tags": [
+      "mood",
+      "confident",
+      "arcane",
+      "mysterious"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, a mood of calm self-assurance and arcane control, mysterious without becoming gloomy, with vivid color and magical tension, clean silhouette, detailed material texture",
+      "niji": "a mood of calm self-assurance and arcane control, mysterious without becoming gloomy, with vivid color and magical tension, polished anime fashion design, elegant silhouette, expressive folds, refined details --niji 6",
+      "tensorart": "a mood of calm self-assurance and arcane control, mysterious without becoming gloomy, with vivid color and magical tension, detailed construction, realistic material texture, clean anatomy, high detail",
+      "gpt": "Create an image featuring a mood of calm self-assurance and arcane control, mysterious without becoming gloomy, with vivid color and magical tension. Preserve the stated construction, material, fit, and decorative details clearly."
+    },
+    "negative": "logo, text, watermark, malformed clothing, broken structure, missing details, duplicate accessories"
+  },
+  {
+    "id": "purposes_character_sheet",
+    "category": "purposes",
+    "name_zh": "角色服裝設定圖",
+    "name_en": "Character Outfit Design Sheet",
+    "gender": "none",
+    "description_zh": "以中性背景呈現角色正面、背面與局部細節，重點是服裝結構一致與可讀性。",
+    "description_en": "a character outfit design sheet showing front view, back view, and detail callouts on a clean neutral background with consistent garment construction",
+    "anatomy": {
+      "format": "design sheet",
+      "views": "front back details",
+      "background": "neutral",
+      "priority": "construction clarity"
+    },
+    "tags": [
+      "character sheet",
+      "outfit design",
+      "reference",
+      "turnaround"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, a character outfit design sheet showing front view, back view, and detail callouts on a clean neutral background with consistent garment construction, clean silhouette, detailed material texture",
+      "niji": "a character outfit design sheet showing front view, back view, and detail callouts on a clean neutral background with consistent garment construction, polished anime fashion design, elegant silhouette, expressive folds, refined details --niji 6",
+      "tensorart": "a character outfit design sheet showing front view, back view, and detail callouts on a clean neutral background with consistent garment construction, detailed construction, realistic material texture, clean anatomy, high detail",
+      "gpt": "Create an image featuring a character outfit design sheet showing front view, back view, and detail callouts on a clean neutral background with consistent garment construction. Preserve the stated construction, material, fit, and decorative details clearly."
+    },
+    "negative": "logo, text, watermark, malformed clothing, broken structure, missing details, duplicate accessories"
+  }
+]
