@@ -112,3 +112,24 @@
         transform:scale(1.025);
     }
 }
+.search-box{
+    transition:
+        border-color .2s ease,
+        box-shadow .2s ease,
+        transform .2s ease;
+}
+
+.search-box:focus,
+.search-box.search-focus-pulse{
+    border:1px solid #39FF14 !important;
+
+    outline:none !important;
+
+    box-shadow:
+        0 0 0 3px rgba(57,255,20,.18),
+        0 0 14px rgba(57,255,20,.65),
+        0 0 28px rgba(57,255,20,.38)
+        !important;
+
+    transform:scale(1.02);
+}
