@@ -92,3 +92,23 @@
     .section-nav-search{font-size:0;padding-inline:10px}
     .section-nav-search::first-letter{font-size:16px}
 }
+.search-box.search-focus-pulse{
+    border:1px solid var(--secondary);
+
+    box-shadow:
+        0 0 0 3px rgba(57,255,20,.12),
+        0 0 22px rgba(57,255,20,.55);
+
+    animation:searchFocusPulse .6s ease
+        alternate 2;
+}
+
+@keyframes searchFocusPulse{
+    from{
+        transform:scale(1);
+    }
+
+    to{
+        transform:scale(1.025);
+    }
+}

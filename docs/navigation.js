@@ -46,12 +46,71 @@
         if (topbar) topbar.insertAdjacentElement("afterend", nav);
         else document.body.prepend(nav);
 
-        document.getElementById("focusSearchButton")?.addEventListener("click", () => {
-            const input = document.querySelector(".search-box");
-            if (!input) return;
+    function createNavigation() {   
+        document
+    .getElementById("focusSearchButton")
+    ?.addEventListener("click", () => {
+        const input =
+            document.querySelector(".search-box");
+
+        const sidebar =
+            document.querySelector(".sidebar");
+
+        if (!input) {
+            console.warn("找不到搜尋框 .search-box");
+            return;
+        }
+
+        const isMobile =
+            window.matchMedia(
+                "(max-width: 900px)"
+            ).matches;
+
+        if (isMobile) {
+            document.body.classList.add(
+                "mobile-nav-open"
+            );
+
+            const menuButton =
+                document.getElementById(
+                    "mobileMenuButton"
+                );
+
+            if (menuButton) {
+                menuButton.setAttribute(
+                    "aria-expanded",
+                    "true"
+                );
+            }
+        }
+
+        if (sidebar) {
+            sidebar.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        }
+
+        window.setTimeout(() => {
+            input.scrollIntoView({
+                behavior: "smooth",
+                block: "center"
+            });
+
             input.focus();
-            input.scrollIntoView({ behavior: "smooth", block: "center" });
-        });
+            input.select();
+
+            input.classList.add(
+                "search-focus-pulse"
+            );
+
+            window.setTimeout(() => {
+                input.classList.remove(
+                    "search-focus-pulse"
+                );
+            }, 1200);
+        }, isMobile ? 280 : 50);
+    });
     }
 
     function createBackToTop() {
