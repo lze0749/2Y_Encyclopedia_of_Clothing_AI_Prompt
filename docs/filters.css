@@ -1,0 +1,17 @@
+
+.advanced-filter-bar{display:grid;grid-template-columns:repeat(3,minmax(150px,.55fr)) minmax(220px,1.2fr);align-items:end;gap:12px;margin-bottom:14px;padding:14px;background:#111118;border:1px solid var(--border);border-radius:13px}
+.filter-field{display:flex;flex-direction:column;gap:6px}.filter-field>span{color:var(--secondary);font-size:11px;font-weight:900}
+.filter-field select{width:100%;min-height:42px;padding:10px 11px;color:var(--text);background:#0b0b10;border:1px solid var(--border);border-radius:10px;outline:none}
+.filter-field select:focus{border-color:var(--primary);box-shadow:0 0 0 3px rgba(196,0,255,.12)}
+.filter-tip{align-self:stretch;display:flex;align-items:center;padding:10px 12px;color:var(--text-muted);background:rgba(196,0,255,.035);border:1px dashed rgba(196,0,255,.24);border-radius:10px;font-size:11px;line-height:1.5}
+.filter-tip code{margin-left:5px;color:var(--secondary);font-family:"Cascadia Code","SFMono-Regular",Consolas,monospace}
+.active-filter-summary{display:flex;flex-wrap:wrap;gap:7px;min-height:31px;margin-bottom:15px}
+.active-filter-chip,.filter-empty-state{display:inline-flex;align-items:center;padding:5px 9px;border-radius:999px;font-size:11px}
+.active-filter-chip{color:#ecdcff;background:rgba(196,0,255,.11);border:1px solid rgba(196,0,255,.28)}
+.filter-empty-state{color:var(--text-muted);border:1px dashed var(--border)}
+.load-more-wrap{display:flex;justify-content:center;margin-top:20px}.load-more-button{width:auto;min-width:210px;margin:0;color:var(--secondary);background:transparent;border:1px solid rgba(57,255,20,.42)}
+.load-more-button:hover{color:#071007;background:var(--secondary)}.load-more-button[hidden]{display:none}
+.custom-source-chip{display:inline-flex;margin-left:6px;padding:2px 6px;color:#071007;background:var(--secondary);border-radius:999px;font-size:9px;font-weight:900;vertical-align:middle}
+.copy-button:disabled{cursor:not-allowed;opacity:.38;box-shadow:none}
+@media(max-width:1050px){.advanced-filter-bar{grid-template-columns:repeat(3,minmax(140px,1fr))}.filter-tip{grid-column:1/-1}}
+@media(max-width:700px){.advanced-filter-bar{grid-template-columns:1fr;padding:12px}.filter-tip{grid-column:auto}.load-more-button{width:100%}}
