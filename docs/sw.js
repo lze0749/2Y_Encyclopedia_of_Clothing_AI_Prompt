@@ -1,7 +1,7 @@
 // 2Y Encyclopedia of Clothing AI Prompt
-// Service Worker v0.9.0
+// Service Worker v1.0.0
 
-const CACHE_NAME = "2y-prompt-v0.9.0";
+const CACHE_NAME = "2y-prompt-v1.0.0";
 
 const APP_SHELL = [
     "./",
@@ -13,6 +13,8 @@ const APP_SHELL = [
     "./mobile.css",
     "./custom.css",
     "./parameter.css",
+    "./navigation.css",
+    "./release.css",
     "./app.js",
     "./builder.js",
     "./storage.js",
@@ -20,6 +22,8 @@ const APP_SHELL = [
     "./custom-bridge.js",
     "./custom.js",
     "./parameter.js",
+    "./navigation.js",
+    "./release.js",
     "./manifest.json",
     "./data/categories.json",
     "./data/items.json",
@@ -40,16 +44,13 @@ self.addEventListener("message", event => {
 self.addEventListener("activate", event => {
     event.waitUntil(
         caches.keys()
-            .then(names => Promise.all(
-                names.filter(name => name !== CACHE_NAME).map(name => caches.delete(name))
-            ))
+            .then(names => Promise.all(names.filter(name => name !== CACHE_NAME).map(name => caches.delete(name))))
             .then(() => self.clients.claim())
     );
 });
 
 self.addEventListener("fetch", event => {
     if (event.request.method !== "GET") return;
-
     const url = new URL(event.request.url);
     if (url.origin !== self.location.origin) return;
 
@@ -77,7 +78,6 @@ self.addEventListener("fetch", event => {
                     return response;
                 })
                 .catch(() => cached);
-
             return cached || network;
         })
     );

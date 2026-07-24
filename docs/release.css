@@ -1,0 +1,21 @@
+/* 2Y Stable Release v1.0.0 */
+.release-version-badge{
+    display:inline-flex;
+    width:max-content;
+    margin-top:5px;
+    padding:3px 7px;
+    color:var(--secondary);
+    background:rgba(57,255,20,.06);
+    border:1px solid rgba(57,255,20,.25);
+    border-radius:999px;
+    font-size:10px;
+    font-weight:900;
+}
+.release-info-card{border:1px solid rgba(57,255,20,.18)}
+.release-info-heading{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;margin-bottom:13px}
+.release-info-heading h3{margin:3px 0 0}
+.release-info-heading>span{padding:5px 9px;color:var(--secondary);border:1px solid rgba(57,255,20,.25);border-radius:999px;font-size:10px}
+.release-kicker{color:var(--primary);font-size:10px;font-weight:900;letter-spacing:.16em}
+.release-info-card ul{display:grid;gap:8px;padding-left:18px;color:var(--text-muted);line-height:1.5}
+.release-info-card li::marker{color:var(--secondary)}
+@media(max-width:520px){.release-info-heading{flex-direction:column}}
