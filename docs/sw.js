@@ -1,7 +1,8 @@
 // 2Y Encyclopedia of Clothing AI Prompt
 // Service Worker v1.3.0
 
-const CACHE_NAME = "2y-prompt-v1.3.0";
+const CACHE_NAME =
+    "2y-prompt-v1.3.1";
 
 const APP_SHELL = [
     "./",

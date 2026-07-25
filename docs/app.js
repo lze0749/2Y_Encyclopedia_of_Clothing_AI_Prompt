@@ -1,5 +1,5 @@
 
-const APP={name:"2Y Encyclopedia of Clothing AI Prompt",version: "1.3.0",theme:"neon",language:"zh-TW"};
+const APP={name:"2Y Encyclopedia of Clothing AI Prompt",version: "1.3.1",theme:"neon",language:"zh-TW"};
 const state={categories:[],items:[],activeCategoryId:null,searchQuery:"",genderFilter:"all",sortMode:"category",pageSize:24,visibleCount:24};
 
 document.addEventListener("DOMContentLoaded",async()=>{
@@ -108,11 +108,178 @@ function matchesGender(item){
   if(state.genderFilter==="male")return ["male","unisex"].includes(item.gender);
   return item.gender===state.genderFilter;
 }
-function matchesSearch(item){
-  if(!state.searchQuery)return true;
-  const tokens=state.searchQuery.split(/\s+/).filter(Boolean);
-  const text=[item.name_zh,item.name_en,item.description_zh,item.description_en,item.gender,...Object.keys(item.anatomy||{}),...Object.values(item.anatomy||{}),...(item.tags||[]),...Object.values(item.prompts||{}),item.negative].join(" ").toLowerCase();
-  return tokens.every(t=>text.includes(t));
+function matchesSearch(item) {
+    if (!state.searchQuery) {
+        return true;
+    }
+
+    const aliases = {
+        "皮革": ["皮革", "leather"],
+        "皮質": ["皮質", "leather"],
+        "漆皮": ["漆皮", "patent leather"],
+
+        "棉": ["棉", "cotton"],
+        "棉質": ["棉質", "cotton"],
+        "羊毛": ["羊毛", "wool"],
+        "絲綢": ["絲綢", "silk"],
+        "緞面": ["緞面", "satin"],
+        "天鵝絨": ["天鵝絨", "velvet"],
+        "蕾絲": ["蕾絲", "lace"],
+        "薄紗": ["薄紗", "tulle"],
+        "網紗": ["網紗", "mesh"],
+        "尼龍": ["尼龍", "nylon"],
+        "牛仔": ["牛仔", "denim"],
+
+        "哥德": ["哥德", "gothic"],
+        "龐克": ["龐克", "punk"],
+        "科技機能": [
+            "科技機能",
+            "techwear",
+            "technical"
+        ],
+        "機能": [
+            "機能",
+            "techwear",
+            "technical"
+        ],
+        "賽博龐克": [
+            "賽博龐克",
+            "cyberpunk"
+        ],
+        "奇幻": ["奇幻", "fantasy"],
+        "街頭": ["街頭", "streetwear"],
+        "正式": [
+            "正式",
+            "formal",
+            "tailored"
+        ],
+
+        "紫色": ["紫色", "purple"],
+        "螢光綠": [
+            "螢光綠",
+            "neon green"
+        ],
+        "黑色": ["黑色", "black"],
+        "白色": [
+            "白色",
+            "white",
+            "ivory"
+        ],
+        "紅色": [
+            "紅色",
+            "red",
+            "burgundy"
+        ],
+        "金色": [
+            "金色",
+            "gold",
+            "golden"
+        ],
+        "銀色": ["銀色", "silver"],
+
+        "外套": [
+            "外套",
+            "jacket",
+            "coat",
+            "outerwear"
+        ],
+        "風衣": ["風衣", "trench"],
+        "斗篷": ["斗篷", "cape"],
+        "裙子": ["裙子", "skirt"],
+        "洋裝": [
+            "洋裝",
+            "dress",
+            "gown"
+        ],
+        "褲子": [
+            "褲子",
+            "pants",
+            "trousers"
+        ],
+        "靴子": ["靴子", "boots"],
+        "帽T": [
+            "帽t",
+            "hoodie",
+            "hooded"
+        ],
+
+        "荷葉邊": [
+            "荷葉邊",
+            "ruffle",
+            "ruffled"
+        ],
+        "百褶": [
+            "百褶",
+            "pleat",
+            "pleated"
+        ],
+        "刺繡": [
+            "刺繡",
+            "embroidery",
+            "embroidered"
+        ],
+        "鍊條": [
+            "鍊條",
+            "chain",
+            "chains"
+        ],
+        "拉鍊": [
+            "拉鍊",
+            "zip",
+            "zipper"
+        ],
+        "口袋": [
+            "口袋",
+            "pocket",
+            "pockets"
+        ],
+        "不對稱": [
+            "不對稱",
+            "asymmetrical",
+            "asymmetric"
+        ],
+        "短版": ["短版", "cropped"],
+        "寬鬆": [
+            "寬鬆",
+            "oversized",
+            "relaxed"
+        ]
+    };
+
+    const tokens = state.searchQuery
+        .split(/\s+/)
+        .map((token) =>
+            token.trim().toLowerCase()
+        )
+        .filter(Boolean);
+
+    const text = [
+        item.category,
+        item.name_zh,
+        item.name_en,
+        item.description_zh,
+        item.description_en,
+        item.gender,
+        ...Object.keys(item.anatomy || {}),
+        ...Object.values(item.anatomy || {}),
+        ...(item.tags || []),
+        ...Object.values(item.prompts || {}),
+        item.negative
+    ]
+        .filter(Boolean)
+        .join(" ")
+        .toLowerCase();
+
+    return tokens.every((token) => {
+        const alternatives =
+            aliases[token] || [token];
+
+        return alternatives.some((word) =>
+            text.includes(
+                word.toLowerCase()
+            )
+        );
+    });
 }
 function filteredItems(){
   const items=state.items.filter(i=>(!state.activeCategoryId||i.category===state.activeCategoryId)&&matchesGender(i)&&matchesSearch(i));
