@@ -1,7 +1,7 @@
 // 2Y Encyclopedia of Clothing AI Prompt
-// Service Worker v1.5.0
+// Service Worker v1.6.0
 
-const CACHE_NAME = "2y-prompt-v1.5.0";
+const CACHE_NAME = "2y-prompt-v1.6.0";
 
 const APP_ASSETS = [
     "./",
@@ -18,6 +18,7 @@ const APP_ASSETS = [
     "./release.css",
     "./random.css",
     "./history.css",
+    "./platform.css",
     "./custom-bridge.js",
     "./app.js",
     "./builder.js",
@@ -29,6 +30,7 @@ const APP_ASSETS = [
     "./release.js",
     "./random.js",
     "./history.js",
+    "./platform.js",
     "./manifest.json",
     "./data/categories.json",
     "./data/items.json",
@@ -68,6 +70,7 @@ self.addEventListener("activate", event => {
 
 self.addEventListener("fetch", event => {
     if (event.request.method !== "GET") return;
+
     const url = new URL(event.request.url);
     if (url.origin !== self.location.origin) return;
 
