@@ -576,29 +576,69 @@
         showToast("已清除隨機穿搭");
     }
 
-    function bindQuickAction() {
-        const buttons = Array.from(document.querySelectorAll("button"));
+     function bindQuickAction() {
+    let button =
+        document.getElementById(
+            "randomPromptButton"
+        );
 
-        buttons.forEach((button) => {
-            const text = button.textContent.trim().toLowerCase();
+    const startButton =
+        document.getElementById(
+            "startButton"
+        );
 
-            if (
-                text === "random prompt" ||
-                text.includes("隨機提示詞")
-            ) {
-                button.addEventListener("click", () => {
-                    document
-                        .getElementById("randomOutfitPanel")
-                        ?.scrollIntoView({
-                            behavior: "smooth",
-                            block: "start"
-                        });
+    if (!button && startButton) {
+        button =
+            document.createElement(
+                "button"
+            );
 
-                    window.setTimeout(generateCompleteOutfit, 280);
-                });
-            }
-        });
+        button.id =
+            "randomPromptButton";
+
+        button.type = "button";
+
+        button.className =
+            "random-home-button";
+
+        button.textContent =
+            "🎲 Random Prompt";
+
+        startButton.insertAdjacentElement(
+            "afterend",
+            button
+        );
     }
+
+    if (
+        !button ||
+        button.dataset.randomBound === "true"
+    ) {
+        return;
+    }
+
+    button.dataset.randomBound = "true";
+
+    button.addEventListener(
+        "click",
+        () => {
+            const panel =
+                document.getElementById(
+                    "randomOutfitPanel"
+                );
+
+            panel?.scrollIntoView({
+                behavior: "smooth",
+                block: "start"
+            });
+
+            window.setTimeout(
+                generateCompleteOutfit,
+                300
+            );
+        }
+    );
+}
 
     function restoreSettings() {
         try {

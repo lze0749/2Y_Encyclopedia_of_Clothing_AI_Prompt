@@ -19,3 +19,28 @@
 .release-info-card ul{display:grid;gap:8px;padding-left:18px;color:var(--text-muted);line-height:1.5}
 .release-info-card li::marker{color:var(--secondary)}
 @media(max-width:520px){.release-info-heading{flex-direction:column}}
+.random-home-button{
+    width:100%;
+    margin-top:10px;
+
+    color:#071007;
+    background:var(--secondary);
+
+    border:1px solid
+        rgba(57,255,20,.75);
+
+    font-weight:900;
+
+    box-shadow:
+        0 0 16px
+        rgba(57,255,20,.28);
+}
+
+.random-home-button:hover{
+    color:white;
+    background:var(--primary);
+
+    box-shadow:
+        0 0 20px
+        rgba(196,0,255,.48);
+}

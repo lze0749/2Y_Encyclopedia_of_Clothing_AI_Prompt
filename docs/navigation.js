@@ -26,6 +26,11 @@
             icon: "🎛️"
         },
         {
+    selector: "#randomOutfitPanel",
+    label: "隨機穿搭",
+    icon: "🎲"
+        },
+        {
             selector: "#customItemPanel",
             label: "自訂項目",
             icon: "✍️"
