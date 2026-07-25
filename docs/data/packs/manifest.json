@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "packs": [
+    {
+      "id": "materials-vol-01",
+      "name_zh": "材質與剪裁擴充包 Vol.01",
+      "name_en": "Materials & Construction Expansion Vol.01",
+      "description_zh": "新增皮革、絲綢、天鵝絨、薄紗、尼龍與羊毛等材質導向服飾，強化搜尋「皮革」等中文關鍵字時的內容量。",
+      "icon": "🧵",
+      "version": "1.0.0",
+      "file": "./data/packs/materials-vol-01.json",
+      "item_count": 21,
+      "categories": [
+        "上衣",
+        "褲裝",
+        "裙裝",
+        "洋裝",
+        "外套",
+        "配件",
+        "鞋類",
+        "包袋"
+      ],
+      "default_enabled": true
+    }
+  ]
+}

@@ -1,0 +1,640 @@
+[
+  {
+    "id": "pack_m01_top_leather_corset_vest",
+    "category": "tops",
+    "name_zh": "不對稱皮革束腰背心",
+    "name_en": "Asymmetrical Leather Corset Vest",
+    "description_zh": "貼身短版皮革背心以不對稱前襟切線塑造收束腰身，胸腹區加入分段骨條、側邊綁帶與金屬鉤扣；肩線一側加寬、一側削薄，讓輪廓兼具哥德束身感與現代時裝結構。",
+    "description_en": "A cropped fitted leather vest with an asymmetrical front, segmented boning, side lacing, metal hooks, and uneven shoulder widths for a gothic yet modern tailored silhouette.",
+    "gender": "unisex",
+    "anatomy": {
+      "silhouette": "cropped fitted corset silhouette",
+      "material": "matte black leather",
+      "construction": "asymmetrical front, segmented boning, side lacing",
+      "hardware": "gunmetal hooks and eyelets"
+    },
+    "tags": [
+      "皮革",
+      "leather",
+      "束腰",
+      "corset",
+      "不對稱",
+      "gothic",
+      "短版"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, an asymmetrical cropped matte-black leather corset vest, segmented boning channels, side lacing, gunmetal hook closure, one broad shoulder and one narrow shoulder, clear garment construction, precise fabric texture",
+      "niji": "an asymmetrical cropped matte-black leather corset vest, segmented boning channels, side lacing, gunmetal hook closure, one broad shoulder and one narrow shoulder, polished fashion illustration, refined folds, readable construction, elegant material rendering --niji 6",
+      "tensorart": "high quality, high detail, an asymmetrical cropped matte-black leather corset vest, segmented boning channels, side lacing, gunmetal hook closure, one broad shoulder and one narrow shoulder, realistic textile response, precise seams and hardware",
+      "gpt": "Create a polished fashion image featuring an asymmetrical cropped matte-black leather corset vest, segmented boning channels, side lacing, gunmetal hook closure, one broad shoulder and one narrow shoulder. Preserve the exact silhouette, materials, closures, seams, and accessories."
+    },
+    "negative": "logo, text, watermark, malformed clothing, broken garment structure, inconsistent seams, duplicated accessories"
+  },
+  {
+    "id": "pack_m01_top_silk_bishop_blouse",
+    "category": "tops",
+    "name_zh": "絲綢主教袖立領襯衫",
+    "name_en": "Silk Bishop-Sleeve High-Collar Blouse",
+    "description_zh": "半霧面絲綢襯衫採高立領與細密抓褶，袖身從肩部自然膨起並於手腕收束成主教袖；前襟以包布扣排列，胸口保持簡潔，適合浪漫、維多利亞與正式造型。",
+    "description_en": "A semi-matte silk blouse with a high gathered collar, voluminous bishop sleeves, fitted cuffs, and fabric-covered buttons for romantic Victorian or formal styling.",
+    "gender": "female",
+    "anatomy": {
+      "silhouette": "soft fitted torso with voluminous bishop sleeves",
+      "material": "semi-matte ivory silk",
+      "collar": "high gathered stand collar",
+      "closure": "fabric-covered front buttons"
+    },
+    "tags": [
+      "絲綢",
+      "silk",
+      "主教袖",
+      "立領",
+      "romantic",
+      "victorian",
+      "formal"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, an ivory silk high-collar blouse, finely gathered neckline, voluminous bishop sleeves, narrow fitted cuffs, fabric-covered front buttons, clear garment construction, precise fabric texture",
+      "niji": "an ivory silk high-collar blouse, finely gathered neckline, voluminous bishop sleeves, narrow fitted cuffs, fabric-covered front buttons, polished fashion illustration, refined folds, readable construction, elegant material rendering --niji 6",
+      "tensorart": "high quality, high detail, an ivory silk high-collar blouse, finely gathered neckline, voluminous bishop sleeves, narrow fitted cuffs, fabric-covered front buttons, realistic textile response, precise seams and hardware",
+      "gpt": "Create a polished fashion image featuring an ivory silk high-collar blouse, finely gathered neckline, voluminous bishop sleeves, narrow fitted cuffs, fabric-covered front buttons. Preserve the exact silhouette, materials, closures, seams, and accessories."
+    },
+    "negative": "logo, text, watermark, malformed clothing, broken garment structure, inconsistent seams, duplicated accessories"
+  },
+  {
+    "id": "pack_m01_top_mesh_tech_shell",
+    "category": "tops",
+    "name_zh": "網紗模組化機能上衣",
+    "name_en": "Modular Mesh Tech Shell",
+    "description_zh": "透氣網紗與薄型尼龍拼接成貼身機能上衣，胸前配置可拆式模組口袋、斜向拉鍊與束帶導軌；肩肘區使用加固面料，適合科技機能與賽博龐克穿搭。",
+    "description_en": "A fitted technical top combining breathable mesh and lightweight nylon, with detachable chest modules, diagonal zips, strap rails, and reinforced shoulders and elbows.",
+    "gender": "unisex",
+    "anatomy": {
+      "silhouette": "fitted technical base layer",
+      "material": "black mesh and lightweight nylon",
+      "construction": "reinforced shoulders and elbows",
+      "details": "modular chest pockets, diagonal zippers, strap rails"
+    },
+    "tags": [
+      "網紗",
+      "mesh",
+      "尼龍",
+      "nylon",
+      "科技機能",
+      "techwear",
+      "cyberpunk"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, a fitted black mesh and nylon techwear top, detachable modular chest pockets, diagonal zippers, strap rails, reinforced shoulders and elbows, clear garment construction, precise fabric texture",
+      "niji": "a fitted black mesh and nylon techwear top, detachable modular chest pockets, diagonal zippers, strap rails, reinforced shoulders and elbows, polished fashion illustration, refined folds, readable construction, elegant material rendering --niji 6",
+      "tensorart": "high quality, high detail, a fitted black mesh and nylon techwear top, detachable modular chest pockets, diagonal zippers, strap rails, reinforced shoulders and elbows, realistic textile response, precise seams and hardware",
+      "gpt": "Create a polished fashion image featuring a fitted black mesh and nylon techwear top, detachable modular chest pockets, diagonal zippers, strap rails, reinforced shoulders and elbows. Preserve the exact silhouette, materials, closures, seams, and accessories."
+    },
+    "negative": "logo, text, watermark, malformed clothing, broken garment structure, inconsistent seams, duplicated accessories"
+  },
+  {
+    "id": "pack_m01_top_mandarin_embroidery",
+    "category": "tops",
+    "name_zh": "刺繡盤扣短襖",
+    "name_en": "Embroidered Mandarin-Collar Short Jacket",
+    "description_zh": "短襖採挺括緞面與窄版立領，前襟以手工盤扣固定，肩胸位置分布細緻雲紋刺繡；下擺略呈弧形並在側腰開衩，能融合現代傳統、正式與奇幻造型。",
+    "description_en": "A short structured satin jacket with a narrow mandarin collar, handmade knot buttons, cloud embroidery, curved hem, and small side vents.",
+    "gender": "unisex",
+    "anatomy": {
+      "silhouette": "structured short jacket",
+      "material": "deep plum satin",
+      "collar": "narrow mandarin collar",
+      "details": "frog closures, cloud embroidery, curved hem"
+    },
+    "tags": [
+      "緞面",
+      "satin",
+      "刺繡",
+      "盤扣",
+      "立領",
+      "traditional",
+      "formal"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, a deep-plum satin short jacket, narrow mandarin collar, handmade frog closures, delicate cloud embroidery, curved hem and side vents, clear garment construction, precise fabric texture",
+      "niji": "a deep-plum satin short jacket, narrow mandarin collar, handmade frog closures, delicate cloud embroidery, curved hem and side vents, polished fashion illustration, refined folds, readable construction, elegant material rendering --niji 6",
+      "tensorart": "high quality, high detail, a deep-plum satin short jacket, narrow mandarin collar, handmade frog closures, delicate cloud embroidery, curved hem and side vents, realistic textile response, precise seams and hardware",
+      "gpt": "Create a polished fashion image featuring a deep-plum satin short jacket, narrow mandarin collar, handmade frog closures, delicate cloud embroidery, curved hem and side vents. Preserve the exact silhouette, materials, closures, seams, and accessories."
+    },
+    "negative": "logo, text, watermark, malformed clothing, broken garment structure, inconsistent seams, duplicated accessories"
+  },
+  {
+    "id": "pack_m01_pants_waxed_cargo",
+    "category": "pants",
+    "name_zh": "蠟感皮革工裝褲",
+    "name_en": "Waxed Leather Cargo Trousers",
+    "description_zh": "微亮蠟感皮革工裝褲採高腰直筒比例，膝部加入立體打褶與活動片，腿側配置扁平化翻蓋口袋；褲腳以可調束帶收束，金屬件維持低調霧黑。",
+    "description_en": "High-waisted straight cargo trousers in subtly glossy waxed leather, with articulated pleated knees, flat side pockets, adjustable hems, and matte-black hardware.",
+    "gender": "unisex",
+    "anatomy": {
+      "silhouette": "high-waisted straight cargo trousers",
+      "material": "waxed black leather",
+      "construction": "articulated pleated knees",
+      "details": "flat cargo pockets, adjustable cuff straps"
+    },
+    "tags": [
+      "皮革",
+      "leather",
+      "工裝褲",
+      "cargo",
+      "高腰",
+      "techwear",
+      "punk"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, high-waisted straight waxed-black leather cargo trousers, articulated pleated knees, flat side pockets, adjustable ankle straps, matte-black hardware, clear garment construction, precise fabric texture",
+      "niji": "high-waisted straight waxed-black leather cargo trousers, articulated pleated knees, flat side pockets, adjustable ankle straps, matte-black hardware, polished fashion illustration, refined folds, readable construction, elegant material rendering --niji 6",
+      "tensorart": "high quality, high detail, high-waisted straight waxed-black leather cargo trousers, articulated pleated knees, flat side pockets, adjustable ankle straps, matte-black hardware, realistic textile response, precise seams and hardware",
+      "gpt": "Create a polished fashion image featuring high-waisted straight waxed-black leather cargo trousers, articulated pleated knees, flat side pockets, adjustable ankle straps, matte-black hardware. Preserve the exact silhouette, materials, closures, seams, and accessories."
+    },
+    "negative": "logo, text, watermark, malformed clothing, broken garment structure, inconsistent seams, duplicated accessories"
+  },
+  {
+    "id": "pack_m01_pants_wool_pleated",
+    "category": "pants",
+    "name_zh": "羊毛雙褶寬腿西褲",
+    "name_en": "Double-Pleated Wool Wide-Leg Trousers",
+    "description_zh": "高腰精紡羊毛西褲以前腰雙褶延伸至寬腿褲管，側縫筆直、後腰帶調節袢，褲口保留自然垂墜；兼具正式剪裁與中性輪廓。",
+    "description_en": "High-waisted worsted-wool trousers with double front pleats, a broad wide-leg fall, straight side seams, and a rear waist adjuster for a formal gender-neutral silhouette.",
+    "gender": "unisex",
+    "anatomy": {
+      "silhouette": "high-waisted wide-leg tailored trousers",
+      "material": "charcoal worsted wool",
+      "construction": "double front pleats and straight side seams",
+      "waist": "rear adjuster tabs"
+    },
+    "tags": [
+      "羊毛",
+      "wool",
+      "西褲",
+      "寬腿",
+      "百褶",
+      "formal",
+      "tailored"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, charcoal worsted-wool high-waisted wide-leg trousers, double front pleats, clean straight side seams, rear waist adjuster tabs, clear garment construction, precise fabric texture",
+      "niji": "charcoal worsted-wool high-waisted wide-leg trousers, double front pleats, clean straight side seams, rear waist adjuster tabs, polished fashion illustration, refined folds, readable construction, elegant material rendering --niji 6",
+      "tensorart": "high quality, high detail, charcoal worsted-wool high-waisted wide-leg trousers, double front pleats, clean straight side seams, rear waist adjuster tabs, realistic textile response, precise seams and hardware",
+      "gpt": "Create a polished fashion image featuring charcoal worsted-wool high-waisted wide-leg trousers, double front pleats, clean straight side seams, rear waist adjuster tabs. Preserve the exact silhouette, materials, closures, seams, and accessories."
+    },
+    "negative": "logo, text, watermark, malformed clothing, broken garment structure, inconsistent seams, duplicated accessories"
+  },
+  {
+    "id": "pack_m01_pants_translucent_panel",
+    "category": "pants",
+    "name_zh": "半透明拼接賽博長褲",
+    "name_en": "Translucent-Panel Cyber Trousers",
+    "description_zh": "黑色彈性面料長褲在大腿外側與小腿後側嵌入半透明煙灰薄膜，接縫以螢光滾條標示；膝部採預彎剪裁並配置可拆腿帶。",
+    "description_en": "Black stretch trousers with smoke-translucent thigh and calf panels, neon piping, pre-bent knees, and detachable leg straps for a cyber-tech silhouette.",
+    "gender": "unisex",
+    "anatomy": {
+      "silhouette": "tapered cyber trousers",
+      "material": "black stretch fabric and translucent smoke film",
+      "construction": "pre-bent knees",
+      "details": "neon piping and detachable thigh straps"
+    },
+    "tags": [
+      "半透明",
+      "translucent",
+      "科技機能",
+      "cyberpunk",
+      "螢光",
+      "長褲"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, tapered black cyber trousers, translucent smoke-film thigh and calf panels, neon piping, pre-bent knees, detachable leg straps, clear garment construction, precise fabric texture",
+      "niji": "tapered black cyber trousers, translucent smoke-film thigh and calf panels, neon piping, pre-bent knees, detachable leg straps, polished fashion illustration, refined folds, readable construction, elegant material rendering --niji 6",
+      "tensorart": "high quality, high detail, tapered black cyber trousers, translucent smoke-film thigh and calf panels, neon piping, pre-bent knees, detachable leg straps, realistic textile response, precise seams and hardware",
+      "gpt": "Create a polished fashion image featuring tapered black cyber trousers, translucent smoke-film thigh and calf panels, neon piping, pre-bent knees, detachable leg straps. Preserve the exact silhouette, materials, closures, seams, and accessories."
+    },
+    "negative": "logo, text, watermark, malformed clothing, broken garment structure, inconsistent seams, duplicated accessories"
+  },
+  {
+    "id": "pack_m01_skirt_tulle_utility",
+    "category": "skirts",
+    "name_zh": "薄紗層疊機能裙",
+    "name_en": "Layered Tulle Utility Skirt",
+    "description_zh": "多層煙灰薄紗覆蓋於不對稱短裙基底，腰頭整合尼龍織帶、快扣與小型模組袋；前短後長的層次讓輕盈材質與機能配件形成對比。",
+    "description_en": "A smoke-grey layered tulle skirt over an asymmetrical mini base, with nylon webbing, quick-release buckles, and compact utility pouches in a high-low silhouette.",
+    "gender": "female",
+    "anatomy": {
+      "silhouette": "high-low layered skirt",
+      "material": "smoke-grey tulle over matte base fabric",
+      "waist": "nylon webbing and quick-release buckle",
+      "details": "small modular utility pouches"
+    },
+    "tags": [
+      "薄紗",
+      "tulle",
+      "機能",
+      "不對稱",
+      "high-low",
+      "utility"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, a smoke-grey layered tulle utility skirt, asymmetrical mini base, high-low floating layers, nylon webbing waistband, quick-release buckle, compact modular pouches, clear garment construction, precise fabric texture",
+      "niji": "a smoke-grey layered tulle utility skirt, asymmetrical mini base, high-low floating layers, nylon webbing waistband, quick-release buckle, compact modular pouches, polished fashion illustration, refined folds, readable construction, elegant material rendering --niji 6",
+      "tensorart": "high quality, high detail, a smoke-grey layered tulle utility skirt, asymmetrical mini base, high-low floating layers, nylon webbing waistband, quick-release buckle, compact modular pouches, realistic textile response, precise seams and hardware",
+      "gpt": "Create a polished fashion image featuring a smoke-grey layered tulle utility skirt, asymmetrical mini base, high-low floating layers, nylon webbing waistband, quick-release buckle, compact modular pouches. Preserve the exact silhouette, materials, closures, seams, and accessories."
+    },
+    "negative": "logo, text, watermark, malformed clothing, broken garment structure, inconsistent seams, duplicated accessories"
+  },
+  {
+    "id": "pack_m01_skirt_leather_wrap",
+    "category": "skirts",
+    "name_zh": "皮革不對稱裹身裙",
+    "name_en": "Asymmetrical Leather Wrap Skirt",
+    "description_zh": "中長度皮革裹身裙以斜向前片交疊，側腰由金屬環扣與雙帶固定；裙擺一側保留較深開衩，另一側形成垂落尖角，輪廓俐落而具有哥德感。",
+    "description_en": "A midi leather wrap skirt with diagonal overlap, double side straps, metal rings, a deep slit on one side, and a pointed draped hem on the other.",
+    "gender": "female",
+    "anatomy": {
+      "silhouette": "asymmetrical midi wrap skirt",
+      "material": "soft black leather",
+      "closure": "double side straps with metal rings",
+      "hem": "deep side slit and pointed drape"
+    },
+    "tags": [
+      "皮革",
+      "leather",
+      "裹身裙",
+      "不對稱",
+      "gothic",
+      "midi"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, an asymmetrical black leather midi wrap skirt, diagonal overlapping front, double side straps with metal rings, deep side slit, pointed draped hem, clear garment construction, precise fabric texture",
+      "niji": "an asymmetrical black leather midi wrap skirt, diagonal overlapping front, double side straps with metal rings, deep side slit, pointed draped hem, polished fashion illustration, refined folds, readable construction, elegant material rendering --niji 6",
+      "tensorart": "high quality, high detail, an asymmetrical black leather midi wrap skirt, diagonal overlapping front, double side straps with metal rings, deep side slit, pointed draped hem, realistic textile response, precise seams and hardware",
+      "gpt": "Create a polished fashion image featuring an asymmetrical black leather midi wrap skirt, diagonal overlapping front, double side straps with metal rings, deep side slit, pointed draped hem. Preserve the exact silhouette, materials, closures, seams, and accessories."
+    },
+    "negative": "logo, text, watermark, malformed clothing, broken garment structure, inconsistent seams, duplicated accessories"
+  },
+  {
+    "id": "pack_m01_skirt_satin_pleated",
+    "category": "skirts",
+    "name_zh": "雙色緞面百褶中裙",
+    "name_en": "Two-Tone Satin Pleated Midi Skirt",
+    "description_zh": "細密刀褶以深紫與墨綠緞面交替排列，行走時才露出內層對比色；腰頭簡潔貼合，裙長落在小腿中段，適合正式、學院與浪漫造型。",
+    "description_en": "A calf-length midi skirt with narrow knife pleats alternating deep-purple and dark-green satin, revealing contrasting inner folds in motion.",
+    "gender": "female",
+    "anatomy": {
+      "silhouette": "calf-length pleated midi skirt",
+      "material": "deep-purple and dark-green satin",
+      "construction": "narrow alternating knife pleats",
+      "waist": "clean fitted waistband"
+    },
+    "tags": [
+      "緞面",
+      "satin",
+      "百褶",
+      "紫色",
+      "綠色",
+      "academy",
+      "formal"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, a calf-length two-tone satin pleated midi skirt, alternating deep-purple and dark-green knife pleats, clean fitted waistband, fluid reflective folds, clear garment construction, precise fabric texture",
+      "niji": "a calf-length two-tone satin pleated midi skirt, alternating deep-purple and dark-green knife pleats, clean fitted waistband, fluid reflective folds, polished fashion illustration, refined folds, readable construction, elegant material rendering --niji 6",
+      "tensorart": "high quality, high detail, a calf-length two-tone satin pleated midi skirt, alternating deep-purple and dark-green knife pleats, clean fitted waistband, fluid reflective folds, realistic textile response, precise seams and hardware",
+      "gpt": "Create a polished fashion image featuring a calf-length two-tone satin pleated midi skirt, alternating deep-purple and dark-green knife pleats, clean fitted waistband, fluid reflective folds. Preserve the exact silhouette, materials, closures, seams, and accessories."
+    },
+    "negative": "logo, text, watermark, malformed clothing, broken garment structure, inconsistent seams, duplicated accessories"
+  },
+  {
+    "id": "pack_m01_dress_velvet_cathedral",
+    "category": "dresses",
+    "name_zh": "天鵝絨教堂式長禮服",
+    "name_en": "Velvet Cathedral Gown",
+    "description_zh": "深黑天鵝絨長禮服採修身上身與寬幅鐘形裙擺，胸口由尖拱形拼片構成，袖口延伸成細長垂袖；腰線綴以低調珠飾與織紋帶。",
+    "description_en": "A black velvet cathedral-inspired gown with a fitted bodice, wide bell skirt, pointed-arch paneling, elongated hanging cuffs, and subtle beaded waist trim.",
+    "gender": "female",
+    "anatomy": {
+      "silhouette": "fitted bodice with wide bell skirt",
+      "material": "deep black velvet",
+      "construction": "pointed-arch bodice paneling",
+      "details": "elongated hanging cuffs and subtle beadwork"
+    },
+    "tags": [
+      "天鵝絨",
+      "velvet",
+      "禮服",
+      "gothic",
+      "cathedral",
+      "formal"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, a deep-black velvet cathedral gown, fitted bodice, wide bell skirt, pointed-arch paneling, elongated hanging cuffs, subtle beaded waist trim, clear garment construction, precise fabric texture",
+      "niji": "a deep-black velvet cathedral gown, fitted bodice, wide bell skirt, pointed-arch paneling, elongated hanging cuffs, subtle beaded waist trim, polished fashion illustration, refined folds, readable construction, elegant material rendering --niji 6",
+      "tensorart": "high quality, high detail, a deep-black velvet cathedral gown, fitted bodice, wide bell skirt, pointed-arch paneling, elongated hanging cuffs, subtle beaded waist trim, realistic textile response, precise seams and hardware",
+      "gpt": "Create a polished fashion image featuring a deep-black velvet cathedral gown, fitted bodice, wide bell skirt, pointed-arch paneling, elongated hanging cuffs, subtle beaded waist trim. Preserve the exact silhouette, materials, closures, seams, and accessories."
+    },
+    "negative": "logo, text, watermark, malformed clothing, broken garment structure, inconsistent seams, duplicated accessories"
+  },
+  {
+    "id": "pack_m01_dress_iridescent_tech",
+    "category": "dresses",
+    "name_zh": "虹彩機能拼接洋裝",
+    "name_en": "Iridescent Modular Tech Dress",
+    "description_zh": "貼身無袖洋裝以虹彩薄膜、黑色彈性布與網紗分區拼接，腰胯位置掛載可拆式模組袋；下擺以斜向拉鍊調整開衩與輪廓。",
+    "description_en": "A fitted sleeveless dress combining iridescent film, black stretch fabric, and mesh zones, with detachable hip modules and diagonal zips that adjust the hem slit.",
+    "gender": "female",
+    "anatomy": {
+      "silhouette": "fitted sleeveless modular dress",
+      "material": "iridescent film, black stretch fabric, mesh",
+      "construction": "zoned panel construction",
+      "details": "detachable hip modules and adjustable diagonal hem zips"
+    },
+    "tags": [
+      "虹彩",
+      "iridescent",
+      "科技機能",
+      "techwear",
+      "網紗",
+      "模組化"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, a fitted sleeveless iridescent modular tech dress, black stretch panels, mesh zones, detachable hip pouches, diagonal zippers adjusting the hem slit, clear garment construction, precise fabric texture",
+      "niji": "a fitted sleeveless iridescent modular tech dress, black stretch panels, mesh zones, detachable hip pouches, diagonal zippers adjusting the hem slit, polished fashion illustration, refined folds, readable construction, elegant material rendering --niji 6",
+      "tensorart": "high quality, high detail, a fitted sleeveless iridescent modular tech dress, black stretch panels, mesh zones, detachable hip pouches, diagonal zippers adjusting the hem slit, realistic textile response, precise seams and hardware",
+      "gpt": "Create a polished fashion image featuring a fitted sleeveless iridescent modular tech dress, black stretch panels, mesh zones, detachable hip pouches, diagonal zippers adjusting the hem slit. Preserve the exact silhouette, materials, closures, seams, and accessories."
+    },
+    "negative": "logo, text, watermark, malformed clothing, broken garment structure, inconsistent seams, duplicated accessories"
+  },
+  {
+    "id": "pack_m01_outer_patent_trench",
+    "category": "outerwear",
+    "name_zh": "漆皮雙層肩片風衣",
+    "name_en": "Patent-Leather Storm-Flap Trench",
+    "description_zh": "長版漆皮風衣採誇張雙層防風肩片、寬翻領與可收束腰帶，袖口以雙扣帶調節；表面具有濕潤鏡面反光，適合雨夜、哥德與賽博場景。",
+    "description_en": "A long patent-leather trench with exaggerated double storm flaps, wide lapels, belted waist, and double-buckle cuffs, finished with wet mirror-like reflections.",
+    "gender": "unisex",
+    "anatomy": {
+      "silhouette": "long belted trench coat",
+      "material": "black patent leather",
+      "construction": "double storm flaps and wide lapels",
+      "details": "double-buckle cuffs and wet reflective finish"
+    },
+    "tags": [
+      "漆皮",
+      "patent leather",
+      "風衣",
+      "trench",
+      "雨夜",
+      "gothic",
+      "cyberpunk"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, a long black patent-leather trench coat, exaggerated double storm flaps, wide lapels, belted waist, double-buckle cuffs, wet mirror-like reflections, clear garment construction, precise fabric texture",
+      "niji": "a long black patent-leather trench coat, exaggerated double storm flaps, wide lapels, belted waist, double-buckle cuffs, wet mirror-like reflections, polished fashion illustration, refined folds, readable construction, elegant material rendering --niji 6",
+      "tensorart": "high quality, high detail, a long black patent-leather trench coat, exaggerated double storm flaps, wide lapels, belted waist, double-buckle cuffs, wet mirror-like reflections, realistic textile response, precise seams and hardware",
+      "gpt": "Create a polished fashion image featuring a long black patent-leather trench coat, exaggerated double storm flaps, wide lapels, belted waist, double-buckle cuffs, wet mirror-like reflections. Preserve the exact silhouette, materials, closures, seams, and accessories."
+    },
+    "negative": "logo, text, watermark, malformed clothing, broken garment structure, inconsistent seams, duplicated accessories"
+  },
+  {
+    "id": "pack_m01_outer_wool_cape",
+    "category": "outerwear",
+    "name_zh": "刺繡羊毛分片斗篷",
+    "name_en": "Embroidered Segmented Wool Cape",
+    "description_zh": "厚實羊毛斗篷由多片梯形裁片組成，肩部形成結構化弧面，前中以大型金屬扣與短鍊固定；邊緣刺繡細緻藤蔓紋，內層使用對比色緞面。",
+    "description_en": "A heavy wool cape made from segmented trapezoid panels, with sculpted shoulders, a large metal clasp, short chain closure, vine embroidery, and contrast satin lining.",
+    "gender": "unisex",
+    "anatomy": {
+      "silhouette": "structured segmented cape",
+      "material": "charcoal wool with satin lining",
+      "construction": "trapezoid panel assembly",
+      "details": "metal clasp, short chain, vine embroidery"
+    },
+    "tags": [
+      "羊毛",
+      "wool",
+      "斗篷",
+      "刺繡",
+      "fantasy",
+      "gothic"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, a charcoal segmented wool cape, sculpted shoulders, trapezoid panel construction, large metal clasp and short chain, embroidered vine border, contrasting satin lining, clear garment construction, precise fabric texture",
+      "niji": "a charcoal segmented wool cape, sculpted shoulders, trapezoid panel construction, large metal clasp and short chain, embroidered vine border, contrasting satin lining, polished fashion illustration, refined folds, readable construction, elegant material rendering --niji 6",
+      "tensorart": "high quality, high detail, a charcoal segmented wool cape, sculpted shoulders, trapezoid panel construction, large metal clasp and short chain, embroidered vine border, contrasting satin lining, realistic textile response, precise seams and hardware",
+      "gpt": "Create a polished fashion image featuring a charcoal segmented wool cape, sculpted shoulders, trapezoid panel construction, large metal clasp and short chain, embroidered vine border, contrasting satin lining. Preserve the exact silhouette, materials, closures, seams, and accessories."
+    },
+    "negative": "logo, text, watermark, malformed clothing, broken garment structure, inconsistent seams, duplicated accessories"
+  },
+  {
+    "id": "pack_m01_outer_translucent_raincoat",
+    "category": "outerwear",
+    "name_zh": "半透明尼龍長雨衣",
+    "name_en": "Translucent Nylon Long Raincoat",
+    "description_zh": "長版煙灰半透明尼龍雨衣具有高領、可收納帽與熱壓接縫，前襟以防水拉鍊閉合；腰部與下擺配置抽繩，可在直筒與繭型輪廓間調整。",
+    "description_en": "A smoke-translucent long nylon raincoat with a high collar, packable hood, heat-sealed seams, waterproof zip, and drawcords that shift the silhouette from straight to cocoon.",
+    "gender": "unisex",
+    "anatomy": {
+      "silhouette": "adjustable straight-to-cocoon raincoat",
+      "material": "smoke-translucent nylon",
+      "construction": "heat-sealed seams",
+      "details": "packable hood, waterproof zipper, waist and hem drawcords"
+    },
+    "tags": [
+      "半透明",
+      "尼龍",
+      "nylon",
+      "雨衣",
+      "techwear",
+      "防水"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, a smoke-translucent long nylon raincoat, high collar, packable hood, heat-sealed seams, waterproof front zipper, adjustable waist and hem drawcords, clear garment construction, precise fabric texture",
+      "niji": "a smoke-translucent long nylon raincoat, high collar, packable hood, heat-sealed seams, waterproof front zipper, adjustable waist and hem drawcords, polished fashion illustration, refined folds, readable construction, elegant material rendering --niji 6",
+      "tensorart": "high quality, high detail, a smoke-translucent long nylon raincoat, high collar, packable hood, heat-sealed seams, waterproof front zipper, adjustable waist and hem drawcords, realistic textile response, precise seams and hardware",
+      "gpt": "Create a polished fashion image featuring a smoke-translucent long nylon raincoat, high collar, packable hood, heat-sealed seams, waterproof front zipper, adjustable waist and hem drawcords. Preserve the exact silhouette, materials, closures, seams, and accessories."
+    },
+    "negative": "logo, text, watermark, malformed clothing, broken garment structure, inconsistent seams, duplicated accessories"
+  },
+  {
+    "id": "pack_m01_accessory_chain_harness",
+    "category": "accessories",
+    "name_zh": "可拆式皮革鍊條胸背帶",
+    "name_en": "Detachable Leather Chain Harness",
+    "description_zh": "窄版皮革帶沿肩、胸與肋骨位置形成幾何框架，交點以霧黑金屬環連接；短鍊可在胸前或側腰重新配置，適合哥德、龐克與機能造型。",
+    "description_en": "A narrow leather harness forming a geometric frame across the shoulders, chest, and ribs, joined by matte-black rings with reconfigurable short chains.",
+    "gender": "unisex",
+    "anatomy": {
+      "structure": "geometric shoulder-chest-rib harness",
+      "material": "narrow black leather straps",
+      "hardware": "matte-black rings and detachable short chains",
+      "fit": "adjustable buckled straps"
+    },
+    "tags": [
+      "皮革",
+      "鍊條",
+      "harness",
+      "gothic",
+      "punk",
+      "accessory"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, a detachable black leather chain harness, geometric straps over shoulders chest and ribs, matte-black rings, reconfigurable short chains, adjustable buckles, clear garment construction, precise fabric texture",
+      "niji": "a detachable black leather chain harness, geometric straps over shoulders chest and ribs, matte-black rings, reconfigurable short chains, adjustable buckles, polished fashion illustration, refined folds, readable construction, elegant material rendering --niji 6",
+      "tensorart": "high quality, high detail, a detachable black leather chain harness, geometric straps over shoulders chest and ribs, matte-black rings, reconfigurable short chains, adjustable buckles, realistic textile response, precise seams and hardware",
+      "gpt": "Create a polished fashion image featuring a detachable black leather chain harness, geometric straps over shoulders chest and ribs, matte-black rings, reconfigurable short chains, adjustable buckles. Preserve the exact silhouette, materials, closures, seams, and accessories."
+    },
+    "negative": "logo, text, watermark, malformed clothing, broken garment structure, inconsistent seams, duplicated accessories"
+  },
+  {
+    "id": "pack_m01_accessory_lace_collar",
+    "category": "accessories",
+    "name_zh": "高領蕾絲珠飾領片",
+    "name_en": "High Lace Beaded Collar Piece",
+    "description_zh": "獨立式高領片以多層黑蕾絲、細網與微小珠飾組成，後頸以天鵝絨繫帶固定；前中延伸成尖形胸飾，可快速增加哥德與維多利亞層次。",
+    "description_en": "A detachable high collar made from layered black lace, fine mesh, and tiny beads, tied with velvet ribbons and extending into a pointed chest bib.",
+    "gender": "female",
+    "anatomy": {
+      "silhouette": "high detachable collar with pointed bib",
+      "material": "layered black lace and fine mesh",
+      "details": "tiny beadwork",
+      "closure": "velvet ribbon ties"
+    },
+    "tags": [
+      "蕾絲",
+      "lace",
+      "領片",
+      "珠飾",
+      "victorian",
+      "gothic"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, a detachable high black lace collar piece, layered fine mesh, tiny beadwork, pointed chest bib, velvet ribbon ties, clear garment construction, precise fabric texture",
+      "niji": "a detachable high black lace collar piece, layered fine mesh, tiny beadwork, pointed chest bib, velvet ribbon ties, polished fashion illustration, refined folds, readable construction, elegant material rendering --niji 6",
+      "tensorart": "high quality, high detail, a detachable high black lace collar piece, layered fine mesh, tiny beadwork, pointed chest bib, velvet ribbon ties, realistic textile response, precise seams and hardware",
+      "gpt": "Create a polished fashion image featuring a detachable high black lace collar piece, layered fine mesh, tiny beadwork, pointed chest bib, velvet ribbon ties. Preserve the exact silhouette, materials, closures, seams, and accessories."
+    },
+    "negative": "logo, text, watermark, malformed clothing, broken garment structure, inconsistent seams, duplicated accessories"
+  },
+  {
+    "id": "pack_m01_shoes_platform_combat",
+    "category": "shoes",
+    "name_zh": "霧面皮革厚底戰鬥靴",
+    "name_en": "Matte-Leather Platform Combat Boots",
+    "description_zh": "小腿中段高度的霧面皮革戰鬥靴，搭配分層厚底、加寬鞋頭與前方多排鞋帶；外側增加快速拉鍊與可拆金屬護片。",
+    "description_en": "Mid-calf matte-leather combat boots with layered platform soles, wide toe boxes, dense front lacing, side zips, and detachable metal guards.",
+    "gender": "unisex",
+    "anatomy": {
+      "height": "mid-calf",
+      "material": "matte black leather",
+      "sole": "layered platform sole",
+      "details": "dense lacing, side zipper, detachable metal guards"
+    },
+    "tags": [
+      "皮革",
+      "leather",
+      "厚底",
+      "戰鬥靴",
+      "combat boots",
+      "punk"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, mid-calf matte-black leather platform combat boots, layered thick soles, wide toe boxes, dense front lacing, side zippers, detachable metal guards, clear garment construction, precise fabric texture",
+      "niji": "mid-calf matte-black leather platform combat boots, layered thick soles, wide toe boxes, dense front lacing, side zippers, detachable metal guards, polished fashion illustration, refined folds, readable construction, elegant material rendering --niji 6",
+      "tensorart": "high quality, high detail, mid-calf matte-black leather platform combat boots, layered thick soles, wide toe boxes, dense front lacing, side zippers, detachable metal guards, realistic textile response, precise seams and hardware",
+      "gpt": "Create a polished fashion image featuring mid-calf matte-black leather platform combat boots, layered thick soles, wide toe boxes, dense front lacing, side zippers, detachable metal guards. Preserve the exact silhouette, materials, closures, seams, and accessories."
+    },
+    "negative": "logo, text, watermark, malformed clothing, broken garment structure, inconsistent seams, duplicated accessories"
+  },
+  {
+    "id": "pack_m01_shoes_satin_ribbon",
+    "category": "shoes",
+    "name_zh": "緞面繫帶踝靴",
+    "name_en": "Satin Ribbon-Laced Ankle Boots",
+    "description_zh": "尖圓鞋頭踝靴以深紫緞面包覆，鞋面交叉寬緞帶並在腳踝後方打結；低跟以金屬包邊，兼具浪漫與正式質感。",
+    "description_en": "Deep-purple satin ankle boots with softly pointed toes, broad crossing ribbons tied behind the ankle, and low heels edged in metal.",
+    "gender": "female",
+    "anatomy": {
+      "height": "ankle",
+      "material": "deep-purple satin",
+      "closure": "broad crossed satin ribbons",
+      "heel": "low heel with metallic edge"
+    },
+    "tags": [
+      "緞面",
+      "satin",
+      "踝靴",
+      "ribbon",
+      "romantic",
+      "formal"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, deep-purple satin ankle boots, softly pointed toes, broad crossed ribbons tied behind the ankle, low heels with metallic edging, clear garment construction, precise fabric texture",
+      "niji": "deep-purple satin ankle boots, softly pointed toes, broad crossed ribbons tied behind the ankle, low heels with metallic edging, polished fashion illustration, refined folds, readable construction, elegant material rendering --niji 6",
+      "tensorart": "high quality, high detail, deep-purple satin ankle boots, softly pointed toes, broad crossed ribbons tied behind the ankle, low heels with metallic edging, realistic textile response, precise seams and hardware",
+      "gpt": "Create a polished fashion image featuring deep-purple satin ankle boots, softly pointed toes, broad crossed ribbons tied behind the ankle, low heels with metallic edging. Preserve the exact silhouette, materials, closures, seams, and accessories."
+    },
+    "negative": "logo, text, watermark, malformed clothing, broken garment structure, inconsistent seams, duplicated accessories"
+  },
+  {
+    "id": "pack_m01_bag_modular_leather",
+    "category": "bags-props",
+    "name_zh": "模組化皮革腰包組",
+    "name_en": "Modular Leather Belt-Bag Set",
+    "description_zh": "三個不同尺寸的硬挺皮革袋以滑軌扣件固定在寬腰帶上，可在前腰、側腰與後腰重新排列；袋蓋使用隱藏磁扣，外側保留低調壓紋。",
+    "description_en": "Three structured leather pouches of different sizes mounted on a wide belt with sliding hardware, allowing front, side, or rear placement; hidden magnetic closures keep the design clean.",
+    "gender": "unisex",
+    "anatomy": {
+      "structure": "three modular belt pouches",
+      "material": "structured matte leather",
+      "hardware": "sliding rail mounts",
+      "closure": "hidden magnetic flap closures"
+    },
+    "tags": [
+      "皮革",
+      "leather",
+      "腰包",
+      "模組化",
+      "utility",
+      "bag"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, a modular matte-leather belt-bag set, three structured pouches in different sizes, sliding rail mounts, hidden magnetic flap closures, subtle embossed surfaces, clear garment construction, precise fabric texture",
+      "niji": "a modular matte-leather belt-bag set, three structured pouches in different sizes, sliding rail mounts, hidden magnetic flap closures, subtle embossed surfaces, polished fashion illustration, refined folds, readable construction, elegant material rendering --niji 6",
+      "tensorart": "high quality, high detail, a modular matte-leather belt-bag set, three structured pouches in different sizes, sliding rail mounts, hidden magnetic flap closures, subtle embossed surfaces, realistic textile response, precise seams and hardware",
+      "gpt": "Create a polished fashion image featuring a modular matte-leather belt-bag set, three structured pouches in different sizes, sliding rail mounts, hidden magnetic flap closures, subtle embossed surfaces. Preserve the exact silhouette, materials, closures, seams, and accessories."
+    },
+    "negative": "logo, text, watermark, malformed clothing, broken garment structure, inconsistent seams, duplicated accessories"
+  },
+  {
+    "id": "pack_m01_waist_velvet_corset_belt",
+    "category": "waist",
+    "name_zh": "天鵝絨寬版束腰帶",
+    "name_en": "Wide Velvet Corset Belt",
+    "description_zh": "寬版天鵝絨腰帶以弧形裁片包覆腰腹，前中配置三枚裝飾扣，後方以交叉繫帶調節；上下邊緣加入窄皮革滾邊，能整合洋裝、襯衫與外套層次。",
+    "description_en": "A wide velvet corset belt shaped with curved panels, three decorative front clasps, adjustable back lacing, and narrow leather-bound edges.",
+    "gender": "unisex",
+    "anatomy": {
+      "silhouette": "wide waist-cinching belt",
+      "material": "black velvet with leather binding",
+      "construction": "curved segmented panels",
+      "closure": "three front clasps and adjustable back lacing"
+    },
+    "tags": [
+      "天鵝絨",
+      "velvet",
+      "束腰",
+      "腰帶",
+      "corset belt",
+      "gothic"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, a wide black velvet corset belt, curved segmented panels, narrow leather-bound edges, three decorative front clasps, adjustable crossed back lacing, clear garment construction, precise fabric texture",
+      "niji": "a wide black velvet corset belt, curved segmented panels, narrow leather-bound edges, three decorative front clasps, adjustable crossed back lacing, polished fashion illustration, refined folds, readable construction, elegant material rendering --niji 6",
+      "tensorart": "high quality, high detail, a wide black velvet corset belt, curved segmented panels, narrow leather-bound edges, three decorative front clasps, adjustable crossed back lacing, realistic textile response, precise seams and hardware",
+      "gpt": "Create a polished fashion image featuring a wide black velvet corset belt, curved segmented panels, narrow leather-bound edges, three decorative front clasps, adjustable crossed back lacing. Preserve the exact silhouette, materials, closures, seams, and accessories."
+    },
+    "negative": "logo, text, watermark, malformed clothing, broken garment structure, inconsistent seams, duplicated accessories"
+  }
+]

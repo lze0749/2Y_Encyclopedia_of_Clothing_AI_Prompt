@@ -1,11 +1,12 @@
 // 2Y Encyclopedia of Clothing AI Prompt
-// Service Worker v1.8.0
+// Service Worker v1.9.0
 
-const CACHE_NAME = "2y-prompt-v1.8.0";
+const CACHE_NAME = "2y-prompt-v1.9.0";
 
 const APP_ASSETS = [
     "./",
     "./index.html",
+
     "./style.css",
     "./library.css",
     "./filters.css",
@@ -21,6 +22,9 @@ const APP_ASSETS = [
     "./platform.css",
     "./audit.css",
     "./projects.css",
+    "./packs.css",
+
+    "./pack-bridge.js",
     "./custom-bridge.js",
     "./app.js",
     "./builder.js",
@@ -35,24 +39,33 @@ const APP_ASSETS = [
     "./platform.js",
     "./audit.js",
     "./projects.js",
+    "./packs.js",
+
     "./manifest.json",
+
     "./data/categories.json",
     "./data/items.json",
     "./data/attributes.json",
+    "./data/packs/manifest.json",
+    "./data/packs/materials-vol-01.json",
+
     "./icons/icon-192.png",
     "./icons/icon-512.png",
     "./icons/apple-touch-icon.png"
 ];
 
-self.addEventListener("install", event => {
+self.addEventListener("install", (event) => {
     event.waitUntil(
-        caches.open(CACHE_NAME).then(async cache => {
+        caches.open(CACHE_NAME).then(async (cache) => {
             await Promise.allSettled(
-                APP_ASSETS.map(async asset => {
+                APP_ASSETS.map(async (asset) => {
                     try {
                         await cache.add(asset);
                     } catch {
-                        console.warn("略過無法快取：", asset);
+                        console.warn(
+                            "略過無法快取：",
+                            asset
+                        );
                     }
                 })
             );
@@ -60,59 +73,149 @@ self.addEventListener("install", event => {
     );
 });
 
-self.addEventListener("message", event => {
-    if (event.data?.type === "SKIP_WAITING") {
+self.addEventListener("message", (event) => {
+    if (
+        event.data?.type ===
+        "SKIP_WAITING"
+    ) {
         self.skipWaiting();
     }
 });
 
-self.addEventListener("activate", event => {
+self.addEventListener("activate", (event) => {
     event.waitUntil(
         caches.keys()
-            .then(names => Promise.all(
-                names.filter(name => name !== CACHE_NAME)
-                    .map(name => caches.delete(name))
-            ))
-            .then(() => self.clients.claim())
+            .then((names) =>
+                Promise.all(
+                    names
+                        .filter(
+                            (name) =>
+                                name !==
+                                CACHE_NAME
+                        )
+                        .map((name) =>
+                            caches.delete(name)
+                        )
+                )
+            )
+            .then(() =>
+                self.clients.claim()
+            )
     );
 });
 
-self.addEventListener("fetch", event => {
-    if (event.request.method !== "GET") return;
+self.addEventListener("fetch", (event) => {
+    if (
+        event.request.method !== "GET"
+    ) {
+        return;
+    }
 
-    const url = new URL(event.request.url);
-    if (url.origin !== self.location.origin) return;
+    const url =
+        new URL(event.request.url);
 
-    if (event.request.mode === "navigate") {
+    if (
+        url.origin !==
+        self.location.origin
+    ) {
+        return;
+    }
+
+    if (
+        event.request.mode ===
+        "navigate"
+    ) {
         event.respondWith(
             fetch(event.request)
-                .then(response => {
+                .then((response) => {
                     if (response.ok) {
-                        const copy = response.clone();
-                        caches.open(CACHE_NAME)
-                            .then(cache => cache.put("./index.html", copy));
+                        const copy =
+                            response.clone();
+
+                        caches
+                            .open(CACHE_NAME)
+                            .then((cache) =>
+                                cache.put(
+                                    "./index.html",
+                                    copy
+                                )
+                            );
                     }
+
                     return response;
                 })
-                .catch(() => caches.match("./index.html"))
+                .catch(() =>
+                    caches.match(
+                        "./index.html"
+                    )
+                )
         );
+
+        return;
+    }
+
+    const isCodeOrData =
+        event.request.destination ===
+            "script" ||
+        event.request.destination ===
+            "style" ||
+        url.pathname.endsWith(".json");
+
+    if (isCodeOrData) {
+        event.respondWith(
+            fetch(event.request)
+                .then((response) => {
+                    if (response.ok) {
+                        const copy =
+                            response.clone();
+
+                        caches
+                            .open(CACHE_NAME)
+                            .then((cache) =>
+                                cache.put(
+                                    event.request,
+                                    copy
+                                )
+                            );
+                    }
+
+                    return response;
+                })
+                .catch(() =>
+                    caches.match(
+                        event.request
+                    )
+                )
+        );
+
         return;
     }
 
     event.respondWith(
-        caches.match(event.request).then(cached => {
-            const network = fetch(event.request)
-                .then(response => {
-                    if (response.ok) {
-                        const copy = response.clone();
-                        caches.open(CACHE_NAME)
-                            .then(cache => cache.put(event.request, copy));
-                    }
-                    return response;
-                })
-                .catch(() => cached);
+        caches.match(event.request)
+            .then((cached) => {
+                const network =
+                    fetch(event.request)
+                        .then((response) => {
+                            if (response.ok) {
+                                const copy =
+                                    response.clone();
 
-            return cached || network;
-        })
+                                caches
+                                    .open(CACHE_NAME)
+                                    .then((cache) =>
+                                        cache.put(
+                                            event.request,
+                                            copy
+                                        )
+                                    );
+                            }
+
+                            return response;
+                        })
+                        .catch(() => cached);
+
+                return cached || network;
+            })
     );
 });
