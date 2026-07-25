@@ -1,10 +1,9 @@
 // 2Y Encyclopedia of Clothing AI Prompt
-// Service Worker v1.3.0
+// Service Worker v1.4.0
 
-const CACHE_NAME =
-    "2y-prompt-v1.3.1";
+const CACHE_NAME = "2y-prompt-v1.4.0";
 
-const APP_SHELL = [
+const APP_ASSETS = [
     "./",
     "./index.html",
 
@@ -18,9 +17,9 @@ const APP_SHELL = [
     "./parameter.css",
     "./navigation.css",
     "./release.css",
+    "./random.css",
 
     "./custom-bridge.js",
-    "./search-aliases.js",
     "./app.js",
     "./builder.js",
     "./storage.js",
@@ -29,8 +28,10 @@ const APP_SHELL = [
     "./parameter.js",
     "./navigation.js",
     "./release.js",
+    "./random.js",
 
     "./manifest.json",
+
     "./data/categories.json",
     "./data/items.json",
     "./data/attributes.json",
@@ -42,9 +43,17 @@ const APP_SHELL = [
 
 self.addEventListener("install", (event) => {
     event.waitUntil(
-        caches
-            .open(CACHE_NAME)
-            .then((cache) => cache.addAll(APP_SHELL))
+        caches.open(CACHE_NAME).then(async (cache) => {
+            await Promise.allSettled(
+                APP_ASSETS.map(async (asset) => {
+                    try {
+                        await cache.add(asset);
+                    } catch (error) {
+                        console.warn("略過無法快取的檔案：", asset);
+                    }
+                })
+            );
+        })
     );
 });
 
@@ -70,20 +79,27 @@ self.addEventListener("activate", (event) => {
 });
 
 self.addEventListener("fetch", (event) => {
-    if (event.request.method !== "GET") return;
+    if (event.request.method !== "GET") {
+        return;
+    }
 
     const url = new URL(event.request.url);
-    if (url.origin !== self.location.origin) return;
+
+    if (url.origin !== self.location.origin) {
+        return;
+    }
 
     if (event.request.mode === "navigate") {
         event.respondWith(
             fetch(event.request)
                 .then((response) => {
-                    const copy = response.clone();
+                    if (response.ok) {
+                        const copy = response.clone();
 
-                    caches.open(CACHE_NAME).then((cache) => {
-                        cache.put("./index.html", copy);
-                    });
+                        caches.open(CACHE_NAME).then((cache) => {
+                            cache.put("./index.html", copy);
+                        });
+                    }
 
                     return response;
                 })
