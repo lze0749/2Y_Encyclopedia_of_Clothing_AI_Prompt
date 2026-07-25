@@ -1,7 +1,7 @@
 // 2Y Encyclopedia of Clothing AI Prompt
-// Service Worker v1.9.0
+// Service Worker v2.0.0
 
-const CACHE_NAME = "2y-prompt-v1.9.0";
+const CACHE_NAME = "2y-prompt-v2.0.0";
 
 const APP_ASSETS = [
     "./",
@@ -23,6 +23,7 @@ const APP_ASSETS = [
     "./audit.css",
     "./projects.css",
     "./packs.css",
+    "./pack-studio.css",
 
     "./pack-bridge.js",
     "./custom-bridge.js",
@@ -40,6 +41,7 @@ const APP_ASSETS = [
     "./audit.js",
     "./projects.js",
     "./packs.js",
+    "./pack-studio.js",
 
     "./manifest.json",
 
@@ -62,10 +64,7 @@ self.addEventListener("install", (event) => {
                     try {
                         await cache.add(asset);
                     } catch {
-                        console.warn(
-                            "略過無法快取：",
-                            asset
-                        );
+                        console.warn("略過無法快取：", asset);
                     }
                 })
             );
@@ -74,10 +73,7 @@ self.addEventListener("install", (event) => {
 });
 
 self.addEventListener("message", (event) => {
-    if (
-        event.data?.type ===
-        "SKIP_WAITING"
-    ) {
+    if (event.data?.type === "SKIP_WAITING") {
         self.skipWaiting();
     }
 });
@@ -88,103 +84,66 @@ self.addEventListener("activate", (event) => {
             .then((names) =>
                 Promise.all(
                     names
-                        .filter(
-                            (name) =>
-                                name !==
-                                CACHE_NAME
-                        )
-                        .map((name) =>
-                            caches.delete(name)
-                        )
+                        .filter((name) => name !== CACHE_NAME)
+                        .map((name) => caches.delete(name))
                 )
             )
-            .then(() =>
-                self.clients.claim()
-            )
+            .then(() => self.clients.claim())
     );
 });
 
 self.addEventListener("fetch", (event) => {
-    if (
-        event.request.method !== "GET"
-    ) {
-        return;
-    }
+    if (event.request.method !== "GET") return;
 
-    const url =
-        new URL(event.request.url);
+    const url = new URL(event.request.url);
 
-    if (
-        url.origin !==
-        self.location.origin
-    ) {
-        return;
-    }
+    if (url.origin !== self.location.origin) return;
 
-    if (
-        event.request.mode ===
-        "navigate"
-    ) {
+    if (event.request.mode === "navigate") {
         event.respondWith(
             fetch(event.request)
                 .then((response) => {
                     if (response.ok) {
-                        const copy =
-                            response.clone();
+                        const copy = response.clone();
 
-                        caches
-                            .open(CACHE_NAME)
+                        caches.open(CACHE_NAME)
                             .then((cache) =>
-                                cache.put(
-                                    "./index.html",
-                                    copy
-                                )
+                                cache.put("./index.html", copy)
                             );
                     }
 
                     return response;
                 })
                 .catch(() =>
-                    caches.match(
-                        "./index.html"
-                    )
+                    caches.match("./index.html")
                 )
         );
 
         return;
     }
 
-    const isCodeOrData =
-        event.request.destination ===
-            "script" ||
-        event.request.destination ===
-            "style" ||
+    const networkFirst =
+        event.request.destination === "script" ||
+        event.request.destination === "style" ||
         url.pathname.endsWith(".json");
 
-    if (isCodeOrData) {
+    if (networkFirst) {
         event.respondWith(
             fetch(event.request)
                 .then((response) => {
                     if (response.ok) {
-                        const copy =
-                            response.clone();
+                        const copy = response.clone();
 
-                        caches
-                            .open(CACHE_NAME)
+                        caches.open(CACHE_NAME)
                             .then((cache) =>
-                                cache.put(
-                                    event.request,
-                                    copy
-                                )
+                                cache.put(event.request, copy)
                             );
                     }
 
                     return response;
                 })
                 .catch(() =>
-                    caches.match(
-                        event.request
-                    )
+                    caches.match(event.request)
                 )
         );
 
@@ -198,11 +157,9 @@ self.addEventListener("fetch", (event) => {
                     fetch(event.request)
                         .then((response) => {
                             if (response.ok) {
-                                const copy =
-                                    response.clone();
+                                const copy = response.clone();
 
-                                caches
-                                    .open(CACHE_NAME)
+                                caches.open(CACHE_NAME)
                                     .then((cache) =>
                                         cache.put(
                                             event.request,
