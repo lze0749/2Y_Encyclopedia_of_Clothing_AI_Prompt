@@ -1,7 +1,7 @@
 // 2Y Encyclopedia of Clothing AI Prompt
-// Service Worker v1.7.0
+// Service Worker v1.8.0
 
-const CACHE_NAME = "2y-prompt-v1.7.0";
+const CACHE_NAME = "2y-prompt-v1.8.0";
 
 const APP_ASSETS = [
     "./",
@@ -20,6 +20,7 @@ const APP_ASSETS = [
     "./history.css",
     "./platform.css",
     "./audit.css",
+    "./projects.css",
     "./custom-bridge.js",
     "./app.js",
     "./builder.js",
@@ -33,6 +34,7 @@ const APP_ASSETS = [
     "./history.js",
     "./platform.js",
     "./audit.js",
+    "./projects.js",
     "./manifest.json",
     "./data/categories.json",
     "./data/items.json",
@@ -47,8 +49,11 @@ self.addEventListener("install", event => {
         caches.open(CACHE_NAME).then(async cache => {
             await Promise.allSettled(
                 APP_ASSETS.map(async asset => {
-                    try { await cache.add(asset); }
-                    catch { console.warn("略過無法快取：", asset); }
+                    try {
+                        await cache.add(asset);
+                    } catch {
+                        console.warn("略過無法快取：", asset);
+                    }
                 })
             );
         })
@@ -56,7 +61,9 @@ self.addEventListener("install", event => {
 });
 
 self.addEventListener("message", event => {
-    if (event.data?.type === "SKIP_WAITING") self.skipWaiting();
+    if (event.data?.type === "SKIP_WAITING") {
+        self.skipWaiting();
+    }
 });
 
 self.addEventListener("activate", event => {
