@@ -1,7 +1,7 @@
 // 2Y Encyclopedia of Clothing AI Prompt
-// Service Worker v1.6.0
+// Service Worker v1.7.0
 
-const CACHE_NAME = "2y-prompt-v1.6.0";
+const CACHE_NAME = "2y-prompt-v1.7.0";
 
 const APP_ASSETS = [
     "./",
@@ -19,6 +19,7 @@ const APP_ASSETS = [
     "./random.css",
     "./history.css",
     "./platform.css",
+    "./audit.css",
     "./custom-bridge.js",
     "./app.js",
     "./builder.js",
@@ -31,6 +32,7 @@ const APP_ASSETS = [
     "./random.js",
     "./history.js",
     "./platform.js",
+    "./audit.js",
     "./manifest.json",
     "./data/categories.json",
     "./data/items.json",

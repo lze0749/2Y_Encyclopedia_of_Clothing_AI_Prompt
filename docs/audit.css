@@ -1,0 +1,383 @@
+/* 2Y Prompt Auditor v1.7.0 */
+
+.prompt-auditor-panel{
+    width:100%;
+    padding:28px;
+    background:
+        radial-gradient(circle at 0 0,rgba(57,255,20,.08),transparent 30%),
+        radial-gradient(circle at 100% 100%,rgba(196,0,255,.12),transparent 34%),
+        var(--surface);
+    border:1px solid var(--border);
+    border-radius:var(--radius);
+    box-shadow:0 0 24px rgba(196,0,255,.2);
+    scroll-margin-top:140px;
+}
+
+.auditor-heading{
+    display:flex;
+    justify-content:space-between;
+    gap:20px;
+    margin-bottom:18px;
+}
+
+.auditor-heading h2{
+    margin:3px 0 7px;
+    color:var(--primary);
+    font-size:clamp(25px,4vw,36px);
+}
+
+.auditor-heading p{
+    max-width:780px;
+    color:var(--text-muted);
+    line-height:1.65;
+}
+
+.auditor-eyebrow{
+    color:var(--secondary)!important;
+    font-size:11px;
+    font-weight:900;
+    letter-spacing:.18em;
+}
+
+.auditor-version{
+    height:max-content;
+    padding:6px 10px;
+    color:var(--secondary);
+    border:1px solid rgba(57,255,20,.35);
+    border-radius:999px;
+    font-size:11px;
+}
+
+.auditor-source-actions{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-bottom:14px;
+}
+
+.auditor-source-actions button{
+    width:auto;
+    margin:0;
+    padding:9px 11px;
+    color:var(--secondary);
+    background:transparent;
+    border:1px solid rgba(57,255,20,.32);
+    font-size:11px;
+}
+
+.auditor-layout{
+    display:grid;
+    grid-template-columns:minmax(280px,.95fr) minmax(0,1.2fr);
+    gap:18px;
+}
+
+.auditor-input-panel,
+.auditor-report-panel{
+    min-width:0;
+    padding:18px;
+    background:#111118;
+    border:1px solid var(--border);
+    border-radius:14px;
+}
+
+.auditor-input-panel{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:13px;
+    align-content:start;
+}
+
+.auditor-field,
+.auditor-wide-field{
+    display:flex;
+    flex-direction:column;
+    gap:7px;
+}
+
+.auditor-wide-field{
+    grid-column:1/-1;
+}
+
+.auditor-field span,
+.auditor-wide-field span{
+    color:var(--secondary);
+    font-size:11px;
+    font-weight:900;
+}
+
+.auditor-field select,
+.auditor-wide-field textarea{
+    width:100%;
+    padding:11px 12px;
+    color:var(--text);
+    background:#0b0b10;
+    border:1px solid var(--border);
+    border-radius:10px;
+    outline:none;
+}
+
+.auditor-wide-field textarea{
+    resize:vertical;
+    line-height:1.62;
+}
+
+.auditor-field select:focus,
+.auditor-wide-field textarea:focus{
+    border-color:var(--primary);
+    box-shadow:0 0 0 3px rgba(196,0,255,.12);
+}
+
+.auditor-check{
+    display:flex;
+    align-items:center;
+    gap:9px;
+    min-height:43px;
+    padding:10px 12px;
+    color:var(--text-muted);
+    background:#0b0b10;
+    border:1px solid var(--border);
+    border-radius:10px;
+    font-size:11px;
+}
+
+.auditor-check input{
+    width:18px;
+    height:18px;
+    accent-color:var(--secondary);
+}
+
+.auditor-main-actions{
+    grid-column:1/-1;
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+}
+
+.auditor-main-actions button{
+    width:auto;
+    margin:0;
+    padding:10px 13px;
+}
+
+.auditor-secondary{
+    color:var(--secondary);
+    background:transparent;
+    border:1px solid rgba(57,255,20,.4);
+}
+
+.auditor-text-button{
+    color:var(--text-muted);
+    background:transparent;
+    border:1px solid var(--border);
+}
+
+.auditor-report-panel{
+    display:flex;
+    flex-direction:column;
+    gap:14px;
+}
+
+.auditor-score-card{
+    padding:16px;
+    background:
+        linear-gradient(
+            135deg,
+            rgba(196,0,255,.14),
+            rgba(57,255,20,.06)
+        );
+    border:1px solid rgba(196,0,255,.3);
+    border-radius:13px;
+}
+
+.auditor-score-card > div:first-child{
+    display:flex;
+    justify-content:space-between;
+    align-items:end;
+}
+
+.auditor-score-card span{
+    color:var(--text-muted);
+    font-size:11px;
+}
+
+.auditor-score-card strong{
+    color:var(--secondary);
+    font-size:34px;
+}
+
+.auditor-score-track{
+    height:8px;
+    margin:10px 0 8px;
+    overflow:hidden;
+    background:#0b0b10;
+    border-radius:999px;
+}
+
+.auditor-score-track span{
+    display:block;
+    width:0;
+    height:100%;
+    background:
+        linear-gradient(90deg,var(--primary),var(--secondary));
+    border-radius:999px;
+    transition:width .25s ease;
+}
+
+.auditor-score-card p{
+    color:var(--text-muted);
+    font-size:11px;
+}
+
+.auditor-coverage{
+    display:flex;
+    flex-wrap:wrap;
+    gap:7px;
+}
+
+.auditor-coverage-chip{
+    padding:5px 8px;
+    border-radius:999px;
+    font-size:10px;
+    font-weight:800;
+}
+
+.auditor-coverage-chip.found{
+    color:#071007;
+    background:var(--secondary);
+}
+
+.auditor-coverage-chip.missing{
+    color:var(--text-muted);
+    border:1px dashed var(--border);
+}
+
+.auditor-report-block{
+    padding:14px;
+    background:#0f0f15;
+    border:1px solid var(--border);
+    border-radius:12px;
+}
+
+.auditor-report-block h3{
+    color:var(--primary);
+    font-size:14px;
+}
+
+.auditor-block-heading{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:10px;
+    margin-bottom:9px;
+}
+
+.auditor-block-heading button{
+    width:auto;
+    margin:0;
+    padding:7px 9px;
+    color:#071007;
+    background:var(--secondary);
+    font-size:10px;
+}
+
+.auditor-report-block textarea{
+    width:100%;
+    resize:vertical;
+    padding:11px;
+    color:#d9ffd2;
+    background:#0b0b10;
+    border:1px solid var(--border);
+    border-radius:10px;
+    font-family:"Cascadia Code","SFMono-Regular",Consolas,monospace;
+    font-size:11px;
+    line-height:1.62;
+}
+
+.auditor-issues{
+    display:grid;
+    gap:8px;
+    margin-top:10px;
+}
+
+.auditor-issue{
+    padding:10px 11px;
+    border-radius:10px;
+    font-size:11px;
+}
+
+.auditor-issue strong{
+    display:block;
+    margin-bottom:4px;
+}
+
+.auditor-issue p{
+    color:var(--text-muted);
+    line-height:1.5;
+}
+
+.auditor-issue.warning{
+    background:rgba(255,177,66,.08);
+    border:1px solid rgba(255,177,66,.3);
+}
+
+.auditor-issue.info{
+    background:rgba(196,0,255,.08);
+    border:1px solid rgba(196,0,255,.25);
+}
+
+.auditor-issue.success{
+    background:rgba(57,255,20,.07);
+    border:1px solid rgba(57,255,20,.28);
+}
+
+.auditor-empty{
+    padding:14px;
+    text-align:center;
+    color:var(--text-muted);
+    border:1px dashed var(--border);
+    border-radius:10px;
+}
+
+.auditor-history-button{
+    width:100%;
+    margin:0;
+    color:#071007;
+    background:var(--secondary);
+    font-weight:900;
+}
+
+.auditor-toast{
+    position:fixed;
+    left:50%;
+    bottom:20px;
+    z-index:10000;
+    padding:12px 16px;
+    color:#071007;
+    background:var(--secondary);
+    border-radius:12px;
+    box-shadow:var(--shadow-green);
+    font-weight:900;
+    opacity:0;
+    transform:translate(-50%,14px);
+    pointer-events:none;
+    transition:.2s ease;
+}
+
+.auditor-toast.show{
+    opacity:1;
+    transform:translate(-50%,0);
+}
+
+@media(max-width:920px){
+    .auditor-layout{grid-template-columns:1fr}
+}
+
+@media(max-width:620px){
+    .prompt-auditor-panel{padding:18px}
+    .auditor-heading{flex-direction:column}
+    .auditor-source-actions button{width:100%}
+    .auditor-input-panel{grid-template-columns:1fr;padding:14px}
+    .auditor-wide-field,
+    .auditor-main-actions{grid-column:auto}
+    .auditor-main-actions button{width:100%}
+}
