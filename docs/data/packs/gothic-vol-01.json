@@ -1,0 +1,33 @@
+[
+  {
+    "id": "pack_g01_outer_velvet_coat",
+    "category": "outerwear",
+    "name_zh": "銀扣天鵝絨長外套",
+    "name_en": "Silver-Clasp Velvet Long Coat",
+    "description_zh": "修身長版天鵝絨外套採高立領與結構化肩線，前襟以多枚銀色金屬扣固定，腰部略微收束，下擺分片延伸至小腿位置，適合哥德、維多利亞與奇幻角色造型。",
+    "description_en": "A fitted long velvet coat with a high stand collar, structured shoulders, multiple silver front clasps, a subtly shaped waist, and segmented calf-length tails.",
+    "gender": "unisex",
+    "anatomy": {
+      "silhouette": "fitted calf-length coat",
+      "material": "black velvet",
+      "collar": "high stand collar",
+      "closure": "multiple silver clasps",
+      "hem": "segmented long tails"
+    },
+    "tags": [
+      "天鵝絨",
+      "velvet",
+      "哥德",
+      "gothic",
+      "長外套",
+      "silver clasp"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, a fitted calf-length black velvet coat, high stand collar, structured shoulders, multiple silver clasps, segmented long tails, clear garment construction, precise fabric texture",
+      "niji": "a fitted calf-length black velvet coat, high stand collar, structured shoulders, multiple silver clasps, segmented long tails, polished fashion illustration, refined folds, readable garment construction, elegant material rendering --niji 6",
+      "tensorart": "high quality, high detail, a fitted calf-length black velvet coat, high stand collar, structured shoulders, multiple silver clasps, segmented long tails, realistic textile response, precise seams and hardware",
+      "gpt": "Create a polished fashion image featuring a fitted calf-length black velvet coat, high stand collar, structured shoulders, multiple silver clasps, segmented long tails. Preserve the exact silhouette, materials, closures, seams, and accessories."
+    },
+    "negative": "logo, text, watermark, malformed clothing, broken garment structure, inconsistent seams, duplicated garments, duplicated accessories"
+  }
+]

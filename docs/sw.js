@@ -1,7 +1,7 @@
 // 2Y Encyclopedia of Clothing AI Prompt
-// Service Worker v2.2.0
+// Service Worker v2.3.0
 
-const CACHE_NAME = "2y-prompt-v2.2.0";
+const CACHE_NAME = "2y-prompt-v2.3.0";
 
 const APP_ASSETS = [
     "./",
@@ -26,6 +26,7 @@ const APP_ASSETS = [
     "./pack-studio.css",
     "./bulk-pack.css",
     "./publisher.css",
+    "./catalog-health.css",
 
     "./pack-bridge.js",
     "./custom-bridge.js",
@@ -46,6 +47,7 @@ const APP_ASSETS = [
     "./pack-studio.js",
     "./bulk-pack.js",
     "./publisher.js",
+    "./catalog-health.js",
 
     "./manifest.json",
 

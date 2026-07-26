@@ -1,0 +1,62 @@
+[
+  {
+    "id": "pack_s01_outer_neon_bomber",
+    "category": "outerwear",
+    "name_zh": "螢光滾邊短版飛行外套",
+    "name_en": "Neon-Trim Cropped Bomber Jacket",
+    "description_zh": "短版飛行外套以霧黑尼龍製作，肩線略微加寬，前襟配置雙向拉鍊，領口、袖口與下擺加入螢光紫綠滾邊，適合街頭與科技機能造型。",
+    "description_en": "A cropped matte-black nylon bomber with slightly broadened shoulders, a two-way front zip, and neon purple-green ribbed trim.",
+    "gender": "unisex",
+    "anatomy": {
+      "silhouette": "cropped bomber",
+      "material": "matte black nylon",
+      "closure": "two-way front zipper",
+      "trim": "neon purple and green ribbing"
+    },
+    "tags": [
+      "尼龍",
+      "nylon",
+      "飛行外套",
+      "bomber",
+      "螢光",
+      "streetwear"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, a cropped matte-black nylon bomber jacket, broadened shoulders, two-way front zipper, neon purple and green ribbed trim, clear garment construction, precise fabric texture",
+      "niji": "a cropped matte-black nylon bomber jacket, broadened shoulders, two-way front zipper, neon purple and green ribbed trim, polished fashion illustration, refined folds, readable garment construction, elegant material rendering --niji 6",
+      "tensorart": "high quality, high detail, a cropped matte-black nylon bomber jacket, broadened shoulders, two-way front zipper, neon purple and green ribbed trim, realistic textile response, precise seams and hardware",
+      "gpt": "Create a polished fashion image featuring a cropped matte-black nylon bomber jacket, broadened shoulders, two-way front zipper, neon purple and green ribbed trim. Preserve the exact silhouette, materials, closures, seams, and accessories."
+    },
+    "negative": "logo, text, watermark, malformed jacket, broken zipper, duplicated sleeves"
+  },
+  {
+    "id": "pack_s01_pants_panel_cargo",
+    "category": "pants",
+    "name_zh": "拼色立體口袋工裝褲",
+    "name_en": "Color-Blocked Dimensional Cargo Trousers",
+    "description_zh": "高腰工裝褲使用黑色與深紫色耐磨布拼接，大腿兩側配置立體翻蓋口袋，膝部採預彎剪裁，褲腳以螢光綠抽繩收束。",
+    "description_en": "High-waisted cargo trousers in black and deep-purple durable fabric, with dimensional flap pockets, articulated knees, and neon-green drawcord hems.",
+    "gender": "unisex",
+    "anatomy": {
+      "silhouette": "high-waisted tapered cargo trousers",
+      "material": "durable black and purple fabric",
+      "pockets": "dimensional thigh flap pockets",
+      "hem": "neon green drawcords"
+    },
+    "tags": [
+      "工裝褲",
+      "cargo",
+      "拼色",
+      "紫色",
+      "螢光綠",
+      "streetwear"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, high-waisted black and deep-purple cargo trousers, dimensional thigh pockets, articulated knees, neon-green drawcord hems, clear garment construction, precise fabric texture",
+      "niji": "high-waisted black and deep-purple cargo trousers, dimensional thigh pockets, articulated knees, neon-green drawcord hems, polished fashion illustration, refined folds, readable garment construction, elegant material rendering --niji 6",
+      "tensorart": "high quality, high detail, high-waisted black and deep-purple cargo trousers, dimensional thigh pockets, articulated knees, neon-green drawcord hems, realistic textile response, precise seams and hardware",
+      "gpt": "Create a polished fashion image featuring high-waisted black and deep-purple cargo trousers, dimensional thigh pockets, articulated knees, neon-green drawcord hems. Preserve the exact silhouette, materials, closures, seams, and accessories."
+    },
+    "negative": "logo, text, watermark, malformed trousers, duplicated pockets, broken leg anatomy"
+  }
+]
