@@ -21,35 +21,35 @@
         "包袋"
       ],
       "default_enabled": true
+    },
+    {
+      "id": "gothic-vol-01",
+      "name_zh": "哥德服飾擴充包 Vol.01",
+      "name_en": "Gothic Fashion Expansion Vol.01",
+      "description_zh": "以哥德、維多利亞與奇幻角色造型為主的服飾擴充包。",
+      "icon": "🦇",
+      "version": "1.0.0",
+      "file": "./data/packs/gothic-vol-01.json",
+      "item_count": 1,
+      "categories": [
+        "外套"
+      ],
+      "default_enabled": true
+    },
+    {
+      "id": "streetwear-vol-01",
+      "name_zh": "街頭服飾擴充包 Vol.01",
+      "name_en": "Streetwear Expansion Vol.01",
+      "description_zh": "以街頭、科技機能與螢光配色為主的服裝擴充包。",
+      "icon": "🧢",
+      "version": "1.0.0",
+      "file": "./data/packs/streetwear-vol-01.json",
+      "item_count": 2,
+      "categories": [
+        "外套",
+        "褲裝"
+      ],
+      "default_enabled": true
     }
   ]
-},
-{
-  "id": "gothic-vol-01",
-  "name_zh": "哥德服飾擴充包 Vol.01",
-  "name_en": "Gothic Fashion Expansion Vol.01",
-  "description_zh": "",
-  "icon": "🦇",
-  "version": "1.0.0",
-  "file": "./data/packs/gothic-vol-01.json",
-  "item_count": 1,
-  "categories": [
-    "外套／斗篷／披肩"
-  ],
-  "default_enabled": false
-},
-{
-  "id": "streetwear-vol-01",
-  "name_zh": "街頭服飾擴充包 Vol.01",
-  "name_en": "Streetwear Expansion Vol.01",
-  "description_zh": "以街頭、科技機能與螢光配色為主的服裝擴充包。",
-  "icon": "🧢",
-  "version": "1.0.0",
-  "file": "./data/packs/streetwear-vol-01.json",
-  "item_count": 2,
-  "categories": [
-    "外套／斗篷／披肩",
-    "褲子"
-  ],
-  "default_enabled": false
 }

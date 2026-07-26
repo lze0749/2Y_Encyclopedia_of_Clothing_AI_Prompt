@@ -1,0 +1,2332 @@
+[
+  {
+    "id": "pack_dual01_pose_side_by_side_relaxed",
+    "category": "poses",
+    "name_zh": "雙人放鬆並肩站立",
+    "name_en": "Relaxed Side-by-Side Duo",
+    "description_zh": "兩名角色自然並肩站立，肩線保持適度距離，雙手各自落在身側或插入口袋；兩人的完整輪廓都清楚可見，適合展示協調或對比穿搭。",
+    "description_en": "Two characters stand naturally side by side with comfortable shoulder spacing, independent arm positions, and both full silhouettes clearly visible.",
+    "gender": "none",
+    "anatomy": {
+      "subjects": "exactly two distinct characters",
+      "interaction": "Relaxed Side-by-Side Duo",
+      "separation": "separate faces, torsos, arms and legs",
+      "composition": "both characters clearly readable"
+    },
+    "tags": [
+      "雙人",
+      "兩人",
+      "two people",
+      "two characters",
+      "duo",
+      "pair pose",
+      "雙人放鬆並肩站立"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, two distinct characters standing naturally side by side, full bodies visible, comfortable spacing, independent arms and legs, clear separation and readable details",
+      "niji": "two distinct characters standing naturally side by side, full bodies visible, comfortable spacing, independent arms and legs, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, two distinct characters standing naturally side by side, full bodies visible, comfortable spacing, independent arms and legs, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring two distinct characters standing naturally side by side, full bodies visible, comfortable spacing, independent arms and legs. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "single person, extra person, merged bodies, fused limbs, shared torso, duplicated face, duplicated arms, duplicated legs, tangled clothing, incorrect hand contact, logo, text, watermark"
+  },
+  {
+    "id": "pack_dual01_pose_face_to_face_eye_contact",
+    "category": "poses",
+    "name_zh": "雙人面對面凝視",
+    "name_en": "Face-to-Face Eye Contact",
+    "description_zh": "兩名角色面對面站立並保持清楚眼神交流，身體略微錯開以避免輪廓重疊；適合戀人、宿敵或重要對話場景。",
+    "description_en": "Two characters face one another with readable eye contact and slightly offset bodies to avoid silhouette overlap.",
+    "gender": "none",
+    "anatomy": {
+      "subjects": "exactly two distinct characters",
+      "interaction": "Face-to-Face Eye Contact",
+      "separation": "separate faces, torsos, arms and legs",
+      "composition": "both characters clearly readable"
+    },
+    "tags": [
+      "雙人",
+      "兩人",
+      "two people",
+      "two characters",
+      "duo",
+      "pair pose",
+      "雙人面對面凝視"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, two distinct characters facing each other, readable eye contact, slightly offset bodies, both faces unobstructed, clear separation and readable details",
+      "niji": "two distinct characters facing each other, readable eye contact, slightly offset bodies, both faces unobstructed, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, two distinct characters facing each other, readable eye contact, slightly offset bodies, both faces unobstructed, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring two distinct characters facing each other, readable eye contact, slightly offset bodies, both faces unobstructed. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "single person, extra person, merged bodies, fused limbs, shared torso, duplicated face, duplicated arms, duplicated legs, tangled clothing, incorrect hand contact, logo, text, watermark"
+  },
+  {
+    "id": "pack_dual01_pose_back_to_back_confident",
+    "category": "poses",
+    "name_zh": "雙人自信背靠背",
+    "name_en": "Confident Back-to-Back Duo",
+    "description_zh": "兩名角色背靠背站立，重心各自穩定並向不同方向注視；肩背接觸但四肢保持分離，呈現搭檔或競爭對手的張力。",
+    "description_en": "Two characters stand back to back with stable independent weight distribution, looking in opposite directions while keeping limbs separate.",
+    "gender": "none",
+    "anatomy": {
+      "subjects": "exactly two distinct characters",
+      "interaction": "Confident Back-to-Back Duo",
+      "separation": "separate faces, torsos, arms and legs",
+      "composition": "both characters clearly readable"
+    },
+    "tags": [
+      "雙人",
+      "兩人",
+      "two people",
+      "two characters",
+      "duo",
+      "pair pose",
+      "雙人自信背靠背"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, two characters standing back to back, opposite gazes, separate limbs, confident duo composition, clear separation and readable details",
+      "niji": "two characters standing back to back, opposite gazes, separate limbs, confident duo composition, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, two characters standing back to back, opposite gazes, separate limbs, confident duo composition, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring two characters standing back to back, opposite gazes, separate limbs, confident duo composition. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "single person, extra person, merged bodies, fused limbs, shared torso, duplicated face, duplicated arms, duplicated legs, tangled clothing, incorrect hand contact, logo, text, watermark"
+  },
+  {
+    "id": "pack_dual01_pose_holding_hands_walking",
+    "category": "poses",
+    "name_zh": "牽手同行",
+    "name_en": "Walking Hand in Hand",
+    "description_zh": "兩名角色牽手向前行走，步幅略有差異但方向一致；牽手位置清楚，未相握的手臂與腿部保持完整分離。",
+    "description_en": "Two characters walk forward while holding hands, with slightly different strides and clearly separated free limbs.",
+    "gender": "none",
+    "anatomy": {
+      "subjects": "exactly two distinct characters",
+      "interaction": "Walking Hand in Hand",
+      "separation": "separate faces, torsos, arms and legs",
+      "composition": "both characters clearly readable"
+    },
+    "tags": [
+      "雙人",
+      "兩人",
+      "two people",
+      "two characters",
+      "duo",
+      "pair pose",
+      "牽手同行"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, two characters walking forward hand in hand, clear hand contact, separate free arms and legs, full-body composition, clear separation and readable details",
+      "niji": "two characters walking forward hand in hand, clear hand contact, separate free arms and legs, full-body composition, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, two characters walking forward hand in hand, clear hand contact, separate free arms and legs, full-body composition, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring two characters walking forward hand in hand, clear hand contact, separate free arms and legs, full-body composition. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "single person, extra person, merged bodies, fused limbs, shared torso, duplicated face, duplicated arms, duplicated legs, tangled clothing, incorrect hand contact, logo, text, watermark"
+  },
+  {
+    "id": "pack_dual01_pose_gentle_embrace",
+    "category": "poses",
+    "name_zh": "溫柔雙人擁抱",
+    "name_en": "Gentle Two-Person Embrace",
+    "description_zh": "兩名角色以自然姿勢輕柔擁抱，臉部與肩頸不被遮擋，手臂接觸位置清楚；適合戀人、家人或久別重逢情境。",
+    "description_en": "Two characters share a gentle embrace with unobstructed faces, readable arm placement, and natural shoulder contact.",
+    "gender": "none",
+    "anatomy": {
+      "subjects": "exactly two distinct characters",
+      "interaction": "Gentle Two-Person Embrace",
+      "separation": "separate faces, torsos, arms and legs",
+      "composition": "both characters clearly readable"
+    },
+    "tags": [
+      "雙人",
+      "兩人",
+      "two people",
+      "two characters",
+      "duo",
+      "pair pose",
+      "溫柔雙人擁抱"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, two distinct characters in a gentle embrace, unobstructed faces, clear arm placement, separate torsos, clear separation and readable details",
+      "niji": "two distinct characters in a gentle embrace, unobstructed faces, clear arm placement, separate torsos, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, two distinct characters in a gentle embrace, unobstructed faces, clear arm placement, separate torsos, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring two distinct characters in a gentle embrace, unobstructed faces, clear arm placement, separate torsos. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "single person, extra person, merged bodies, fused limbs, shared torso, duplicated face, duplicated arms, duplicated legs, tangled clothing, incorrect hand contact, logo, text, watermark"
+  },
+  {
+    "id": "pack_dual01_pose_formal_dance",
+    "category": "poses",
+    "name_zh": "正式雙人舞姿",
+    "name_en": "Formal Partner Dance",
+    "description_zh": "一名角色引導，另一名角色跟隨，兩人以標準舞姿保持手部接觸與軀幹距離；服裝下擺與四肢動線清楚。",
+    "description_en": "One character leads and the other follows in a formal partner-dance hold with readable hand contact and torso spacing.",
+    "gender": "none",
+    "anatomy": {
+      "subjects": "exactly two distinct characters",
+      "interaction": "Formal Partner Dance",
+      "separation": "separate faces, torsos, arms and legs",
+      "composition": "both characters clearly readable"
+    },
+    "tags": [
+      "雙人",
+      "兩人",
+      "two people",
+      "two characters",
+      "duo",
+      "pair pose",
+      "正式雙人舞姿"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, two characters in a formal partner dance pose, clear hand contact, controlled torso spacing, readable full outfits, clear separation and readable details",
+      "niji": "two characters in a formal partner dance pose, clear hand contact, controlled torso spacing, readable full outfits, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, two characters in a formal partner dance pose, clear hand contact, controlled torso spacing, readable full outfits, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring two characters in a formal partner dance pose, clear hand contact, controlled torso spacing, readable full outfits. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "single person, extra person, merged bodies, fused limbs, shared torso, duplicated face, duplicated arms, duplicated legs, tangled clothing, incorrect hand contact, logo, text, watermark"
+  },
+  {
+    "id": "pack_dual01_pose_spin_dance",
+    "category": "poses",
+    "name_zh": "旋轉雙人舞",
+    "name_en": "Spinning Duo Dance",
+    "description_zh": "一名角色抬手引導另一名角色旋轉，旋轉者的裙擺或外套自然展開；兩人手臂交接清楚，身體沒有融合。",
+    "description_en": "One character raises a hand to guide the other through a spin, with flowing garments and clearly connected but separate arms.",
+    "gender": "none",
+    "anatomy": {
+      "subjects": "exactly two distinct characters",
+      "interaction": "Spinning Duo Dance",
+      "separation": "separate faces, torsos, arms and legs",
+      "composition": "both characters clearly readable"
+    },
+    "tags": [
+      "雙人",
+      "兩人",
+      "two people",
+      "two characters",
+      "duo",
+      "pair pose",
+      "旋轉雙人舞"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, two characters performing a guided dance spin, one raised joined hand, flowing garments, separate bodies, clear separation and readable details",
+      "niji": "two characters performing a guided dance spin, one raised joined hand, flowing garments, separate bodies, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, two characters performing a guided dance spin, one raised joined hand, flowing garments, separate bodies, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring two characters performing a guided dance spin, one raised joined hand, flowing garments, separate bodies. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "single person, extra person, merged bodies, fused limbs, shared torso, duplicated face, duplicated arms, duplicated legs, tangled clothing, incorrect hand contact, logo, text, watermark"
+  },
+  {
+    "id": "pack_dual01_pose_protective_stance",
+    "category": "poses",
+    "name_zh": "守護式前後站位",
+    "name_en": "Protective Front-and-Back Stance",
+    "description_zh": "前方角色採防禦姿勢，後方角色位於其肩後並保持可見；形成守護者與被守護者的清楚前後層次。",
+    "description_en": "The front character adopts a protective stance while the second remains visible behind one shoulder, creating clear front-back hierarchy.",
+    "gender": "none",
+    "anatomy": {
+      "subjects": "exactly two distinct characters",
+      "interaction": "Protective Front-and-Back Stance",
+      "separation": "separate faces, torsos, arms and legs",
+      "composition": "both characters clearly readable"
+    },
+    "tags": [
+      "雙人",
+      "兩人",
+      "two people",
+      "two characters",
+      "duo",
+      "pair pose",
+      "守護式前後站位"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, two characters in a protective front-and-back stance, front guardian, rear companion visible, separate silhouettes, clear separation and readable details",
+      "niji": "two characters in a protective front-and-back stance, front guardian, rear companion visible, separate silhouettes, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, two characters in a protective front-and-back stance, front guardian, rear companion visible, separate silhouettes, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring two characters in a protective front-and-back stance, front guardian, rear companion visible, separate silhouettes. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "single person, extra person, merged bodies, fused limbs, shared torso, duplicated face, duplicated arms, duplicated legs, tangled clothing, incorrect hand contact, logo, text, watermark"
+  },
+  {
+    "id": "pack_dual01_pose_duel_ready",
+    "category": "poses",
+    "name_zh": "雙人決鬥預備",
+    "name_en": "Duel-Ready Pair",
+    "description_zh": "兩名角色在畫面兩側相互對峙，各自保持完整戰鬥預備姿勢；武器或手勢不交疊，中央保留明確負空間。",
+    "description_en": "Two characters face off from opposite sides in distinct combat-ready poses, with clear negative space between them.",
+    "gender": "none",
+    "anatomy": {
+      "subjects": "exactly two distinct characters",
+      "interaction": "Duel-Ready Pair",
+      "separation": "separate faces, torsos, arms and legs",
+      "composition": "both characters clearly readable"
+    },
+    "tags": [
+      "雙人",
+      "兩人",
+      "two people",
+      "two characters",
+      "duo",
+      "pair pose",
+      "雙人決鬥預備"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, two rivals facing off, separate combat-ready stances, clear central negative space, no overlapping weapons, clear separation and readable details",
+      "niji": "two rivals facing off, separate combat-ready stances, clear central negative space, no overlapping weapons, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, two rivals facing off, separate combat-ready stances, clear central negative space, no overlapping weapons, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring two rivals facing off, separate combat-ready stances, clear central negative space, no overlapping weapons. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "single person, extra person, merged bodies, fused limbs, shared torso, duplicated face, duplicated arms, duplicated legs, tangled clothing, incorrect hand contact, logo, text, watermark"
+  },
+  {
+    "id": "pack_dual01_pose_high_five",
+    "category": "poses",
+    "name_zh": "雙人擊掌",
+    "name_en": "Two-Person High Five",
+    "description_zh": "兩名角色抬手完成擊掌，接觸點位於畫面中央，另一側手臂與身體保持自然分離；整體呈現活潑慶祝感。",
+    "description_en": "Two characters meet in a high five at the center while keeping their other arms and bodies naturally separated.",
+    "gender": "none",
+    "anatomy": {
+      "subjects": "exactly two distinct characters",
+      "interaction": "Two-Person High Five",
+      "separation": "separate faces, torsos, arms and legs",
+      "composition": "both characters clearly readable"
+    },
+    "tags": [
+      "雙人",
+      "兩人",
+      "two people",
+      "two characters",
+      "duo",
+      "pair pose",
+      "雙人擊掌"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, two characters performing a high five, clear single hand contact, joyful posture, separate bodies, clear separation and readable details",
+      "niji": "two characters performing a high five, clear single hand contact, joyful posture, separate bodies, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, two characters performing a high five, clear single hand contact, joyful posture, separate bodies, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring two characters performing a high five, clear single hand contact, joyful posture, separate bodies. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "single person, extra person, merged bodies, fused limbs, shared torso, duplicated face, duplicated arms, duplicated legs, tangled clothing, incorrect hand contact, logo, text, watermark"
+  },
+  {
+    "id": "pack_dual01_pose_shoulder_lean",
+    "category": "poses",
+    "name_zh": "靠肩休息",
+    "name_en": "Leaning on Shoulder",
+    "description_zh": "一名角色輕靠另一名角色的肩膀，站立者保持穩定姿勢；兩人的臉部與服裝主要結構仍清楚可見。",
+    "description_en": "One character gently rests on the other's shoulder while both faces and major outfit structures remain visible.",
+    "gender": "none",
+    "anatomy": {
+      "subjects": "exactly two distinct characters",
+      "interaction": "Leaning on Shoulder",
+      "separation": "separate faces, torsos, arms and legs",
+      "composition": "both characters clearly readable"
+    },
+    "tags": [
+      "雙人",
+      "兩人",
+      "two people",
+      "two characters",
+      "duo",
+      "pair pose",
+      "靠肩休息"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, two characters with one gently leaning on the other's shoulder, visible faces, clear outfit separation, clear separation and readable details",
+      "niji": "two characters with one gently leaning on the other's shoulder, visible faces, clear outfit separation, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, two characters with one gently leaning on the other's shoulder, visible faces, clear outfit separation, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring two characters with one gently leaning on the other's shoulder, visible faces, clear outfit separation. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "single person, extra person, merged bodies, fused limbs, shared torso, duplicated face, duplicated arms, duplicated legs, tangled clothing, incorrect hand contact, logo, text, watermark"
+  },
+  {
+    "id": "pack_dual01_pose_seated_together",
+    "category": "poses",
+    "name_zh": "雙人並坐",
+    "name_en": "Seated Together",
+    "description_zh": "兩名角色並坐於長椅或台階，膝腿方向略有差異，手部各自放置；避免腿部與衣襬重疊成一體。",
+    "description_en": "Two characters sit side by side with slightly different leg directions and independently placed hands.",
+    "gender": "none",
+    "anatomy": {
+      "subjects": "exactly two distinct characters",
+      "interaction": "Seated Together",
+      "separation": "separate faces, torsos, arms and legs",
+      "composition": "both characters clearly readable"
+    },
+    "tags": [
+      "雙人",
+      "兩人",
+      "two people",
+      "two characters",
+      "duo",
+      "pair pose",
+      "雙人並坐"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, two characters sitting side by side, separate legs and hands, balanced seated composition, clear separation and readable details",
+      "niji": "two characters sitting side by side, separate legs and hands, balanced seated composition, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, two characters sitting side by side, separate legs and hands, balanced seated composition, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring two characters sitting side by side, separate legs and hands, balanced seated composition. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "single person, extra person, merged bodies, fused limbs, shared torso, duplicated face, duplicated arms, duplicated legs, tangled clothing, incorrect hand contact, logo, text, watermark"
+  },
+  {
+    "id": "pack_dual01_pose_one_seated_one_standing",
+    "category": "poses",
+    "name_zh": "一坐一站對話",
+    "name_en": "One Seated, One Standing",
+    "description_zh": "一名角色坐著抬頭交談，另一名角色站在旁側微微俯身；形成清楚高低差與對話關係。",
+    "description_en": "One character sits and looks up while the other stands nearby and leans slightly toward them.",
+    "gender": "none",
+    "anatomy": {
+      "subjects": "exactly two distinct characters",
+      "interaction": "One Seated, One Standing",
+      "separation": "separate faces, torsos, arms and legs",
+      "composition": "both characters clearly readable"
+    },
+    "tags": [
+      "雙人",
+      "兩人",
+      "two people",
+      "two characters",
+      "duo",
+      "pair pose",
+      "一坐一站對話"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, two-character conversation, one seated and one standing, clear height difference, separate silhouettes, clear separation and readable details",
+      "niji": "two-character conversation, one seated and one standing, clear height difference, separate silhouettes, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, two-character conversation, one seated and one standing, clear height difference, separate silhouettes, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring two-character conversation, one seated and one standing, clear height difference, separate silhouettes. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "single person, extra person, merged bodies, fused limbs, shared torso, duplicated face, duplicated arms, duplicated legs, tangled clothing, incorrect hand contact, logo, text, watermark"
+  },
+  {
+    "id": "pack_dual01_pose_whispering",
+    "category": "poses",
+    "name_zh": "耳語互動",
+    "name_en": "Whispering Interaction",
+    "description_zh": "一名角色靠近另一名角色耳側低聲說話，手部可遮掩嘴角但不遮住兩人的臉；保持頭部清楚分離。",
+    "description_en": "One character leans close to whisper near the other's ear while both heads and faces remain clearly separated.",
+    "gender": "none",
+    "anatomy": {
+      "subjects": "exactly two distinct characters",
+      "interaction": "Whispering Interaction",
+      "separation": "separate faces, torsos, arms and legs",
+      "composition": "both characters clearly readable"
+    },
+    "tags": [
+      "雙人",
+      "兩人",
+      "two people",
+      "two characters",
+      "duo",
+      "pair pose",
+      "耳語互動"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, two characters whispering, one leaning near the other's ear, separate heads, unobstructed faces, clear separation and readable details",
+      "niji": "two characters whispering, one leaning near the other's ear, separate heads, unobstructed faces, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, two characters whispering, one leaning near the other's ear, separate heads, unobstructed faces, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring two characters whispering, one leaning near the other's ear, separate heads, unobstructed faces. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "single person, extra person, merged bodies, fused limbs, shared torso, duplicated face, duplicated arms, duplicated legs, tangled clothing, incorrect hand contact, logo, text, watermark"
+  },
+  {
+    "id": "pack_dual01_pose_shared_umbrella",
+    "category": "poses",
+    "name_zh": "共撐一把傘",
+    "name_en": "Sharing One Umbrella",
+    "description_zh": "兩名角色站在同一把傘下，持傘者手臂位置清楚，另一名角色靠近但身體不重疊；適合雨景與浪漫場景。",
+    "description_en": "Two characters share one umbrella with clear holding-hand anatomy and close but non-overlapping bodies.",
+    "gender": "none",
+    "anatomy": {
+      "subjects": "exactly two distinct characters",
+      "interaction": "Sharing One Umbrella",
+      "separation": "separate faces, torsos, arms and legs",
+      "composition": "both characters clearly readable"
+    },
+    "tags": [
+      "雙人",
+      "兩人",
+      "two people",
+      "two characters",
+      "duo",
+      "pair pose",
+      "共撐一把傘"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, two characters sharing one umbrella, clear umbrella hand, close spacing, separate bodies, rainy scene, clear separation and readable details",
+      "niji": "two characters sharing one umbrella, clear umbrella hand, close spacing, separate bodies, rainy scene, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, two characters sharing one umbrella, clear umbrella hand, close spacing, separate bodies, rainy scene, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring two characters sharing one umbrella, clear umbrella hand, close spacing, separate bodies, rainy scene. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "single person, extra person, merged bodies, fused limbs, shared torso, duplicated face, duplicated arms, duplicated legs, tangled clothing, incorrect hand contact, logo, text, watermark"
+  },
+  {
+    "id": "pack_dual01_pose_book_together",
+    "category": "poses",
+    "name_zh": "共讀一本書",
+    "name_en": "Reading One Book Together",
+    "description_zh": "兩名角色共同閱讀一本打開的書，視線集中於頁面，四隻手的分工清楚；適合圖書館或學院場景。",
+    "description_en": "Two characters read one open book together with both gazes on the pages and clearly assigned hand positions.",
+    "gender": "none",
+    "anatomy": {
+      "subjects": "exactly two distinct characters",
+      "interaction": "Reading One Book Together",
+      "separation": "separate faces, torsos, arms and legs",
+      "composition": "both characters clearly readable"
+    },
+    "tags": [
+      "雙人",
+      "兩人",
+      "two people",
+      "two characters",
+      "duo",
+      "pair pose",
+      "共讀一本書"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, two characters reading one open book together, clear four-hand arrangement, separate torsos, clear separation and readable details",
+      "niji": "two characters reading one open book together, clear four-hand arrangement, separate torsos, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, two characters reading one open book together, clear four-hand arrangement, separate torsos, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring two characters reading one open book together, clear four-hand arrangement, separate torsos. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "single person, extra person, merged bodies, fused limbs, shared torso, duplicated face, duplicated arms, duplicated legs, tangled clothing, incorrect hand contact, logo, text, watermark"
+  },
+  {
+    "id": "pack_dual01_pose_photo_selfie",
+    "category": "poses",
+    "name_zh": "雙人自拍",
+    "name_en": "Two-Person Selfie",
+    "description_zh": "前方角色伸手持手機，另一名角色靠近鏡頭做出表情或手勢；手機、手臂與兩張臉都清楚分離。",
+    "description_en": "The front character extends a phone for a selfie while the second leans into frame with a distinct expression or gesture.",
+    "gender": "none",
+    "anatomy": {
+      "subjects": "exactly two distinct characters",
+      "interaction": "Two-Person Selfie",
+      "separation": "separate faces, torsos, arms and legs",
+      "composition": "both characters clearly readable"
+    },
+    "tags": [
+      "雙人",
+      "兩人",
+      "two people",
+      "two characters",
+      "duo",
+      "pair pose",
+      "雙人自拍"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, two characters taking a selfie, one extended phone arm, two distinct faces, separate hands, clear separation and readable details",
+      "niji": "two characters taking a selfie, one extended phone arm, two distinct faces, separate hands, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, two characters taking a selfie, one extended phone arm, two distinct faces, separate hands, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring two characters taking a selfie, one extended phone arm, two distinct faces, separate hands. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "single person, extra person, merged bodies, fused limbs, shared torso, duplicated face, duplicated arms, duplicated legs, tangled clothing, incorrect hand contact, logo, text, watermark"
+  },
+  {
+    "id": "pack_dual01_pose_run_together",
+    "category": "poses",
+    "name_zh": "雙人並跑",
+    "name_en": "Running Together",
+    "description_zh": "兩名角色朝相同方向奔跑，步伐與手臂擺動略有錯開；適合冒險、追逐或歡樂場景。",
+    "description_en": "Two characters run in the same direction with offset strides and independently readable arm swings.",
+    "gender": "none",
+    "anatomy": {
+      "subjects": "exactly two distinct characters",
+      "interaction": "Running Together",
+      "separation": "separate faces, torsos, arms and legs",
+      "composition": "both characters clearly readable"
+    },
+    "tags": [
+      "雙人",
+      "兩人",
+      "two people",
+      "two characters",
+      "duo",
+      "pair pose",
+      "雙人並跑"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, two characters running together, offset strides, separate legs and arms, dynamic full-body composition, clear separation and readable details",
+      "niji": "two characters running together, offset strides, separate legs and arms, dynamic full-body composition, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, two characters running together, offset strides, separate legs and arms, dynamic full-body composition, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring two characters running together, offset strides, separate legs and arms, dynamic full-body composition. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "single person, extra person, merged bodies, fused limbs, shared torso, duplicated face, duplicated arms, duplicated legs, tangled clothing, incorrect hand contact, logo, text, watermark"
+  },
+  {
+    "id": "pack_dual01_pose_pull_forward",
+    "category": "poses",
+    "name_zh": "拉手向前",
+    "name_en": "Pulling Partner Forward",
+    "description_zh": "前方角色回頭拉住後方角色的手向前奔跑，連接手部清楚，兩人步伐形成前後節奏。",
+    "description_en": "The front character looks back while pulling the second forward by one hand, with clear hand contact and staggered strides.",
+    "gender": "none",
+    "anatomy": {
+      "subjects": "exactly two distinct characters",
+      "interaction": "Pulling Partner Forward",
+      "separation": "separate faces, torsos, arms and legs",
+      "composition": "both characters clearly readable"
+    },
+    "tags": [
+      "雙人",
+      "兩人",
+      "two people",
+      "two characters",
+      "duo",
+      "pair pose",
+      "拉手向前"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, two characters, one pulling the other forward by the hand, clear contact, staggered running poses, clear separation and readable details",
+      "niji": "two characters, one pulling the other forward by the hand, clear contact, staggered running poses, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, two characters, one pulling the other forward by the hand, clear contact, staggered running poses, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring two characters, one pulling the other forward by the hand, clear contact, staggered running poses. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "single person, extra person, merged bodies, fused limbs, shared torso, duplicated face, duplicated arms, duplicated legs, tangled clothing, incorrect hand contact, logo, text, watermark"
+  },
+  {
+    "id": "pack_dual01_pose_victory_pose",
+    "category": "poses",
+    "name_zh": "雙人勝利姿勢",
+    "name_en": "Duo Victory Pose",
+    "description_zh": "兩名角色以不同但協調的勝利手勢面向鏡頭，可使用舉拳、V 字手勢或昂首站姿；輪廓完整不互相遮擋。",
+    "description_en": "Two characters face the camera with different but coordinated victory gestures and unobstructed full silhouettes.",
+    "gender": "none",
+    "anatomy": {
+      "subjects": "exactly two distinct characters",
+      "interaction": "Duo Victory Pose",
+      "separation": "separate faces, torsos, arms and legs",
+      "composition": "both characters clearly readable"
+    },
+    "tags": [
+      "雙人",
+      "兩人",
+      "two people",
+      "two characters",
+      "duo",
+      "pair pose",
+      "雙人勝利姿勢"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, two characters in coordinated victory poses, distinct gestures, full bodies visible, no overlap, clear separation and readable details",
+      "niji": "two characters in coordinated victory poses, distinct gestures, full bodies visible, no overlap, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, two characters in coordinated victory poses, distinct gestures, full bodies visible, no overlap, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring two characters in coordinated victory poses, distinct gestures, full bodies visible, no overlap. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "single person, extra person, merged bodies, fused limbs, shared torso, duplicated face, duplicated arms, duplicated legs, tangled clothing, incorrect hand contact, logo, text, watermark"
+  },
+  {
+    "id": "pack_dual01_pose_kneel_and_stand",
+    "category": "poses",
+    "name_zh": "單膝跪與站立搭檔",
+    "name_en": "Kneeling and Standing Partners",
+    "description_zh": "一名角色單膝跪地，另一名角色站在其側後方，兩者視線朝同一方向；構圖具有守護、宣誓或戰鬥感。",
+    "description_en": "One character kneels on one knee while the other stands slightly behind, both looking in the same direction.",
+    "gender": "none",
+    "anatomy": {
+      "subjects": "exactly two distinct characters",
+      "interaction": "Kneeling and Standing Partners",
+      "separation": "separate faces, torsos, arms and legs",
+      "composition": "both characters clearly readable"
+    },
+    "tags": [
+      "雙人",
+      "兩人",
+      "two people",
+      "two characters",
+      "duo",
+      "pair pose",
+      "單膝跪與站立搭檔"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, two characters, one kneeling on one knee and one standing behind, clear layered composition, clear separation and readable details",
+      "niji": "two characters, one kneeling on one knee and one standing behind, clear layered composition, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, two characters, one kneeling on one knee and one standing behind, clear layered composition, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring two characters, one kneeling on one knee and one standing behind, clear layered composition. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "single person, extra person, merged bodies, fused limbs, shared torso, duplicated face, duplicated arms, duplicated legs, tangled clothing, incorrect hand contact, logo, text, watermark"
+  },
+  {
+    "id": "pack_dual01_pose_crown_placement",
+    "category": "poses",
+    "name_zh": "為對方戴上王冠",
+    "name_en": "Placing a Crown",
+    "description_zh": "一名角色雙手將王冠輕放在另一名角色頭上，接受者保持穩定站姿；雙手、王冠與頭部接觸關係清楚。",
+    "description_en": "One character carefully places a crown on the other's head with clear hand, crown, and head relationships.",
+    "gender": "none",
+    "anatomy": {
+      "subjects": "exactly two distinct characters",
+      "interaction": "Placing a Crown",
+      "separation": "separate faces, torsos, arms and legs",
+      "composition": "both characters clearly readable"
+    },
+    "tags": [
+      "雙人",
+      "兩人",
+      "two people",
+      "two characters",
+      "duo",
+      "pair pose",
+      "為對方戴上王冠"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, two characters, one placing a crown on the other's head, clear hands and crown, separate faces, clear separation and readable details",
+      "niji": "two characters, one placing a crown on the other's head, clear hands and crown, separate faces, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, two characters, one placing a crown on the other's head, clear hands and crown, separate faces, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring two characters, one placing a crown on the other's head, clear hands and crown, separate faces. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "single person, extra person, merged bodies, fused limbs, shared torso, duplicated face, duplicated arms, duplicated legs, tangled clothing, incorrect hand contact, logo, text, watermark"
+  },
+  {
+    "id": "pack_dual01_pose_hair_adjustment",
+    "category": "poses",
+    "name_zh": "整理對方髮飾",
+    "name_en": "Adjusting a Hair Accessory",
+    "description_zh": "一名角色抬手替另一名角色整理髮夾或髮簪，動作細緻，兩人的臉部與手指接觸位置清楚。",
+    "description_en": "One character adjusts the other's hair clip or hairpin with precise hand placement and unobstructed faces.",
+    "gender": "none",
+    "anatomy": {
+      "subjects": "exactly two distinct characters",
+      "interaction": "Adjusting a Hair Accessory",
+      "separation": "separate faces, torsos, arms and legs",
+      "composition": "both characters clearly readable"
+    },
+    "tags": [
+      "雙人",
+      "兩人",
+      "two people",
+      "two characters",
+      "duo",
+      "pair pose",
+      "整理對方髮飾"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, two characters, one adjusting the other's hair accessory, precise fingers, unobstructed faces, clear separation and readable details",
+      "niji": "two characters, one adjusting the other's hair accessory, precise fingers, unobstructed faces, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, two characters, one adjusting the other's hair accessory, precise fingers, unobstructed faces, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring two characters, one adjusting the other's hair accessory, precise fingers, unobstructed faces. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "single person, extra person, merged bodies, fused limbs, shared torso, duplicated face, duplicated arms, duplicated legs, tangled clothing, incorrect hand contact, logo, text, watermark"
+  },
+  {
+    "id": "pack_dual01_pose_coat_drape",
+    "category": "poses",
+    "name_zh": "替對方披上外套",
+    "name_en": "Draping a Coat Over Partner",
+    "description_zh": "一名角色從後方或側方將外套披在另一名角色肩上，外套布料與兩人原本服裝層次清楚分離。",
+    "description_en": "One character drapes a coat over the other's shoulders while keeping the added garment separate from both original outfits.",
+    "gender": "none",
+    "anatomy": {
+      "subjects": "exactly two distinct characters",
+      "interaction": "Draping a Coat Over Partner",
+      "separation": "separate faces, torsos, arms and legs",
+      "composition": "both characters clearly readable"
+    },
+    "tags": [
+      "雙人",
+      "兩人",
+      "two people",
+      "two characters",
+      "duo",
+      "pair pose",
+      "替對方披上外套"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, two characters, one draping a coat over the other's shoulders, clear garment layers, separate bodies, clear separation and readable details",
+      "niji": "two characters, one draping a coat over the other's shoulders, clear garment layers, separate bodies, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, two characters, one draping a coat over the other's shoulders, clear garment layers, separate bodies, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring two characters, one draping a coat over the other's shoulders, clear garment layers, separate bodies. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "single person, extra person, merged bodies, fused limbs, shared torso, duplicated face, duplicated arms, duplicated legs, tangled clothing, incorrect hand contact, logo, text, watermark"
+  },
+  {
+    "id": "pack_dual01_pose_gift_exchange",
+    "category": "poses",
+    "name_zh": "交換禮物",
+    "name_en": "Gift Exchange",
+    "description_zh": "兩名角色面對面交換小型禮物，四隻手的接觸與物件位置清楚；適合節慶或友誼場景。",
+    "description_en": "Two characters face each other while exchanging a small gift with clearly readable hands and object placement.",
+    "gender": "none",
+    "anatomy": {
+      "subjects": "exactly two distinct characters",
+      "interaction": "Gift Exchange",
+      "separation": "separate faces, torsos, arms and legs",
+      "composition": "both characters clearly readable"
+    },
+    "tags": [
+      "雙人",
+      "兩人",
+      "two people",
+      "two characters",
+      "duo",
+      "pair pose",
+      "交換禮物"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, two characters exchanging a gift, clear hand-object contact, face-to-face composition, clear separation and readable details",
+      "niji": "two characters exchanging a gift, clear hand-object contact, face-to-face composition, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, two characters exchanging a gift, clear hand-object contact, face-to-face composition, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring two characters exchanging a gift, clear hand-object contact, face-to-face composition. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "single person, extra person, merged bodies, fused limbs, shared torso, duplicated face, duplicated arms, duplicated legs, tangled clothing, incorrect hand contact, logo, text, watermark"
+  },
+  {
+    "id": "pack_dual01_pose_flower_offer",
+    "category": "poses",
+    "name_zh": "遞出花束",
+    "name_en": "Offering a Bouquet",
+    "description_zh": "一名角色向另一名角色遞出花束，接受者伸手回應；花束位於兩人之間但不遮住服裝主體。",
+    "description_en": "One character offers a bouquet while the other reaches to accept it, keeping the flowers between them without hiding the outfits.",
+    "gender": "none",
+    "anatomy": {
+      "subjects": "exactly two distinct characters",
+      "interaction": "Offering a Bouquet",
+      "separation": "separate faces, torsos, arms and legs",
+      "composition": "both characters clearly readable"
+    },
+    "tags": [
+      "雙人",
+      "兩人",
+      "two people",
+      "two characters",
+      "duo",
+      "pair pose",
+      "遞出花束"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, two characters, one offering a bouquet, one reaching to accept, clear flower placement, clear separation and readable details",
+      "niji": "two characters, one offering a bouquet, one reaching to accept, clear flower placement, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, two characters, one offering a bouquet, one reaching to accept, clear flower placement, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring two characters, one offering a bouquet, one reaching to accept, clear flower placement. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "single person, extra person, merged bodies, fused limbs, shared torso, duplicated face, duplicated arms, duplicated legs, tangled clothing, incorrect hand contact, logo, text, watermark"
+  },
+  {
+    "id": "pack_dual01_pose_arm_linked",
+    "category": "poses",
+    "name_zh": "挽手同行",
+    "name_en": "Walking Arm in Arm",
+    "description_zh": "兩名角色手臂相互挽住並向前行走，接觸手臂與各自另一側手臂清楚分離；適合正式或親密場合。",
+    "description_en": "Two characters walk arm in arm with a clearly readable linked-arm relationship and separate free arms.",
+    "gender": "none",
+    "anatomy": {
+      "subjects": "exactly two distinct characters",
+      "interaction": "Walking Arm in Arm",
+      "separation": "separate faces, torsos, arms and legs",
+      "composition": "both characters clearly readable"
+    },
+    "tags": [
+      "雙人",
+      "兩人",
+      "two people",
+      "two characters",
+      "duo",
+      "pair pose",
+      "挽手同行"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, two characters walking arm in arm, clear linked elbows, separate free arms and legs, clear separation and readable details",
+      "niji": "two characters walking arm in arm, clear linked elbows, separate free arms and legs, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, two characters walking arm in arm, clear linked elbows, separate free arms and legs, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring two characters walking arm in arm, clear linked elbows, separate free arms and legs. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "single person, extra person, merged bodies, fused limbs, shared torso, duplicated face, duplicated arms, duplicated legs, tangled clothing, incorrect hand contact, logo, text, watermark"
+  },
+  {
+    "id": "pack_dual01_pose_piggyback",
+    "category": "poses",
+    "name_zh": "背負同行",
+    "name_en": "Piggyback Pair",
+    "description_zh": "一名角色背起另一名角色，承重者軀幹與腿部穩定，被背者雙臂與雙腿環繞位置清楚；避免肢體融合。",
+    "description_en": "One character carries the other piggyback with stable supporting posture and clearly separated arms and legs.",
+    "gender": "none",
+    "anatomy": {
+      "subjects": "exactly two distinct characters",
+      "interaction": "Piggyback Pair",
+      "separation": "separate faces, torsos, arms and legs",
+      "composition": "both characters clearly readable"
+    },
+    "tags": [
+      "雙人",
+      "兩人",
+      "two people",
+      "two characters",
+      "duo",
+      "pair pose",
+      "背負同行"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, two distinct characters in a piggyback pose, stable support, separate limbs, no fused bodies, clear separation and readable details",
+      "niji": "two distinct characters in a piggyback pose, stable support, separate limbs, no fused bodies, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, two distinct characters in a piggyback pose, stable support, separate limbs, no fused bodies, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring two distinct characters in a piggyback pose, stable support, separate limbs, no fused bodies. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "single person, extra person, merged bodies, fused limbs, shared torso, duplicated face, duplicated arms, duplicated legs, tangled clothing, incorrect hand contact, logo, text, watermark"
+  },
+  {
+    "id": "pack_dual01_pose_carry_princess",
+    "category": "poses",
+    "name_zh": "公主抱",
+    "name_en": "Bridal Carry",
+    "description_zh": "一名角色以雙臂抱起另一名角色，承托點分別位於背部與膝後；兩人的頭部、手臂與腿部完整清楚。",
+    "description_en": "One character carries the other in a bridal carry with one arm behind the back and one under the knees, all limbs clearly separated.",
+    "gender": "none",
+    "anatomy": {
+      "subjects": "exactly two distinct characters",
+      "interaction": "Bridal Carry",
+      "separation": "separate faces, torsos, arms and legs",
+      "composition": "both characters clearly readable"
+    },
+    "tags": [
+      "雙人",
+      "兩人",
+      "two people",
+      "two characters",
+      "duo",
+      "pair pose",
+      "公主抱"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, two characters in a bridal carry, clear supporting arms, separate heads and legs, no fused anatomy, clear separation and readable details",
+      "niji": "two characters in a bridal carry, clear supporting arms, separate heads and legs, no fused anatomy, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, two characters in a bridal carry, clear supporting arms, separate heads and legs, no fused anatomy, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring two characters in a bridal carry, clear supporting arms, separate heads and legs, no fused anatomy. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "single person, extra person, merged bodies, fused limbs, shared torso, duplicated face, duplicated arms, duplicated legs, tangled clothing, incorrect hand contact, logo, text, watermark"
+  },
+  {
+    "id": "pack_dual01_pose_handshake",
+    "category": "poses",
+    "name_zh": "正式握手",
+    "name_en": "Formal Handshake",
+    "description_zh": "兩名角色面對鏡頭或彼此，以單手完成正式握手，另一隻手自然放置；適合合作、談判與結盟場景。",
+    "description_en": "Two characters complete a formal handshake with one clear point of contact and independently placed free hands.",
+    "gender": "none",
+    "anatomy": {
+      "subjects": "exactly two distinct characters",
+      "interaction": "Formal Handshake",
+      "separation": "separate faces, torsos, arms and legs",
+      "composition": "both characters clearly readable"
+    },
+    "tags": [
+      "雙人",
+      "兩人",
+      "two people",
+      "two characters",
+      "duo",
+      "pair pose",
+      "正式握手"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, two characters in a formal handshake, clear single hand contact, separate free hands, professional posture, clear separation and readable details",
+      "niji": "two characters in a formal handshake, clear single hand contact, separate free hands, professional posture, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, two characters in a formal handshake, clear single hand contact, separate free hands, professional posture, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring two characters in a formal handshake, clear single hand contact, separate free hands, professional posture. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "single person, extra person, merged bodies, fused limbs, shared torso, duplicated face, duplicated arms, duplicated legs, tangled clothing, incorrect hand contact, logo, text, watermark"
+  },
+  {
+    "id": "pack_dual01_pose_fist_bump",
+    "category": "poses",
+    "name_zh": "雙人碰拳",
+    "name_en": "Fist Bump",
+    "description_zh": "兩名角色以拳面輕碰，手臂形成簡潔對角線，身體保持適度距離；適合搭檔或勝利後互動。",
+    "description_en": "Two characters touch fists at one clear point while maintaining comfortable body spacing.",
+    "gender": "none",
+    "anatomy": {
+      "subjects": "exactly two distinct characters",
+      "interaction": "Fist Bump",
+      "separation": "separate faces, torsos, arms and legs",
+      "composition": "both characters clearly readable"
+    },
+    "tags": [
+      "雙人",
+      "兩人",
+      "two people",
+      "two characters",
+      "duo",
+      "pair pose",
+      "雙人碰拳"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, two characters performing a fist bump, clear single contact point, separate arms and torsos, clear separation and readable details",
+      "niji": "two characters performing a fist bump, clear single contact point, separate arms and torsos, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, two characters performing a fist bump, clear single contact point, separate arms and torsos, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring two characters performing a fist bump, clear single contact point, separate arms and torsos. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "single person, extra person, merged bodies, fused limbs, shared torso, duplicated face, duplicated arms, duplicated legs, tangled clothing, incorrect hand contact, logo, text, watermark"
+  },
+  {
+    "id": "pack_dual01_pose_duo_pointing",
+    "category": "poses",
+    "name_zh": "共同指向遠方",
+    "name_en": "Pointing Toward the Distance",
+    "description_zh": "兩名角色朝同一方向指向遠方，一人可伸直手臂，另一人以視線或第二個手勢呼應；畫面具有探索感。",
+    "description_en": "Two characters indicate the same distant direction with complementary pointing and gaze gestures.",
+    "gender": "none",
+    "anatomy": {
+      "subjects": "exactly two distinct characters",
+      "interaction": "Pointing Toward the Distance",
+      "separation": "separate faces, torsos, arms and legs",
+      "composition": "both characters clearly readable"
+    },
+    "tags": [
+      "雙人",
+      "兩人",
+      "two people",
+      "two characters",
+      "duo",
+      "pair pose",
+      "共同指向遠方"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, two characters pointing toward the same distant direction, complementary gestures, separate arms, clear separation and readable details",
+      "niji": "two characters pointing toward the same distant direction, complementary gestures, separate arms, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, two characters pointing toward the same distant direction, complementary gestures, separate arms, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring two characters pointing toward the same distant direction, complementary gestures, separate arms. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "single person, extra person, merged bodies, fused limbs, shared torso, duplicated face, duplicated arms, duplicated legs, tangled clothing, incorrect hand contact, logo, text, watermark"
+  },
+  {
+    "id": "pack_dual01_pose_opposite_pointing",
+    "category": "poses",
+    "name_zh": "背靠背反向指引",
+    "name_en": "Back-to-Back Opposite Pointing",
+    "description_zh": "兩名角色背靠背並分別指向左右兩側，形成對稱或反向構圖；手臂線條完整不交疊。",
+    "description_en": "Two characters stand back to back and point in opposite directions, creating a symmetrical composition.",
+    "gender": "none",
+    "anatomy": {
+      "subjects": "exactly two distinct characters",
+      "interaction": "Back-to-Back Opposite Pointing",
+      "separation": "separate faces, torsos, arms and legs",
+      "composition": "both characters clearly readable"
+    },
+    "tags": [
+      "雙人",
+      "兩人",
+      "two people",
+      "two characters",
+      "duo",
+      "pair pose",
+      "背靠背反向指引"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, two characters back to back pointing in opposite directions, symmetrical, separate arms, clear separation and readable details",
+      "niji": "two characters back to back pointing in opposite directions, symmetrical, separate arms, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, two characters back to back pointing in opposite directions, symmetrical, separate arms, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring two characters back to back pointing in opposite directions, symmetrical, separate arms. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "single person, extra person, merged bodies, fused limbs, shared torso, duplicated face, duplicated arms, duplicated legs, tangled clothing, incorrect hand contact, logo, text, watermark"
+  },
+  {
+    "id": "pack_dual01_pose_shared_music",
+    "category": "poses",
+    "name_zh": "共用耳機聽音樂",
+    "name_en": "Sharing Headphones",
+    "description_zh": "兩名角色靠近並共用一組耳機或分線耳塞，連接線與手部位置清楚；適合青春與休閒場景。",
+    "description_en": "Two characters share headphones or split earbuds with readable cable placement and close but separate faces.",
+    "gender": "none",
+    "anatomy": {
+      "subjects": "exactly two distinct characters",
+      "interaction": "Sharing Headphones",
+      "separation": "separate faces, torsos, arms and legs",
+      "composition": "both characters clearly readable"
+    },
+    "tags": [
+      "雙人",
+      "兩人",
+      "two people",
+      "two characters",
+      "duo",
+      "pair pose",
+      "共用耳機聽音樂"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, two characters sharing headphones, clear cable placement, close separate faces, casual pose, clear separation and readable details",
+      "niji": "two characters sharing headphones, clear cable placement, close separate faces, casual pose, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, two characters sharing headphones, clear cable placement, close separate faces, casual pose, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring two characters sharing headphones, clear cable placement, close separate faces, casual pose. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "single person, extra person, merged bodies, fused limbs, shared torso, duplicated face, duplicated arms, duplicated legs, tangled clothing, incorrect hand contact, logo, text, watermark"
+  },
+  {
+    "id": "pack_dual01_pose_instrument_duet",
+    "category": "poses",
+    "name_zh": "雙人樂器合奏",
+    "name_en": "Instrument Duet",
+    "description_zh": "兩名角色各自操作不同樂器或同一組合奏配置，手部與樂器結構清楚；避免樂器與身體相互融合。",
+    "description_en": "Two characters perform a duet with separate instruments or clearly divided roles, preserving hand and instrument anatomy.",
+    "gender": "none",
+    "anatomy": {
+      "subjects": "exactly two distinct characters",
+      "interaction": "Instrument Duet",
+      "separation": "separate faces, torsos, arms and legs",
+      "composition": "both characters clearly readable"
+    },
+    "tags": [
+      "雙人",
+      "兩人",
+      "two people",
+      "two characters",
+      "duo",
+      "pair pose",
+      "雙人樂器合奏"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, two characters performing a musical duet, separate instruments, precise hands, balanced composition, clear separation and readable details",
+      "niji": "two characters performing a musical duet, separate instruments, precise hands, balanced composition, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, two characters performing a musical duet, separate instruments, precise hands, balanced composition, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring two characters performing a musical duet, separate instruments, precise hands, balanced composition. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "single person, extra person, merged bodies, fused limbs, shared torso, duplicated face, duplicated arms, duplicated legs, tangled clothing, incorrect hand contact, logo, text, watermark"
+  },
+  {
+    "id": "pack_dual01_pose_cooking_together",
+    "category": "poses",
+    "name_zh": "雙人料理合作",
+    "name_en": "Cooking Together",
+    "description_zh": "兩名角色在工作台前分工料理，一人切配、一人攪拌或遞交食材；手部、器具與食材各自清楚。",
+    "description_en": "Two characters cook together with divided tasks such as chopping, stirring, or passing ingredients, all tools clearly assigned.",
+    "gender": "none",
+    "anatomy": {
+      "subjects": "exactly two distinct characters",
+      "interaction": "Cooking Together",
+      "separation": "separate faces, torsos, arms and legs",
+      "composition": "both characters clearly readable"
+    },
+    "tags": [
+      "雙人",
+      "兩人",
+      "two people",
+      "two characters",
+      "duo",
+      "pair pose",
+      "雙人料理合作"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, two characters cooking together, divided tasks, clear utensils and hands, no object fusion, clear separation and readable details",
+      "niji": "two characters cooking together, divided tasks, clear utensils and hands, no object fusion, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, two characters cooking together, divided tasks, clear utensils and hands, no object fusion, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring two characters cooking together, divided tasks, clear utensils and hands, no object fusion. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "single person, extra person, merged bodies, fused limbs, shared torso, duplicated face, duplicated arms, duplicated legs, tangled clothing, incorrect hand contact, logo, text, watermark"
+  },
+  {
+    "id": "pack_dual01_pose_battle_team",
+    "category": "poses",
+    "name_zh": "雙人戰鬥搭檔",
+    "name_en": "Battle Team Formation",
+    "description_zh": "兩名角色以互補方向採戰鬥姿勢，一人偏近戰、一人偏支援或遠程；保持安全距離與清楚武器方向。",
+    "description_en": "Two characters form a complementary battle team, one close-range and one support or ranged, with clear spacing and weapon directions.",
+    "gender": "none",
+    "anatomy": {
+      "subjects": "exactly two distinct characters",
+      "interaction": "Battle Team Formation",
+      "separation": "separate faces, torsos, arms and legs",
+      "composition": "both characters clearly readable"
+    },
+    "tags": [
+      "雙人",
+      "兩人",
+      "two people",
+      "two characters",
+      "duo",
+      "pair pose",
+      "雙人戰鬥搭檔"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, two-character battle team formation, complementary roles, clear spacing, separate weapons and limbs, clear separation and readable details",
+      "niji": "two-character battle team formation, complementary roles, clear spacing, separate weapons and limbs, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, two-character battle team formation, complementary roles, clear spacing, separate weapons and limbs, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring two-character battle team formation, complementary roles, clear spacing, separate weapons and limbs. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "single person, extra person, merged bodies, fused limbs, shared torso, duplicated face, duplicated arms, duplicated legs, tangled clothing, incorrect hand contact, logo, text, watermark"
+  },
+  {
+    "id": "pack_dual01_pose_magic_combo",
+    "category": "poses",
+    "name_zh": "雙人魔法合擊",
+    "name_en": "Combined Magic Attack",
+    "description_zh": "兩名角色從不同側向共同施放魔法，能量在中央匯聚但手臂與身體不交疊；適合奇幻與特效場景。",
+    "description_en": "Two characters cast magic from opposite sides, with energy converging at the center while bodies remain separate.",
+    "gender": "none",
+    "anatomy": {
+      "subjects": "exactly two distinct characters",
+      "interaction": "Combined Magic Attack",
+      "separation": "separate faces, torsos, arms and legs",
+      "composition": "both characters clearly readable"
+    },
+    "tags": [
+      "雙人",
+      "兩人",
+      "two people",
+      "two characters",
+      "duo",
+      "pair pose",
+      "雙人魔法合擊"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, two characters performing a combined magic attack, energy converging centrally, separate bodies and hands, clear separation and readable details",
+      "niji": "two characters performing a combined magic attack, energy converging centrally, separate bodies and hands, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, two characters performing a combined magic attack, energy converging centrally, separate bodies and hands, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring two characters performing a combined magic attack, energy converging centrally, separate bodies and hands. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "single person, extra person, merged bodies, fused limbs, shared torso, duplicated face, duplicated arms, duplicated legs, tangled clothing, incorrect hand contact, logo, text, watermark"
+  },
+  {
+    "id": "pack_dual01_pose_runway_pair",
+    "category": "poses",
+    "name_zh": "雙人伸展台並行",
+    "name_en": "Runway Pair Walk",
+    "description_zh": "兩名角色以略微錯開的步伐在伸展台並行前進，保持各自視線、手臂與服裝輪廓完整。",
+    "description_en": "Two characters walk a runway in parallel with offset strides and fully readable independent outfit silhouettes.",
+    "gender": "none",
+    "anatomy": {
+      "subjects": "exactly two distinct characters",
+      "interaction": "Runway Pair Walk",
+      "separation": "separate faces, torsos, arms and legs",
+      "composition": "both characters clearly readable"
+    },
+    "tags": [
+      "雙人",
+      "兩人",
+      "two people",
+      "two characters",
+      "duo",
+      "pair pose",
+      "雙人伸展台並行"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, two characters walking a runway together, offset strides, full outfits visible, separate silhouettes, clear separation and readable details",
+      "niji": "two characters walking a runway together, offset strides, full outfits visible, separate silhouettes, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, two characters walking a runway together, offset strides, full outfits visible, separate silhouettes, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring two characters walking a runway together, offset strides, full outfits visible, separate silhouettes. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "single person, extra person, merged bodies, fused limbs, shared torso, duplicated face, duplicated arms, duplicated legs, tangled clothing, incorrect hand contact, logo, text, watermark"
+  },
+  {
+    "id": "pack_dual01_pose_portrait_close_pair",
+    "category": "poses",
+    "name_zh": "雙人近距離肖像",
+    "name_en": "Close Two-Person Portrait",
+    "description_zh": "兩名角色肩部靠近但頭部保持清楚分離，視線可同向或互看；適合半身與胸像構圖。",
+    "description_en": "Two characters pose closely for a portrait with shoulders near each other but heads and facial identities clearly separated.",
+    "gender": "none",
+    "anatomy": {
+      "subjects": "exactly two distinct characters",
+      "interaction": "Close Two-Person Portrait",
+      "separation": "separate faces, torsos, arms and legs",
+      "composition": "both characters clearly readable"
+    },
+    "tags": [
+      "雙人",
+      "兩人",
+      "two people",
+      "two characters",
+      "duo",
+      "pair pose",
+      "雙人近距離肖像"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, close two-person portrait, two distinct faces, separate heads, readable shoulders and accessories, clear separation and readable details",
+      "niji": "close two-person portrait, two distinct faces, separate heads, readable shoulders and accessories, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, close two-person portrait, two distinct faces, separate heads, readable shoulders and accessories, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring close two-person portrait, two distinct faces, separate heads, readable shoulders and accessories. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "single person, extra person, merged bodies, fused limbs, shared torso, duplicated face, duplicated arms, duplicated legs, tangled clothing, incorrect hand contact, logo, text, watermark"
+  },
+  {
+    "id": "pack_dual01_hair_ribbon_arch",
+    "category": "hair-accessories",
+    "name_zh": "拱形緞帶髮箍",
+    "name_en": "Arched Satin Ribbon Headband",
+    "description_zh": "寬版緞帶髮箍以立體拱形輪廓包覆頭頂，兩側逐漸收窄並在耳後隱藏固定點；表面可加入雙色滾邊或細小珠飾。",
+    "description_en": "A broad satin headband with a sculpted arched crown, tapered sides, hidden ear-back anchors, and optional contrast piping or beadwork.",
+    "gender": "unisex",
+    "anatomy": {
+      "placement": "head or hair",
+      "material": "ornamental mixed materials",
+      "attachment": "secure hidden clips or pins"
+    },
+    "tags": [
+      "髮飾",
+      "hair accessory",
+      "拱形緞帶髮箍",
+      "arched"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, a sculpted arched satin ribbon headband, tapered sides, hidden anchors, contrast piping, clear separation and readable details",
+      "niji": "a sculpted arched satin ribbon headband, tapered sides, hidden anchors, contrast piping, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, a sculpted arched satin ribbon headband, tapered sides, hidden anchors, contrast piping, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring a sculpted arched satin ribbon headband, tapered sides, hidden anchors, contrast piping. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "logo, text, watermark, malformed hair accessory, duplicated hair ornament, accessory covering face, broken attachment"
+  },
+  {
+    "id": "pack_dual01_hair_chain_hairpin",
+    "category": "hair-accessories",
+    "name_zh": "鍊條流蘇髮簪",
+    "name_en": "Chain-Tassel Hairpin",
+    "description_zh": "金屬髮簪由細長主針、鏤空飾片與多段細鍊流蘇組成，插入髮髻後鍊條沿後腦自然垂落，適合華麗傳統與奇幻造型。",
+    "description_en": "A metal hairpin with a long main pin, openwork ornament, and fine chain tassels that drape from a bun.",
+    "gender": "unisex",
+    "anatomy": {
+      "placement": "head or hair",
+      "material": "ornamental mixed materials",
+      "attachment": "secure hidden clips or pins"
+    },
+    "tags": [
+      "髮飾",
+      "hair accessory",
+      "鍊條流蘇髮簪",
+      "chain-tassel"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, an ornate metal hairpin, openwork ornament, multiple fine chain tassels draping from a hair bun, clear separation and readable details",
+      "niji": "an ornate metal hairpin, openwork ornament, multiple fine chain tassels draping from a hair bun, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, an ornate metal hairpin, openwork ornament, multiple fine chain tassels draping from a hair bun, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring an ornate metal hairpin, openwork ornament, multiple fine chain tassels draping from a hair bun. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "logo, text, watermark, malformed hair accessory, duplicated hair ornament, accessory covering face, broken attachment"
+  },
+  {
+    "id": "pack_dual01_hair_crystal_clips",
+    "category": "hair-accessories",
+    "name_zh": "晶體星芒髮夾組",
+    "name_en": "Crystal Starburst Hair Clip Set",
+    "description_zh": "多枚大小不一的星芒晶體髮夾沿側髮分散排列，透明與虹彩材質交錯，形成輕盈閃爍的髮部重點。",
+    "description_en": "A set of differently sized crystal starburst clips scattered along the side hair in clear and iridescent finishes.",
+    "gender": "unisex",
+    "anatomy": {
+      "placement": "head or hair",
+      "material": "ornamental mixed materials",
+      "attachment": "secure hidden clips or pins"
+    },
+    "tags": [
+      "髮飾",
+      "hair accessory",
+      "晶體星芒髮夾組",
+      "crystal"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, a set of clear and iridescent crystal starburst hair clips scattered along side hair, clear separation and readable details",
+      "niji": "a set of clear and iridescent crystal starburst hair clips scattered along side hair, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, a set of clear and iridescent crystal starburst hair clips scattered along side hair, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring a set of clear and iridescent crystal starburst hair clips scattered along side hair. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "logo, text, watermark, malformed hair accessory, duplicated hair ornament, accessory covering face, broken attachment"
+  },
+  {
+    "id": "pack_dual01_hair_velvet_bow",
+    "category": "hair-accessories",
+    "name_zh": "長尾天鵝絨蝴蝶結",
+    "name_en": "Long-Tail Velvet Hair Bow",
+    "description_zh": "大型天鵝絨蝴蝶結固定於後腦或低馬尾，兩條長尾延伸至肩胛位置，邊緣以窄緞帶包邊，適合哥德與學院風格。",
+    "description_en": "A large velvet bow fixed at the back of the head or a low ponytail, with long tails reaching the shoulder blades and narrow satin edging.",
+    "gender": "unisex",
+    "anatomy": {
+      "placement": "head or hair",
+      "material": "ornamental mixed materials",
+      "attachment": "secure hidden clips or pins"
+    },
+    "tags": [
+      "髮飾",
+      "hair accessory",
+      "長尾天鵝絨蝴蝶結",
+      "long-tail"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, a large black velvet hair bow, long tails to the shoulder blades, narrow satin edging, clear separation and readable details",
+      "niji": "a large black velvet hair bow, long tails to the shoulder blades, narrow satin edging, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, a large black velvet hair bow, long tails to the shoulder blades, narrow satin edging, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring a large black velvet hair bow, long tails to the shoulder blades, narrow satin edging. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "logo, text, watermark, malformed hair accessory, duplicated hair ornament, accessory covering face, broken attachment"
+  },
+  {
+    "id": "pack_dual01_hair_tech_halo",
+    "category": "hair-accessories",
+    "name_zh": "模組化機能光環髮飾",
+    "name_en": "Modular Tech Halo Hairpiece",
+    "description_zh": "半圓形機能髮飾以輕量金屬骨架環繞後腦，配置小型發光節點、可拆式透明片與髮夾固定座，適合科技與未來角色。",
+    "description_en": "A lightweight semicircular metal halo hairpiece around the back of the head, with glowing nodes, detachable transparent fins, and clip anchors.",
+    "gender": "unisex",
+    "anatomy": {
+      "placement": "head or hair",
+      "material": "ornamental mixed materials",
+      "attachment": "secure hidden clips or pins"
+    },
+    "tags": [
+      "髮飾",
+      "hair accessory",
+      "模組化機能光環髮飾",
+      "modular"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, a modular semicircular tech halo hairpiece, lightweight metal frame, glowing nodes, transparent fins, clear separation and readable details",
+      "niji": "a modular semicircular tech halo hairpiece, lightweight metal frame, glowing nodes, transparent fins, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, a modular semicircular tech halo hairpiece, lightweight metal frame, glowing nodes, transparent fins, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring a modular semicircular tech halo hairpiece, lightweight metal frame, glowing nodes, transparent fins. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "logo, text, watermark, malformed hair accessory, duplicated hair ornament, accessory covering face, broken attachment"
+  },
+  {
+    "id": "pack_dual01_hair_pearl_vine",
+    "category": "hair-accessories",
+    "name_zh": "珍珠藤蔓側髮飾",
+    "name_en": "Pearl Vine Side Hair Ornament",
+    "description_zh": "細金屬藤蔓沿耳上側髮延伸，分支鑲嵌大小不同的珍珠與葉片，末端以隱藏髮夾固定，適合浪漫與婚禮造型。",
+    "description_en": "A fine metal vine follows the side hair above the ear, branching into varied pearls and leaf motifs with hidden clip anchors.",
+    "gender": "unisex",
+    "anatomy": {
+      "placement": "head or hair",
+      "material": "ornamental mixed materials",
+      "attachment": "secure hidden clips or pins"
+    },
+    "tags": [
+      "髮飾",
+      "hair accessory",
+      "珍珠藤蔓側髮飾",
+      "pearl"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, a delicate pearl vine side hair ornament, branching metal leaves, varied pearls, hidden clips, clear separation and readable details",
+      "niji": "a delicate pearl vine side hair ornament, branching metal leaves, varied pearls, hidden clips, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, a delicate pearl vine side hair ornament, branching metal leaves, varied pearls, hidden clips, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring a delicate pearl vine side hair ornament, branching metal leaves, varied pearls, hidden clips. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "logo, text, watermark, malformed hair accessory, duplicated hair ornament, accessory covering face, broken attachment"
+  },
+  {
+    "id": "pack_dual01_hair_feather_fascinator",
+    "category": "hair-accessories",
+    "name_zh": "羽毛網紗小禮帽",
+    "name_en": "Feather Mesh Fascinator",
+    "description_zh": "小型禮帽以斜角固定於一側頭頂，搭配短羽毛、點狀網紗與細緞帶，輪廓輕巧不遮擋臉部。",
+    "description_en": "A small tilted fascinator with short feathers, dotted mesh, and narrow satin ribbons, positioned without covering the face.",
+    "gender": "unisex",
+    "anatomy": {
+      "placement": "head or hair",
+      "material": "ornamental mixed materials",
+      "attachment": "secure hidden clips or pins"
+    },
+    "tags": [
+      "髮飾",
+      "hair accessory",
+      "羽毛網紗小禮帽",
+      "feather"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, a small tilted fascinator, short feathers, dotted mesh veil, narrow satin ribbons, clear separation and readable details",
+      "niji": "a small tilted fascinator, short feathers, dotted mesh veil, narrow satin ribbons, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, a small tilted fascinator, short feathers, dotted mesh veil, narrow satin ribbons, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring a small tilted fascinator, short feathers, dotted mesh veil, narrow satin ribbons. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "logo, text, watermark, malformed hair accessory, duplicated hair ornament, accessory covering face, broken attachment"
+  },
+  {
+    "id": "pack_dual01_hair_flower_crown",
+    "category": "hair-accessories",
+    "name_zh": "細枝花冠",
+    "name_en": "Delicate Branch Flower Crown",
+    "description_zh": "柔性枝條構成細窄花冠，均勻分布小型花朵、嫩葉與微光珠點，後方以緞帶調節，適合自然、精靈與婚禮主題。",
+    "description_en": "A narrow flexible-branch flower crown with small blossoms, fresh leaves, glowing bead accents, and adjustable ribbon ties.",
+    "gender": "unisex",
+    "anatomy": {
+      "placement": "head or hair",
+      "material": "ornamental mixed materials",
+      "attachment": "secure hidden clips or pins"
+    },
+    "tags": [
+      "髮飾",
+      "hair accessory",
+      "細枝花冠",
+      "delicate"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, a delicate branch flower crown, small blossoms, fresh leaves, glowing beads, ribbon ties, clear separation and readable details",
+      "niji": "a delicate branch flower crown, small blossoms, fresh leaves, glowing beads, ribbon ties, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, a delicate branch flower crown, small blossoms, fresh leaves, glowing beads, ribbon ties, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring a delicate branch flower crown, small blossoms, fresh leaves, glowing beads, ribbon ties. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "logo, text, watermark, malformed hair accessory, duplicated hair ornament, accessory covering face, broken attachment"
+  },
+  {
+    "id": "pack_dual01_hair_metal_comb",
+    "category": "hair-accessories",
+    "name_zh": "幾何金屬髮梳",
+    "name_en": "Geometric Metal Hair Comb",
+    "description_zh": "寬版金屬髮梳由多片幾何鏤空薄片組成，插入盤髮後形成扇形輪廓；霧銀或黑鈦表面適合正式與未來風格。",
+    "description_en": "A broad metal hair comb built from geometric openwork plates that fan outward from an updo, in matte silver or black titanium.",
+    "gender": "unisex",
+    "anatomy": {
+      "placement": "head or hair",
+      "material": "ornamental mixed materials",
+      "attachment": "secure hidden clips or pins"
+    },
+    "tags": [
+      "髮飾",
+      "hair accessory",
+      "幾何金屬髮梳",
+      "geometric"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, a geometric openwork metal hair comb, fan-shaped silhouette, matte silver and black titanium, clear separation and readable details",
+      "niji": "a geometric openwork metal hair comb, fan-shaped silhouette, matte silver and black titanium, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, a geometric openwork metal hair comb, fan-shaped silhouette, matte silver and black titanium, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring a geometric openwork metal hair comb, fan-shaped silhouette, matte silver and black titanium. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "logo, text, watermark, malformed hair accessory, duplicated hair ornament, accessory covering face, broken attachment"
+  },
+  {
+    "id": "pack_dual01_hair_lace_veil_clip",
+    "category": "hair-accessories",
+    "name_zh": "蕾絲短頭紗髮夾",
+    "name_en": "Lace Short-Veil Hair Clip",
+    "description_zh": "蕾絲髮夾固定於後腦，短頭紗落至肩上，邊緣帶有細密花紋與微小珠飾，適合哥德、婚禮與戲劇造型。",
+    "description_en": "A lace clip anchors a short shoulder-length veil with floral edging and tiny beads.",
+    "gender": "unisex",
+    "anatomy": {
+      "placement": "head or hair",
+      "material": "ornamental mixed materials",
+      "attachment": "secure hidden clips or pins"
+    },
+    "tags": [
+      "髮飾",
+      "hair accessory",
+      "蕾絲短頭紗髮夾",
+      "lace"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, a lace short-veil hair clip, shoulder-length veil, floral edging, tiny bead details, clear separation and readable details",
+      "niji": "a lace short-veil hair clip, shoulder-length veil, floral edging, tiny bead details, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, a lace short-veil hair clip, shoulder-length veil, floral edging, tiny bead details, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring a lace short-veil hair clip, shoulder-length veil, floral edging, tiny bead details. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "logo, text, watermark, malformed hair accessory, duplicated hair ornament, accessory covering face, broken attachment"
+  },
+  {
+    "id": "pack_dual01_nails_neon_outline",
+    "category": "nails",
+    "name_zh": "螢光輪廓短方甲",
+    "name_en": "Neon-Outline Short Square Nails",
+    "description_zh": "短方甲以霧黑底色搭配螢光紫與綠色細線勾勒甲緣，部分指甲加入不對稱幾何切割，適合科技機能與街頭造型。",
+    "description_en": "Short square nails with a matte-black base, neon purple-green edge lines, and asymmetric geometric segments.",
+    "gender": "unisex",
+    "anatomy": {
+      "shape": "Square",
+      "finish": "detailed nail surface",
+      "application": "all ten nails consistent"
+    },
+    "tags": [
+      "美甲",
+      "nail art",
+      "指甲",
+      "螢光輪廓短方甲"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, short square nails, matte black base, neon purple and green outline, asymmetric geometric nail art, clear separation and readable details",
+      "niji": "short square nails, matte black base, neon purple and green outline, asymmetric geometric nail art, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, short square nails, matte black base, neon purple and green outline, asymmetric geometric nail art, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring short square nails, matte black base, neon purple and green outline, asymmetric geometric nail art. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "logo, text, watermark, malformed fingers, extra fingers, missing nails, duplicated nails, inconsistent nail length, nail art floating away from fingers"
+  },
+  {
+    "id": "pack_dual01_nails_pearl_lace",
+    "category": "nails",
+    "name_zh": "珍珠蕾絲橢圓甲",
+    "name_en": "Pearl Lace Oval Nails",
+    "description_zh": "橢圓甲以半透明乳白底搭配細緻蕾絲紋與微小珍珠，重點指加入柔和銀線，呈現浪漫與正式質感。",
+    "description_en": "Oval nails with a translucent milky base, fine lace patterns, tiny pearls, and soft silver accents.",
+    "gender": "unisex",
+    "anatomy": {
+      "shape": "Oval",
+      "finish": "detailed nail surface",
+      "application": "all ten nails consistent"
+    },
+    "tags": [
+      "美甲",
+      "nail art",
+      "指甲",
+      "珍珠蕾絲橢圓甲"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, oval nails, translucent milky base, fine lace patterns, tiny pearls, soft silver accents, clear separation and readable details",
+      "niji": "oval nails, translucent milky base, fine lace patterns, tiny pearls, soft silver accents, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, oval nails, translucent milky base, fine lace patterns, tiny pearls, soft silver accents, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring oval nails, translucent milky base, fine lace patterns, tiny pearls, soft silver accents. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "logo, text, watermark, malformed fingers, extra fingers, missing nails, duplicated nails, inconsistent nail length, nail art floating away from fingers"
+  },
+  {
+    "id": "pack_dual01_nails_chrome_claw",
+    "category": "nails",
+    "name_zh": "鏡面鉻銀尖甲",
+    "name_en": "Chrome Silver Stiletto Nails",
+    "description_zh": "細長尖甲使用高反射鉻銀表面，甲根以黑色細線分區，兩枚重點指加入微型金屬環，具有未來與龐克感。",
+    "description_en": "Long stiletto nails with highly reflective chrome silver, black root divisions, and miniature metal-ring accents.",
+    "gender": "unisex",
+    "anatomy": {
+      "shape": "Stiletto",
+      "finish": "detailed nail surface",
+      "application": "all ten nails consistent"
+    },
+    "tags": [
+      "美甲",
+      "nail art",
+      "指甲",
+      "鏡面鉻銀尖甲"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, long stiletto nails, mirror chrome silver finish, black root lines, miniature metal ring accents, clear separation and readable details",
+      "niji": "long stiletto nails, mirror chrome silver finish, black root lines, miniature metal ring accents, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, long stiletto nails, mirror chrome silver finish, black root lines, miniature metal ring accents, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring long stiletto nails, mirror chrome silver finish, black root lines, miniature metal ring accents. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "logo, text, watermark, malformed fingers, extra fingers, missing nails, duplicated nails, inconsistent nail length, nail art floating away from fingers"
+  },
+  {
+    "id": "pack_dual01_nails_velvet_cat_eye",
+    "category": "nails",
+    "name_zh": "天鵝絨貓眼杏仁甲",
+    "name_en": "Velvet Cat-Eye Almond Nails",
+    "description_zh": "杏仁甲使用深紫與墨綠磁性貓眼凝膠，光帶隨角度移動並呈現天鵝絨深度，適合哥德與夜景造型。",
+    "description_en": "Almond nails in deep-purple and dark-green magnetic cat-eye gel with shifting velvet-like light bands.",
+    "gender": "unisex",
+    "anatomy": {
+      "shape": "Almond",
+      "finish": "detailed nail surface",
+      "application": "all ten nails consistent"
+    },
+    "tags": [
+      "美甲",
+      "nail art",
+      "指甲",
+      "天鵝絨貓眼杏仁甲"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, almond nails, deep purple and dark green magnetic cat-eye gel, velvet shifting light bands, clear separation and readable details",
+      "niji": "almond nails, deep purple and dark green magnetic cat-eye gel, velvet shifting light bands, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, almond nails, deep purple and dark green magnetic cat-eye gel, velvet shifting light bands, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring almond nails, deep purple and dark green magnetic cat-eye gel, velvet shifting light bands. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "logo, text, watermark, malformed fingers, extra fingers, missing nails, duplicated nails, inconsistent nail length, nail art floating away from fingers"
+  },
+  {
+    "id": "pack_dual01_nails_pressed_flower",
+    "category": "nails",
+    "name_zh": "押花透明圓甲",
+    "name_en": "Pressed-Flower Clear Round Nails",
+    "description_zh": "透明圓甲封入細小押花、葉片與金箔碎片，每指排列不同但維持自然色調，適合春日、精靈與婚禮主題。",
+    "description_en": "Clear round nails embedding tiny pressed flowers, leaves, and gold-foil flakes in varied natural arrangements.",
+    "gender": "unisex",
+    "anatomy": {
+      "shape": "Round",
+      "finish": "detailed nail surface",
+      "application": "all ten nails consistent"
+    },
+    "tags": [
+      "美甲",
+      "nail art",
+      "指甲",
+      "押花透明圓甲"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, clear round nails, embedded pressed flowers and leaves, small gold foil flakes, clear separation and readable details",
+      "niji": "clear round nails, embedded pressed flowers and leaves, small gold foil flakes, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, clear round nails, embedded pressed flowers and leaves, small gold foil flakes, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring clear round nails, embedded pressed flowers and leaves, small gold foil flakes. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "logo, text, watermark, malformed fingers, extra fingers, missing nails, duplicated nails, inconsistent nail length, nail art floating away from fingers"
+  },
+  {
+    "id": "pack_dual01_nails_gothic_window",
+    "category": "nails",
+    "name_zh": "哥德彩窗尖圓甲",
+    "name_en": "Gothic Stained-Glass Nails",
+    "description_zh": "尖圓甲以黑色框線切分深紅、紫與藍色透明區塊，模擬哥德彩繪玻璃，重點指加入微型十字與尖拱紋。",
+    "description_en": "Soft-point nails divided by black lines into transparent red, purple, and blue stained-glass sections with tiny pointed-arch motifs.",
+    "gender": "unisex",
+    "anatomy": {
+      "shape": "Stained-Glass",
+      "finish": "detailed nail surface",
+      "application": "all ten nails consistent"
+    },
+    "tags": [
+      "美甲",
+      "nail art",
+      "指甲",
+      "哥德彩窗尖圓甲"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, soft-point nails, gothic stained-glass pattern, black outlines, transparent red purple blue sections, clear separation and readable details",
+      "niji": "soft-point nails, gothic stained-glass pattern, black outlines, transparent red purple blue sections, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, soft-point nails, gothic stained-glass pattern, black outlines, transparent red purple blue sections, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring soft-point nails, gothic stained-glass pattern, black outlines, transparent red purple blue sections. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "logo, text, watermark, malformed fingers, extra fingers, missing nails, duplicated nails, inconsistent nail length, nail art floating away from fingers"
+  },
+  {
+    "id": "pack_dual01_nails_marble_gold",
+    "category": "nails",
+    "name_zh": "白玉金紋長方甲",
+    "name_en": "White Marble Gold-Vein Coffin Nails",
+    "description_zh": "長方甲以乳白大理石紋為底，細金線沿不規則裂紋延伸，局部加入半透明裸色區，適合高級正式造型。",
+    "description_en": "Coffin nails with milky white marble veining, fine gold lines, and selective translucent nude sections.",
+    "gender": "unisex",
+    "anatomy": {
+      "shape": "Coffin",
+      "finish": "detailed nail surface",
+      "application": "all ten nails consistent"
+    },
+    "tags": [
+      "美甲",
+      "nail art",
+      "指甲",
+      "白玉金紋長方甲"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, coffin nails, milky white marble pattern, fine gold veins, translucent nude sections, clear separation and readable details",
+      "niji": "coffin nails, milky white marble pattern, fine gold veins, translucent nude sections, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, coffin nails, milky white marble pattern, fine gold veins, translucent nude sections, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring coffin nails, milky white marble pattern, fine gold veins, translucent nude sections. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "logo, text, watermark, malformed fingers, extra fingers, missing nails, duplicated nails, inconsistent nail length, nail art floating away from fingers"
+  },
+  {
+    "id": "pack_dual01_nails_hologram_grid",
+    "category": "nails",
+    "name_zh": "全息網格短圓甲",
+    "name_en": "Holographic Grid Short Round Nails",
+    "description_zh": "短圓甲以透明底搭配全息細網格，紫綠偏光隨光線變化，重點指加入微型數位符號但不使用可讀文字。",
+    "description_en": "Short round nails with a clear base, holographic micro-grid, purple-green shifts, and abstract digital symbols.",
+    "gender": "unisex",
+    "anatomy": {
+      "shape": "Round",
+      "finish": "detailed nail surface",
+      "application": "all ten nails consistent"
+    },
+    "tags": [
+      "美甲",
+      "nail art",
+      "指甲",
+      "全息網格短圓甲"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, short round nails, clear base, holographic micro-grid, purple green color shift, abstract digital motifs, clear separation and readable details",
+      "niji": "short round nails, clear base, holographic micro-grid, purple green color shift, abstract digital motifs, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, short round nails, clear base, holographic micro-grid, purple green color shift, abstract digital motifs, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring short round nails, clear base, holographic micro-grid, purple green color shift, abstract digital motifs. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "logo, text, watermark, malformed fingers, extra fingers, missing nails, duplicated nails, inconsistent nail length, nail art floating away from fingers"
+  },
+  {
+    "id": "pack_dual01_nails_black_rose",
+    "category": "nails",
+    "name_zh": "黑玫瑰浮雕杏仁甲",
+    "name_en": "Black Rose Relief Almond Nails",
+    "description_zh": "杏仁甲使用霧黑底與同色立體玫瑰浮雕，花瓣邊緣以低調銀粉提亮，造型華麗但保留清楚甲面輪廓。",
+    "description_en": "Almond nails with a matte-black base, dimensional black-rose reliefs, and subtle silver-highlighted petal edges.",
+    "gender": "unisex",
+    "anatomy": {
+      "shape": "Almond",
+      "finish": "detailed nail surface",
+      "application": "all ten nails consistent"
+    },
+    "tags": [
+      "美甲",
+      "nail art",
+      "指甲",
+      "黑玫瑰浮雕杏仁甲"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, almond nails, matte black base, dimensional black rose relief, subtle silver petal highlights, clear separation and readable details",
+      "niji": "almond nails, matte black base, dimensional black rose relief, subtle silver petal highlights, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, almond nails, matte black base, dimensional black rose relief, subtle silver petal highlights, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring almond nails, matte black base, dimensional black rose relief, subtle silver petal highlights. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "logo, text, watermark, malformed fingers, extra fingers, missing nails, duplicated nails, inconsistent nail length, nail art floating away from fingers"
+  },
+  {
+    "id": "pack_dual01_nails_pastel_gradient",
+    "category": "nails",
+    "name_zh": "粉彩漸層水滴甲",
+    "name_en": "Pastel Gradient Teardrop Nails",
+    "description_zh": "水滴形甲面由薰衣草紫、薄荷綠、淡粉與象牙白柔和漸層，表面加入細微珠光與透明水滴凸點。",
+    "description_en": "Teardrop-shaped nails with soft lavender, mint, blush, and ivory gradients, fine pearl shimmer, and clear droplet accents.",
+    "gender": "unisex",
+    "anatomy": {
+      "shape": "Teardrop",
+      "finish": "detailed nail surface",
+      "application": "all ten nails consistent"
+    },
+    "tags": [
+      "美甲",
+      "nail art",
+      "指甲",
+      "粉彩漸層水滴甲"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, teardrop nails, pastel lavender mint blush ivory gradient, pearl shimmer, clear droplet accents, clear separation and readable details",
+      "niji": "teardrop nails, pastel lavender mint blush ivory gradient, pearl shimmer, clear droplet accents, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, teardrop nails, pastel lavender mint blush ivory gradient, pearl shimmer, clear droplet accents, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring teardrop nails, pastel lavender mint blush ivory gradient, pearl shimmer, clear droplet accents. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "logo, text, watermark, malformed fingers, extra fingers, missing nails, duplicated nails, inconsistent nail length, nail art floating away from fingers"
+  },
+  {
+    "id": "pack_dual01_bag_crescent_chain",
+    "category": "bags",
+    "name_zh": "新月鍊條肩背包",
+    "name_en": "Crescent Chain Shoulder Bag",
+    "description_zh": "新月形硬挺包身以霧黑皮革製作，底部略呈弧形，搭配可拆銀色短鍊與窄版皮革肩帶；前蓋使用隱藏磁扣。",
+    "description_en": "A structured crescent bag in matte-black leather with a detachable short silver chain, narrow shoulder strap, and hidden magnetic flap.",
+    "gender": "unisex",
+    "anatomy": {
+      "silhouette": "Crescent Chain Shoulder Bag",
+      "material": "fashion bag materials",
+      "closure": "clearly readable closure",
+      "carry": "clear strap or handle placement"
+    },
+    "tags": [
+      "包袋",
+      "bag",
+      "新月鍊條肩背包",
+      "Crescent Chain Shoulder Bag"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, a structured crescent shoulder bag, matte black leather, detachable silver chain, narrow strap, hidden magnetic flap, clear separation and readable details",
+      "niji": "a structured crescent shoulder bag, matte black leather, detachable silver chain, narrow strap, hidden magnetic flap, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, a structured crescent shoulder bag, matte black leather, detachable silver chain, narrow strap, hidden magnetic flap, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring a structured crescent shoulder bag, matte black leather, detachable silver chain, narrow strap, hidden magnetic flap. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "logo, text, watermark, malformed bag, duplicated bag, floating strap, broken handle, bag fused with body"
+  },
+  {
+    "id": "pack_dual01_bag_modular_belt",
+    "category": "bags",
+    "name_zh": "模組化多袋腰包",
+    "name_en": "Modular Multi-Pouch Belt Bag",
+    "description_zh": "寬腰帶上配置三個可滑動拆卸的小型包袋，尺寸與輪廓各不相同，使用霧黑尼龍、透明薄膜與快扣系統。",
+    "description_en": "A wide belt carrying three detachable sliding pouches in varied sizes, using matte nylon, transparent film, and quick-release hardware.",
+    "gender": "unisex",
+    "anatomy": {
+      "silhouette": "Modular Multi-Pouch Belt Bag",
+      "material": "fashion bag materials",
+      "closure": "clearly readable closure",
+      "carry": "clear strap or handle placement"
+    },
+    "tags": [
+      "包袋",
+      "bag",
+      "模組化多袋腰包",
+      "Modular Multi-Pouch Belt Bag"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, a modular multi-pouch belt bag, three detachable pouches, matte nylon, transparent film, quick-release buckles, clear separation and readable details",
+      "niji": "a modular multi-pouch belt bag, three detachable pouches, matte nylon, transparent film, quick-release buckles, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, a modular multi-pouch belt bag, three detachable pouches, matte nylon, transparent film, quick-release buckles, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring a modular multi-pouch belt bag, three detachable pouches, matte nylon, transparent film, quick-release buckles. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "logo, text, watermark, malformed bag, duplicated bag, floating strap, broken handle, bag fused with body"
+  },
+  {
+    "id": "pack_dual01_bag_book_satchel",
+    "category": "bags",
+    "name_zh": "古典書本造型斜背包",
+    "name_en": "Book-Shaped Crossbody Satchel",
+    "description_zh": "硬殼斜背包模仿厚書封與書脊輪廓，表面壓印無文字的裝飾框線，側邊以金屬扣開合，搭配可調長肩帶。",
+    "description_en": "A hard-shell crossbody satchel shaped like a thick book, with text-free embossed framing, metal side clasps, and an adjustable long strap.",
+    "gender": "unisex",
+    "anatomy": {
+      "silhouette": "Book-Shaped Crossbody Satchel",
+      "material": "fashion bag materials",
+      "closure": "clearly readable closure",
+      "carry": "clear strap or handle placement"
+    },
+    "tags": [
+      "包袋",
+      "bag",
+      "古典書本造型斜背包",
+      "Book-Shaped Crossbody Satchel"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, a hard-shell book-shaped crossbody satchel, embossed ornamental frame without text, metal clasps, adjustable strap, clear separation and readable details",
+      "niji": "a hard-shell book-shaped crossbody satchel, embossed ornamental frame without text, metal clasps, adjustable strap, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, a hard-shell book-shaped crossbody satchel, embossed ornamental frame without text, metal clasps, adjustable strap, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring a hard-shell book-shaped crossbody satchel, embossed ornamental frame without text, metal clasps, adjustable strap. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "logo, text, watermark, malformed bag, duplicated bag, floating strap, broken handle, bag fused with body"
+  },
+  {
+    "id": "pack_dual01_bag_crystal_clutch",
+    "category": "bags",
+    "name_zh": "透明晶體手拿包",
+    "name_en": "Transparent Crystal Clutch",
+    "description_zh": "幾何手拿包由透明晶體壓克力與金屬框架構成，內部設置小型不透明內袋，開口以寶石造型旋扣固定。",
+    "description_en": "A geometric clutch built from transparent crystal acrylic and a metal frame, with a small opaque inner pouch and gemstone-like twist clasp.",
+    "gender": "unisex",
+    "anatomy": {
+      "silhouette": "Transparent Crystal Clutch",
+      "material": "fashion bag materials",
+      "closure": "clearly readable closure",
+      "carry": "clear strap or handle placement"
+    },
+    "tags": [
+      "包袋",
+      "bag",
+      "透明晶體手拿包",
+      "Transparent Crystal Clutch"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, a transparent geometric crystal clutch, metal frame, opaque inner pouch, gemstone twist clasp, clear separation and readable details",
+      "niji": "a transparent geometric crystal clutch, metal frame, opaque inner pouch, gemstone twist clasp, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, a transparent geometric crystal clutch, metal frame, opaque inner pouch, gemstone twist clasp, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring a transparent geometric crystal clutch, metal frame, opaque inner pouch, gemstone twist clasp. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "logo, text, watermark, malformed bag, duplicated bag, floating strap, broken handle, bag fused with body"
+  },
+  {
+    "id": "pack_dual01_bag_velvet_frame",
+    "category": "bags",
+    "name_zh": "天鵝絨框架手提包",
+    "name_en": "Velvet Frame Handbag",
+    "description_zh": "小型手提包以深紫天鵝絨包覆，頂部使用復古金屬框架與圓珠扣，短提把以同材質製作，側面加入細緻刺繡。",
+    "description_en": "A small deep-purple velvet handbag with a vintage metal frame, bead clasp, matching short handle, and subtle side embroidery.",
+    "gender": "unisex",
+    "anatomy": {
+      "silhouette": "Velvet Frame Handbag",
+      "material": "fashion bag materials",
+      "closure": "clearly readable closure",
+      "carry": "clear strap or handle placement"
+    },
+    "tags": [
+      "包袋",
+      "bag",
+      "天鵝絨框架手提包",
+      "Velvet Frame Handbag"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, a small deep-purple velvet frame handbag, vintage metal clasp, short matching handle, subtle embroidery, clear separation and readable details",
+      "niji": "a small deep-purple velvet frame handbag, vintage metal clasp, short matching handle, subtle embroidery, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, a small deep-purple velvet frame handbag, vintage metal clasp, short matching handle, subtle embroidery, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring a small deep-purple velvet frame handbag, vintage metal clasp, short matching handle, subtle embroidery. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "logo, text, watermark, malformed bag, duplicated bag, floating strap, broken handle, bag fused with body"
+  },
+  {
+    "id": "pack_dual01_bag_tech_backpack",
+    "category": "bags",
+    "name_zh": "發光脊柱機能背包",
+    "name_en": "Illuminated Spine Tech Backpack",
+    "description_zh": "窄長型機能背包貼合背部曲線，中央配置分段發光脊柱結構，兩側設有壓縮織帶與可拆小袋，肩帶保持簡潔。",
+    "description_en": "A narrow technical backpack following the back curve, with a segmented illuminated spine, side compression straps, and detachable mini pouches.",
+    "gender": "unisex",
+    "anatomy": {
+      "silhouette": "Illuminated Spine Tech Backpack",
+      "material": "fashion bag materials",
+      "closure": "clearly readable closure",
+      "carry": "clear strap or handle placement"
+    },
+    "tags": [
+      "包袋",
+      "bag",
+      "發光脊柱機能背包",
+      "Illuminated Spine Tech Backpack"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, a narrow technical backpack, segmented illuminated spine, side compression straps, detachable mini pouches, clear separation and readable details",
+      "niji": "a narrow technical backpack, segmented illuminated spine, side compression straps, detachable mini pouches, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, a narrow technical backpack, segmented illuminated spine, side compression straps, detachable mini pouches, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring a narrow technical backpack, segmented illuminated spine, side compression straps, detachable mini pouches. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "logo, text, watermark, malformed bag, duplicated bag, floating strap, broken handle, bag fused with body"
+  },
+  {
+    "id": "pack_dual01_bag_flower_basket",
+    "category": "bags",
+    "name_zh": "編織花籃手提包",
+    "name_en": "Woven Flower-Basket Handbag",
+    "description_zh": "圓弧手提包使用細藤編織，開口繫有柔軟緞帶，外側固定小型乾燥花與葉片裝飾，內部有布質束口袋。",
+    "description_en": "A curved woven-rattan handbag with soft ribbon ties, small dried flowers and leaves, and a fabric drawstring lining.",
+    "gender": "unisex",
+    "anatomy": {
+      "silhouette": "Woven Flower-Basket Handbag",
+      "material": "fashion bag materials",
+      "closure": "clearly readable closure",
+      "carry": "clear strap or handle placement"
+    },
+    "tags": [
+      "包袋",
+      "bag",
+      "編織花籃手提包",
+      "Woven Flower-Basket Handbag"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, a curved woven flower-basket handbag, rattan texture, ribbon ties, dried flower details, fabric lining, clear separation and readable details",
+      "niji": "a curved woven flower-basket handbag, rattan texture, ribbon ties, dried flower details, fabric lining, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, a curved woven flower-basket handbag, rattan texture, ribbon ties, dried flower details, fabric lining, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring a curved woven flower-basket handbag, rattan texture, ribbon ties, dried flower details, fabric lining. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "logo, text, watermark, malformed bag, duplicated bag, floating strap, broken handle, bag fused with body"
+  },
+  {
+    "id": "pack_dual01_bag_armor_case",
+    "category": "bags",
+    "name_zh": "鎧甲板片硬殼箱包",
+    "name_en": "Armored Plate Hard Case",
+    "description_zh": "小型硬殼箱包以層疊金屬板片構成，四角配置保護件與短提把，表面無文字，適合奇幻戰士或科幻角色。",
+    "description_en": "A compact hard case built from layered metal armor plates, with protected corners, a short handle, and no text markings.",
+    "gender": "unisex",
+    "anatomy": {
+      "silhouette": "Armored Plate Hard Case",
+      "material": "fashion bag materials",
+      "closure": "clearly readable closure",
+      "carry": "clear strap or handle placement"
+    },
+    "tags": [
+      "包袋",
+      "bag",
+      "鎧甲板片硬殼箱包",
+      "Armored Plate Hard Case"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, a compact armored hard case bag, layered metal plates, protected corners, short handle, no text, clear separation and readable details",
+      "niji": "a compact armored hard case bag, layered metal plates, protected corners, short handle, no text, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, a compact armored hard case bag, layered metal plates, protected corners, short handle, no text, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring a compact armored hard case bag, layered metal plates, protected corners, short handle, no text. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "logo, text, watermark, malformed bag, duplicated bag, floating strap, broken handle, bag fused with body"
+  },
+  {
+    "id": "pack_dual01_bag_soft_hobo",
+    "category": "bags",
+    "name_zh": "柔軟褶皺半月包",
+    "name_en": "Soft Gathered Hobo Bag",
+    "description_zh": "半月形肩背包以柔軟皮革或緞面製作，包口形成自然細褶，寬肩帶與包身一體成形，輪廓慵懶流動。",
+    "description_en": "A crescent hobo bag in soft leather or satin, with naturally gathered opening and a broad integrated shoulder strap.",
+    "gender": "unisex",
+    "anatomy": {
+      "silhouette": "Soft Gathered Hobo Bag",
+      "material": "fashion bag materials",
+      "closure": "clearly readable closure",
+      "carry": "clear strap or handle placement"
+    },
+    "tags": [
+      "包袋",
+      "bag",
+      "柔軟褶皺半月包",
+      "Soft Gathered Hobo Bag"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, a soft gathered crescent hobo bag, fluid leather or satin, broad integrated shoulder strap, clear separation and readable details",
+      "niji": "a soft gathered crescent hobo bag, fluid leather or satin, broad integrated shoulder strap, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, a soft gathered crescent hobo bag, fluid leather or satin, broad integrated shoulder strap, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring a soft gathered crescent hobo bag, fluid leather or satin, broad integrated shoulder strap. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "logo, text, watermark, malformed bag, duplicated bag, floating strap, broken handle, bag fused with body"
+  },
+  {
+    "id": "pack_dual01_bag_mini_trunk",
+    "category": "bags",
+    "name_zh": "珠飾迷你箱型包",
+    "name_en": "Beaded Mini Trunk Bag",
+    "description_zh": "迷你箱型包具有硬挺矩形輪廓、金屬包角與短提把，表面排列幾何珠飾，開合處使用小型旋鎖。",
+    "description_en": "A mini trunk bag with a rigid rectangular silhouette, metal corners, short handle, geometric beadwork, and a small turn lock.",
+    "gender": "unisex",
+    "anatomy": {
+      "silhouette": "Beaded Mini Trunk Bag",
+      "material": "fashion bag materials",
+      "closure": "clearly readable closure",
+      "carry": "clear strap or handle placement"
+    },
+    "tags": [
+      "包袋",
+      "bag",
+      "珠飾迷你箱型包",
+      "Beaded Mini Trunk Bag"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, a beaded mini trunk bag, rigid rectangular shape, metal corners, short handle, geometric beadwork, clear separation and readable details",
+      "niji": "a beaded mini trunk bag, rigid rectangular shape, metal corners, short handle, geometric beadwork, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, a beaded mini trunk bag, rigid rectangular shape, metal corners, short handle, geometric beadwork, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring a beaded mini trunk bag, rigid rectangular shape, metal corners, short handle, geometric beadwork. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "logo, text, watermark, malformed bag, duplicated bag, floating strap, broken handle, bag fused with body"
+  },
+  {
+    "id": "pack_dual01_prop_crystal_staff",
+    "category": "handheld-props",
+    "name_zh": "分節晶體法杖",
+    "name_en": "Segmented Crystal Staff",
+    "description_zh": "長柄法杖由多節深色金屬桿連接，頂端固定不對稱晶體核心與細小懸浮環；握把區包覆皮革並保留清楚手握空間。",
+    "description_en": "A long staff built from segmented dark-metal shafts, topped by an asymmetrical crystal core and small floating rings, with a leather-wrapped grip.",
+    "gender": "unisex",
+    "anatomy": {
+      "object": "Segmented Crystal Staff",
+      "grip": "clear natural hand placement",
+      "separation": "object separate from body and clothing"
+    },
+    "tags": [
+      "手持配件",
+      "handheld prop",
+      "分節晶體法杖",
+      "Segmented Crystal Staff"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, a segmented dark-metal crystal staff, asymmetrical crystal core, small floating rings, leather-wrapped grip, clear separation and readable details",
+      "niji": "a segmented dark-metal crystal staff, asymmetrical crystal core, small floating rings, leather-wrapped grip, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, a segmented dark-metal crystal staff, asymmetrical crystal core, small floating rings, leather-wrapped grip, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring a segmented dark-metal crystal staff, asymmetrical crystal core, small floating rings, leather-wrapped grip. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "logo, readable text, watermark, malformed prop, duplicated prop, broken handle, fused hand and object, floating object"
+  },
+  {
+    "id": "pack_dual01_prop_lace_parasol",
+    "category": "handheld-props",
+    "name_zh": "蕾絲長柄陽傘",
+    "name_en": "Lace Long-Handle Parasol",
+    "description_zh": "圓形陽傘使用黑色蕾絲與半透明內層，長柄末端帶有彎曲金屬握把，傘骨與手握位置清楚，適合哥德與正式造型。",
+    "description_en": "A round parasol with black lace over a translucent layer, a long shaft, and a curved metal handle with clear rib structure.",
+    "gender": "unisex",
+    "anatomy": {
+      "object": "Lace Long-Handle Parasol",
+      "grip": "clear natural hand placement",
+      "separation": "object separate from body and clothing"
+    },
+    "tags": [
+      "手持配件",
+      "handheld prop",
+      "蕾絲長柄陽傘",
+      "Lace Long-Handle Parasol"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, a black lace long-handle parasol, translucent underlayer, visible ribs, curved metal grip, clear separation and readable details",
+      "niji": "a black lace long-handle parasol, translucent underlayer, visible ribs, curved metal grip, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, a black lace long-handle parasol, translucent underlayer, visible ribs, curved metal grip, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring a black lace long-handle parasol, translucent underlayer, visible ribs, curved metal grip. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "logo, readable text, watermark, malformed prop, duplicated prop, broken handle, fused hand and object, floating object"
+  },
+  {
+    "id": "pack_dual01_prop_ancient_book",
+    "category": "handheld-props",
+    "name_zh": "金屬護角古書",
+    "name_en": "Ancient Book with Metal Corners",
+    "description_zh": "厚重古書具有皮革封面、金屬護角與大型扣帶，封面僅使用無文字幾何紋章，書頁邊緣帶有自然磨損。",
+    "description_en": "A heavy ancient book with leather cover, metal corner guards, a large clasp strap, text-free geometric emblem, and worn page edges.",
+    "gender": "unisex",
+    "anatomy": {
+      "object": "Ancient Book with Metal Corners",
+      "grip": "clear natural hand placement",
+      "separation": "object separate from body and clothing"
+    },
+    "tags": [
+      "手持配件",
+      "handheld prop",
+      "金屬護角古書",
+      "Ancient Book with Metal Corners"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, a heavy ancient book, leather cover, metal corner guards, clasp strap, text-free geometric emblem, clear separation and readable details",
+      "niji": "a heavy ancient book, leather cover, metal corner guards, clasp strap, text-free geometric emblem, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, a heavy ancient book, leather cover, metal corner guards, clasp strap, text-free geometric emblem, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring a heavy ancient book, leather cover, metal corner guards, clasp strap, text-free geometric emblem. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "logo, readable text, watermark, malformed prop, duplicated prop, broken handle, fused hand and object, floating object"
+  },
+  {
+    "id": "pack_dual01_prop_flower_bouquet",
+    "category": "handheld-props",
+    "name_zh": "野花緞帶花束",
+    "name_en": "Wildflower Ribbon Bouquet",
+    "description_zh": "自然花束由大小不同的野花、細枝與葉片組成，莖部以長緞帶束起，花朵分布疏密有致且不遮擋角色臉部。",
+    "description_en": "A natural bouquet of varied wildflowers, fine branches, and leaves, tied with long ribbons and arranged without covering the face.",
+    "gender": "unisex",
+    "anatomy": {
+      "object": "Wildflower Ribbon Bouquet",
+      "grip": "clear natural hand placement",
+      "separation": "object separate from body and clothing"
+    },
+    "tags": [
+      "手持配件",
+      "handheld prop",
+      "野花緞帶花束",
+      "Wildflower Ribbon Bouquet"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, a wildflower bouquet, varied blossoms and leaves, long ribbon ties, natural airy arrangement, clear separation and readable details",
+      "niji": "a wildflower bouquet, varied blossoms and leaves, long ribbon ties, natural airy arrangement, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, a wildflower bouquet, varied blossoms and leaves, long ribbon ties, natural airy arrangement, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring a wildflower bouquet, varied blossoms and leaves, long ribbon ties, natural airy arrangement. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "logo, readable text, watermark, malformed prop, duplicated prop, broken handle, fused hand and object, floating object"
+  },
+  {
+    "id": "pack_dual01_prop_folding_fan",
+    "category": "handheld-props",
+    "name_zh": "鏤空金屬折扇",
+    "name_en": "Openwork Metal Folding Fan",
+    "description_zh": "折扇以細薄金屬扇骨與半透明扇面構成，扇骨帶有幾何鏤空紋，開啟後形成俐落放射輪廓。",
+    "description_en": "A folding fan with thin metal ribs, translucent panels, geometric openwork, and a crisp radial silhouette when opened.",
+    "gender": "unisex",
+    "anatomy": {
+      "object": "Openwork Metal Folding Fan",
+      "grip": "clear natural hand placement",
+      "separation": "object separate from body and clothing"
+    },
+    "tags": [
+      "手持配件",
+      "handheld prop",
+      "鏤空金屬折扇",
+      "Openwork Metal Folding Fan"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, an openwork metal folding fan, thin geometric ribs, translucent panels, crisp radial shape, clear separation and readable details",
+      "niji": "an openwork metal folding fan, thin geometric ribs, translucent panels, crisp radial shape, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, an openwork metal folding fan, thin geometric ribs, translucent panels, crisp radial shape, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring an openwork metal folding fan, thin geometric ribs, translucent panels, crisp radial shape. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "logo, readable text, watermark, malformed prop, duplicated prop, broken handle, fused hand and object, floating object"
+  },
+  {
+    "id": "pack_dual01_prop_lantern",
+    "category": "handheld-props",
+    "name_zh": "手提晶體燈籠",
+    "name_en": "Handheld Crystal Lantern",
+    "description_zh": "小型燈籠以金屬框架包覆透明晶體面板，內部發出柔和紫綠光，頂部設有明確提環與隔熱握把。",
+    "description_en": "A small handheld lantern with a metal frame, transparent crystal panels, soft purple-green inner light, and a clear insulated handle.",
+    "gender": "unisex",
+    "anatomy": {
+      "object": "Handheld Crystal Lantern",
+      "grip": "clear natural hand placement",
+      "separation": "object separate from body and clothing"
+    },
+    "tags": [
+      "手持配件",
+      "handheld prop",
+      "手提晶體燈籠",
+      "Handheld Crystal Lantern"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, a handheld crystal lantern, metal frame, transparent panels, soft purple green light, clear top handle, clear separation and readable details",
+      "niji": "a handheld crystal lantern, metal frame, transparent panels, soft purple green light, clear top handle, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, a handheld crystal lantern, metal frame, transparent panels, soft purple green light, clear top handle, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring a handheld crystal lantern, metal frame, transparent panels, soft purple green light, clear top handle. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "logo, readable text, watermark, malformed prop, duplicated prop, broken handle, fused hand and object, floating object"
+  },
+  {
+    "id": "pack_dual01_prop_violin",
+    "category": "handheld-props",
+    "name_zh": "雕花古典小提琴",
+    "name_en": "Ornate Classical Violin",
+    "description_zh": "古典小提琴使用深色亮面木材，琴身邊緣帶有細緻雕花，搭配獨立琴弓與清楚手持位置，適合舞台與正式場景。",
+    "description_en": "A classical violin in dark glossy wood with fine edge carving, paired with a separate bow and clearly readable hand positions.",
+    "gender": "unisex",
+    "anatomy": {
+      "object": "Ornate Classical Violin",
+      "grip": "clear natural hand placement",
+      "separation": "object separate from body and clothing"
+    },
+    "tags": [
+      "手持配件",
+      "handheld prop",
+      "雕花古典小提琴",
+      "Ornate Classical Violin"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, an ornate classical violin, dark glossy wood, fine edge carving, separate bow, clear separation and readable details",
+      "niji": "an ornate classical violin, dark glossy wood, fine edge carving, separate bow, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, an ornate classical violin, dark glossy wood, fine edge carving, separate bow, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring an ornate classical violin, dark glossy wood, fine edge carving, separate bow. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "logo, readable text, watermark, malformed prop, duplicated prop, broken handle, fused hand and object, floating object"
+  },
+  {
+    "id": "pack_dual01_prop_sword",
+    "category": "handheld-props",
+    "name_zh": "細刃護手長劍",
+    "name_en": "Slender Guarded Longsword",
+    "description_zh": "長劍具有細長直刃、幾何護手與皮革纏繞握柄，劍身無文字，重心設計輕巧，適合優雅戰鬥與奇幻角色。",
+    "description_en": "A longsword with a slender straight blade, geometric guard, leather-wrapped grip, and text-free polished surface.",
+    "gender": "unisex",
+    "anatomy": {
+      "object": "Slender Guarded Longsword",
+      "grip": "clear natural hand placement",
+      "separation": "object separate from body and clothing"
+    },
+    "tags": [
+      "手持配件",
+      "handheld prop",
+      "細刃護手長劍",
+      "Slender Guarded Longsword"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, a slender guarded longsword, straight polished blade, geometric guard, leather-wrapped grip, no text, clear separation and readable details",
+      "niji": "a slender guarded longsword, straight polished blade, geometric guard, leather-wrapped grip, no text, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, a slender guarded longsword, straight polished blade, geometric guard, leather-wrapped grip, no text, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring a slender guarded longsword, straight polished blade, geometric guard, leather-wrapped grip, no text. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "logo, readable text, watermark, malformed prop, duplicated prop, broken handle, fused hand and object, floating object"
+  },
+  {
+    "id": "pack_dual01_prop_teacup",
+    "category": "handheld-props",
+    "name_zh": "珠邊瓷杯與茶碟",
+    "name_en": "Beaded Porcelain Teacup and Saucer",
+    "description_zh": "精緻瓷杯與茶碟採同色珠邊與細金線裝飾，杯耳大小適合自然手握，適合下午茶、正式與室內場景。",
+    "description_en": "A refined porcelain teacup and saucer with beaded edges, fine gold lines, and a handle sized for natural grip.",
+    "gender": "unisex",
+    "anatomy": {
+      "object": "Beaded Porcelain Teacup and Saucer",
+      "grip": "clear natural hand placement",
+      "separation": "object separate from body and clothing"
+    },
+    "tags": [
+      "手持配件",
+      "handheld prop",
+      "珠邊瓷杯與茶碟",
+      "Beaded Porcelain Teacup and Saucer"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, a refined porcelain teacup and saucer, beaded edge, fine gold lines, clear cup handle, clear separation and readable details",
+      "niji": "a refined porcelain teacup and saucer, beaded edge, fine gold lines, clear cup handle, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, a refined porcelain teacup and saucer, beaded edge, fine gold lines, clear cup handle, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring a refined porcelain teacup and saucer, beaded edge, fine gold lines, clear cup handle. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "logo, readable text, watermark, malformed prop, duplicated prop, broken handle, fused hand and object, floating object"
+  },
+  {
+    "id": "pack_dual01_prop_camera",
+    "category": "handheld-props",
+    "name_zh": "復古皮革相機",
+    "name_en": "Vintage Leather-Wrapped Camera",
+    "description_zh": "小型復古相機以霧銀機身與深色皮革包覆，鏡頭、快門與背帶位置清楚，不顯示品牌文字，適合旅行與街拍場景。",
+    "description_en": "A compact vintage camera with matte-silver body, dark leather wrap, clear lens and shutter controls, and a text-free strap.",
+    "gender": "unisex",
+    "anatomy": {
+      "object": "Vintage Leather-Wrapped Camera",
+      "grip": "clear natural hand placement",
+      "separation": "object separate from body and clothing"
+    },
+    "tags": [
+      "手持配件",
+      "handheld prop",
+      "復古皮革相機",
+      "Vintage Leather-Wrapped Camera"
+    ],
+    "prompts": {
+      "pixai": "masterpiece, best quality, highly detailed, a compact vintage leather-wrapped camera, matte silver body, clear lens, text-free strap, clear separation and readable details",
+      "niji": "a compact vintage leather-wrapped camera, matte silver body, clear lens, text-free strap, polished anime fashion illustration, refined composition, clear silhouettes --niji 6",
+      "tensorart": "high quality, high detail, a compact vintage leather-wrapped camera, matte silver body, clear lens, text-free strap, realistic structure, clean anatomy and materials",
+      "gpt": "Create an image featuring a compact vintage leather-wrapped camera, matte silver body, clear lens, text-free strap. Keep all structures, materials, body parts, and accessories clearly separated and internally consistent."
+    },
+    "negative": "logo, readable text, watermark, malformed prop, duplicated prop, broken handle, fused hand and object, floating object"
+  }
+]

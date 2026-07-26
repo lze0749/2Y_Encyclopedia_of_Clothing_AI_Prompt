@@ -1,5 +1,5 @@
 
-const APP={name:"2Y Encyclopedia of Clothing AI Prompt",version: "2.3.0",searchQuery:"",genderFilter:"all",sortMode:"category",pageSize:24,visibleCount:24};
+const APP={name:"2Y Encyclopedia of Clothing AI Prompt",version: "2.4.0",searchQuery:"",genderFilter:"all",sortMode:"category",pageSize:24,visibleCount:24};
 
 document.addEventListener("DOMContentLoaded",async()=>{
   ensureCss("./library.css"); ensureCss("./filters.css"); ensureLibraryPanel();

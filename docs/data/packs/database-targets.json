@@ -1,0 +1,138 @@
+{
+  "version": 1,
+  "total_target": 41000,
+  "targets": [
+    {
+      "id": "tops",
+      "name_zh": "上衣／內搭",
+      "target": 2000,
+      "icon": "👚"
+    },
+    {
+      "id": "pants",
+      "name_zh": "褲子",
+      "target": 2000,
+      "icon": "👖"
+    },
+    {
+      "id": "skirts",
+      "name_zh": "裙子",
+      "target": 2000,
+      "icon": "🩱"
+    },
+    {
+      "id": "dresses",
+      "name_zh": "連身裙",
+      "target": 2000,
+      "icon": "👗"
+    },
+    {
+      "id": "outerwear",
+      "name_zh": "外套／斗篷／披肩",
+      "target": 2000,
+      "icon": "🧥"
+    },
+    {
+      "id": "accessories",
+      "name_zh": "飾品配件",
+      "target": 5000,
+      "icon": "💎"
+    },
+    {
+      "id": "hairstyles",
+      "name_zh": "髮型",
+      "target": 2000,
+      "icon": "💇"
+    },
+    {
+      "id": "hair-accessories",
+      "name_zh": "髮飾",
+      "target": 1000,
+      "icon": "🎀"
+    },
+    {
+      "id": "shoes",
+      "name_zh": "鞋子",
+      "target": 2000,
+      "icon": "👢"
+    },
+    {
+      "id": "hands",
+      "name_zh": "手部配件",
+      "target": 1000,
+      "icon": "🧤"
+    },
+    {
+      "id": "nails",
+      "name_zh": "美甲",
+      "target": 2000,
+      "icon": "💅"
+    },
+    {
+      "id": "bags",
+      "name_zh": "包袋",
+      "target": 2000,
+      "icon": "👜"
+    },
+    {
+      "id": "handheld-props",
+      "name_zh": "手持配件",
+      "target": 2000,
+      "icon": "🪄"
+    },
+    {
+      "id": "waist",
+      "name_zh": "腰部配飾",
+      "target": 1000,
+      "icon": "🪢"
+    },
+    {
+      "id": "poses",
+      "name_zh": "姿勢（單人與雙人）",
+      "target": 2000,
+      "icon": "🕺"
+    },
+    {
+      "id": "foreground",
+      "name_zh": "前景物品",
+      "target": 2000,
+      "icon": "🌿"
+    },
+    {
+      "id": "background",
+      "name_zh": "背景場景",
+      "target": 2000,
+      "icon": "🏙️"
+    },
+    {
+      "id": "camera",
+      "name_zh": "鏡頭與構圖",
+      "target": 1000,
+      "icon": "📷"
+    },
+    {
+      "id": "lighting",
+      "name_zh": "光線",
+      "target": 1000,
+      "icon": "💡"
+    },
+    {
+      "id": "filters",
+      "name_zh": "濾鏡",
+      "target": 2000,
+      "icon": "🎞️"
+    },
+    {
+      "id": "moods",
+      "name_zh": "氛圍",
+      "target": 2000,
+      "icon": "🌙"
+    },
+    {
+      "id": "purposes",
+      "name_zh": "用途",
+      "target": 1000,
+      "icon": "🎯"
+    }
+  ]
+}
