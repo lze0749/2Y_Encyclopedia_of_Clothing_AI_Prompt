@@ -1,7 +1,7 @@
 // 2Y Encyclopedia of Clothing AI Prompt
-// Service Worker v2.0.0
+// Service Worker v2.1.0
 
-const CACHE_NAME = "2y-prompt-v2.0.0";
+const CACHE_NAME = "2y-prompt-v2.1.0";
 
 const APP_ASSETS = [
     "./",
@@ -24,6 +24,7 @@ const APP_ASSETS = [
     "./projects.css",
     "./packs.css",
     "./pack-studio.css",
+    "./bulk-pack.css",
 
     "./pack-bridge.js",
     "./custom-bridge.js",
@@ -42,6 +43,7 @@ const APP_ASSETS = [
     "./projects.js",
     "./packs.js",
     "./pack-studio.js",
+    "./bulk-pack.js",
 
     "./manifest.json",
 
@@ -114,9 +116,7 @@ self.addEventListener("fetch", (event) => {
 
                     return response;
                 })
-                .catch(() =>
-                    caches.match("./index.html")
-                )
+                .catch(() => caches.match("./index.html"))
         );
 
         return;
@@ -142,37 +142,31 @@ self.addEventListener("fetch", (event) => {
 
                     return response;
                 })
-                .catch(() =>
-                    caches.match(event.request)
-                )
+                .catch(() => caches.match(event.request))
         );
 
         return;
     }
 
     event.respondWith(
-        caches.match(event.request)
-            .then((cached) => {
-                const network =
-                    fetch(event.request)
-                        .then((response) => {
-                            if (response.ok) {
-                                const copy = response.clone();
+        caches.match(event.request).then((cached) => {
+            const network =
+                fetch(event.request)
+                    .then((response) => {
+                        if (response.ok) {
+                            const copy = response.clone();
 
-                                caches.open(CACHE_NAME)
-                                    .then((cache) =>
-                                        cache.put(
-                                            event.request,
-                                            copy
-                                        )
-                                    );
-                            }
+                            caches.open(CACHE_NAME)
+                                .then((cache) =>
+                                    cache.put(event.request, copy)
+                                );
+                        }
 
-                            return response;
-                        })
-                        .catch(() => cached);
+                        return response;
+                    })
+                    .catch(() => cached);
 
-                return cached || network;
-            })
+            return cached || network;
+        })
     );
 });
